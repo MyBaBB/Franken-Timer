@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  background-color: #2a61a1;
+}
+
+@font-face {
+  font-family: "Creepster";
+  src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf);
+}
+@font-face {
+  font-family: "DM_Serif_Display";
+  src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Itim";
+  src: url(../GoogleFonts/Itim/Itim-Regular.ttf);
+}
+@font-face {
+  font-family: "Kranky";
+  src: url(../GoogleFonts/Kranky/Kranky-Regular.ttf);
+}
+@font-face {
+  font-family: "Libre_Baskerville";
+  src: url(../GoogleFonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+  font-family: "PT_Serif";
+  src: url(../GoogleFonts/PT_Serif/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: "Rye";
+  src: url(../GoogleFonts/Rye/Rye-Regular.ttf);
+}
+@font-face {
+  font-family: "black_ops_one";
+  src: url(../GoogleFonts/Black_Ops_One/BlackOpsOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Caprasimo";
+  src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf);
+}
+@font-face {
+  font-family: "Archivo_Black";
+  src: url(../GoogleFonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+  font-family: "Metal_Mania";
+  src: url(../GoogleFonts/Metal_Mania/MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: "Nosifer";
+  src: url(../GoogleFonts/Nosifer/Nosifer-Regular.ttf);
+}
+@font-face {
+  font-family: "holtwood_one_sc";
+  src: url(../GoogleFonts/Holtwood_One_SC/HoltwoodOneSC-Regular.ttf);
+}
+@font-face {
+  font-family: "orbitron";
+  src: url(../GoogleFonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Sixtyfour";
+  src: url(../GoogleFonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED\SCAN.ttf);
+}
