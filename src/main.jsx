@@ -8,8 +8,8 @@ import ThumbsUp from "./ThumbsUp.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-      <Timer />
-       <Cube />
-       <ThumbsUp />
+    <Timer />
+    <Cube />
+    <ThumbsUp />
   </React.StrictMode>,
 );
