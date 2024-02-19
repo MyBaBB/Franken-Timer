@@ -37,31 +37,35 @@ const Cube = () => {
                   />
                 </div>
                 <div className="boxSides">
-                  <span
-                    className="side1 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 1 }}
-                  >
-                    <img src={Shake} alt="Side1" height="300" width="300" />
-                  </span>
+                  
 
                   <span
-                    className="Side2 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 2 }}
+                    className="Side1 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 1 }}
                   >
                     <img
                       src={Leprechaun}
-                      alt="Side2"
+                      alt="Side1"
                       height="300"
                       width="300"
                     />
                   </span>
 
                   <span
-                    className="Side3 border-b-2 border-[#2dd760]"
+                    className="Side2 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 2 }}
+                  >
+                    <img src={Goldfish} alt="Side2" height="300" width="300" />
+                  </span>
+
+
+                  <span
+                    className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={Goldfish} alt="Side3" height="300" width="300" />
+                    <img src={Shake} alt="Side3" height="300" width="300" />
                   </span>
+
 
                   <span
                     className="Side4 border-b-2 border-[#2dd760]"
