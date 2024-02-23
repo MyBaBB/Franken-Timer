@@ -19,4 +19,5 @@ I make a new version every Holiday.
 
 ## Fun stuff
 
+I have the thumbs turned off since this repo is public, Database is not connected
 ![image](FrankReadme.png)
