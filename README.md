@@ -1,3 +1,5 @@
+<!-- note to self  use npm run build for putting on mybabb server. -->
+
 # Frankentimer
 
 # This was originally the "GLowing Cube"
