@@ -1,4 +1,4 @@
-<!-- note to self  use npm run build for putting on mybabb server. -->
+<!-- note to self  use npm run deploy for putting on github Pages. -->
 
 # Frankentimer
 
