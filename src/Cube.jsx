@@ -85,7 +85,7 @@ const Cube = () => {
 
           <p className="fixed bottom-0 right-5 whitespace-nowrap">
             <span className="text-[8px] text-white sm:text-[10px] lg:text-sm">
-              &lt;&lt;&lt;&copy;MyBaBB <em>8-2013</em>&gt;&gt;&gt;
+              &lt;&lt;&lt;&copy;MyBaBB <em>8-2023</em>&gt;&gt;&gt;
             </span>
           </p>
         </div>
