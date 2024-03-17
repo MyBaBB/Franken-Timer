@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import CornedBeef from "./assets/Frank-n-Beef.webp";
-import Shake from "./assets/Frank-n-Shake.webp";
-import Goldfish from "./assets/Goldfish-Trade.webp";
-import Leprechaun from "./assets/Leprechaun-in-tree.webp";
-import Shamrock from "./assets/Shamrock-top.webp";
+import EasterDinner from "./assets/EasterDinner.jpg";
+import Boobys from "./assets/EggBoobys.jpg";
+import StoneMover from "./assets/Stone-Mover.jpg";
+import Jesus from "./assets/JesusRisen.jpg";
+import Egg from "./assets/Frank-n-egg.jpg";
 import "./Cube.css";
 const Cube = () => {
   return (
@@ -30,7 +30,7 @@ const Cube = () => {
                 <div className="top">
                   <img
                     className="Top"
-                    src={Shamrock}
+                    src={Egg}
                     alt="Top"
                     height="300"
                     width="300"
@@ -44,7 +44,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={Leprechaun}
+                      src={StoneMover}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -55,7 +55,7 @@ const Cube = () => {
                     className="Side2 border-b-2 border-[#2dd760]"
                     style={{ "--i": 2 }}
                   >
-                    <img src={Goldfish} alt="Side2" height="300" width="300" />
+                    <img src={Jesus} alt="Side2" height="300" width="300" />
                   </span>
 
 
@@ -63,7 +63,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={Shake} alt="Side3" height="300" width="300" />
+                    <img src={EasterDinner} alt="Side3" height="300" width="300" />
                   </span>
 
 
@@ -72,7 +72,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={CornedBeef}
+                      src={Boobys}
                       alt="Side4"
                       height="300"
                       width="300"
