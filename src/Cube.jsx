@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import EasterDinner from "./assets/EasterDinner.jpg";
-import Boobys from "./assets/EggBoobys.jpg";
-import StoneMover from "./assets/Stone-Mover.jpg";
+import EggBasket from "./assets/EggBasket.jpg";
+import StoneMover4 from "./assets/Stone-Mover4.jpg";
 import Jesus from "./assets/JesusRisen.jpg";
 import Egg from "./assets/Frank-n-egg.jpg";
 import "./Cube.css";
@@ -44,7 +44,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={StoneMover}
+                      src={StoneMover4}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -63,7 +63,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={EasterDinner} alt="Side3" height="300" width="300" />
+                    <img src={EggBasket} alt="Side3" height="300" width="300" />
                   </span>
 
 
@@ -72,7 +72,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={Boobys}
+                      src={EasterDinner}
                       alt="Side4"
                       height="300"
                       width="300"
