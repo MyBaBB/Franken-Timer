@@ -1,10 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import EasterDinner from "./assets/EasterDinner.jpg";
-import Jesus from "./assets/JesusRisen.jpg";
-import StoneMover4 from "./assets/Stone-Mover4.jpg";
-import JesusCross from "./assets/Jesus.jpg";
-import Egg from "./assets/Frank-n-egg.jpg";
+
+ 
+import Flag from "./assets/Flag.jpg";
+import HonorFrank from "./assets/HonorFrank.jpg";
+import FranknGirl5 from "./assets/FranknGirl.jpg";
+import DesertFrank1 from "./assets/DesertFrank1.jpg";
+import JesusCross from "./assets/JungleFrank.jpg";
+
 import "./Cube.css";
 const Cube = () => {
   return (
@@ -30,7 +33,7 @@ const Cube = () => {
                 <div className="top">
                   <img
                     className="Top"
-                    src={Egg}
+                    src={Flag}
                     alt="Top"
                     height="300"
                     width="300"
@@ -44,7 +47,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={StoneMover4}
+                      src={DesertFrank1}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -55,7 +58,7 @@ const Cube = () => {
                     className="Side2 border-b-2 border-[#2dd760]"
                     style={{ "--i": 2 }}
                   >
-                    <img src={Jesus} alt="Side2" height="300" width="300" />
+                    <img src={HonorFrank} alt="Side2" height="300" width="300" />
                   </span>
 
 
@@ -63,7 +66,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={EasterDinner} alt="Side3" height="300" width="300" />
+                    <img src={FranknGirl5} alt="Side3" height="300" width="300" />
                   </span>
 
 

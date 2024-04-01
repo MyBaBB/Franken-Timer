@@ -7,7 +7,7 @@ const NewHoliday = () => {
       <a href="https://Mybabb.com">
         <div className="topParagraphWrapper">
           <p className="topParagraph   whitespace-nowrap text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
-            Easter Time 🐰
+            Memorial Day 🪖
           </p>
         </div>
       </a>
