@@ -31,7 +31,7 @@ const Timer = () => {
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
-        "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>..American Soldiers!!</b></span>";
+        "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000;  font-size: 2.75rem;'><b>..American Soldiers!!</b></span>";
     }
   }, 1000);
 };

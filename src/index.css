@@ -73,11 +73,11 @@
 }
 
 @font-face {
-  font-family: "black_ops_one";
+  font-family: "Black_ops_one";
   src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
 }
 .BlackOpsOne {
-  font-family: "black_ops_one";
+  font-family: "Black_ops_one";
 }
 
 @font-face {
