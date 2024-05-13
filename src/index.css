@@ -10,6 +10,10 @@
 }
 
 @font-face {
+  font-family: "BlackOpsOneRegular";
+  src: url(../GoogleFonts/BlackOpsOneRegular.ttf);
+}
+@font-face {
   font-family: "Creepster";
   src: url(../GoogleFonts/Creepster-Regular.ttf);
 }

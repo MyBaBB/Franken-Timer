@@ -2,6 +2,7 @@
 import React from "react";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { FaRegThumbsDown } from "react-icons/fa";
+
 const ThumbsUp = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const ThumbsUp = () => {
           <span className="rating-count  text-black ">1</span>
         </div>
       </div>
+     
     </div>
   );
 };

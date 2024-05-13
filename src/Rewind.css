@@ -1,0 +1,98 @@
+
+.dataToolTip82:hover::before,
+.dataToolTip82:hover::after {
+  --scale: 1;
+}
+.dataToolTip82::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(rgb(226, 222, 222), #492407);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: ease-in 0.25s;
+  top: .59rem;
+
+  right: 2.8rem;
+  border-radius: 10px;
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 51;
+}
+
+.dataToolTip82::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: 0.35s;
+  top: .5rem;
+  right: 6.35rem;
+  border: 15px solid transparent;
+  border-left: #52341b 10px solid;
+  border-radius: 15px;
+  
+  --scale: 0;
+  z-index: 49;
+}
+
+.dataToolTip81:hover::before,
+.dataToolTip81:hover::after {
+  --scale: 1;
+}
+.dataToolTip81::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(rgb(226, 222, 222), #492407);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  top: .59rem;
+
+  left: 12.8rem;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: ease-in 0.25s;
+  border-radius: 10px;
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 50;
+}
+
+.dataToolTip81::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: 0.35s;
+  top: .5rem;
+  left:6.55rem;
+  bottom: 0.8rem;
+  border: 15px solid transparent;
+  border-right: #52341b 10px solid;
+  border-radius: 15px;
+
+  
+  --scale: 0;
+  z-index: 49;
+}
+.forward {
+  transform: scaleX(-1);
+}

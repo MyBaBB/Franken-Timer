@@ -37,6 +37,7 @@ export const theme = {
       varDCBLUEGREY: "#33485d",
     },
     fontFamily: {
+      BlackOpsOneRegular: ["BlackOpsOneRegular", "cursive"],
       noto: ["Noto Sans", "sans-serif"],
       rye: ["Rye", "cursive"],
       Montserrat: ["Montserrat", "sans-serif"],
