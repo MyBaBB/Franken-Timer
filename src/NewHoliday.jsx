@@ -7,7 +7,7 @@ const NewHoliday = () => {
       <a href="https://Mybabb.com"  className="  topParagraphWrapper relative justify-center  align-middle 
       flex-row font-Kingthings_Petrock" >
         <div>
-          <p className="topParagraph     xxs:text-4xl xs:text-4xl sm:text-4xl md:text-5xl lg:text-7xl  ">
+          <p className="topParagraph     xxs:text-4xl xs:text-4xl sm:text-4xl md:text-5xl lg:text-6xl  ">
            Father&apos;s    Day
            </p> 
           
