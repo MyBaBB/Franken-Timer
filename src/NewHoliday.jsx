@@ -8,7 +8,7 @@ const NewHoliday = () => {
       flex-row font-Kingthings_Petrock" >
         <div>
           <p className="topParagraph     xxs:text-4xl xs:text-4xl sm:text-4xl md:text-5xl lg:text-6xl  ">
-           Father&apos;s    Day
+           Father&apos;s Day 
            </p> 
           
           
