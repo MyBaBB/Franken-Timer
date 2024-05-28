@@ -3,7 +3,7 @@ import React from "react";
 
 const Timer = () => {
   var countDownDate = new Date("June 23, 2024 00:00:00 PST").getTime();
-
+ 
   // Update the count down every 1 second
   var x = setInterval(function () {
     // Get today's date and time
@@ -21,11 +21,14 @@ const Timer = () => {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = days + "-days " + hours + ":";
+    document.getElementById("demo").innerHTML = `<span  style="font-size: 2rem; font-weight: bold;
+     font-style: italic;  text-shadow: 1px 1px 0 #000;">
+    ${days} days ${hours}:${minutesStr}:${secondsStr} </span>`;
     var minutesStr = minutes < 10 ? "0" + minutes : minutes;
     var secondsStr = seconds < 10 ? "0" + seconds : seconds;
-    document.getElementById("demo").innerHTML =
-      days + "-days " + hours + ":" + minutesStr + ": " + secondsStr + "s ";
+    document.getElementById("demo").innerHTML =`<span style="font-style: italic; font-size: 2rem; font-weight: bold; text-shadow: 1px 1px 0 #000;">
+    ${days} days ${hours}:${minutesStr}:${secondsStr} </span>`;
+      days + "days " + hours + ":" + minutesStr + ":" + secondsStr + "s";
 
     // If the count down is finished, write some text
     if (distance < 0) {

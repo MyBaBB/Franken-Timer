@@ -8,134 +8,190 @@
     rgba(151, 145, 144, 1) 100%
   );
 }
+body {
+height: 103vh;
+  
+}
+@font-face {
+  font-family: "DM_Serif_Display";
+  src: url(../GoogleFonts/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Archivo_Black";
+  src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+  font-family: "Aclonica-Regular";
+  src: url(../GoogleFonts/Aclonica-Regular.ttf);
+}
+@font-face {
+  font-family: "ArchivoBlack-Regular";
+  src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+  font-family: "Blackbeard-ld7V";
+  src: url(../GoogleFonts/Blackbeard-ld7V.ttf);
+}
+
 
 @font-face {
-  font-family: "BlackOpsOneRegular";
-  src: url(../GoogleFonts/BlackOpsOneRegular.ttf);
+  font-family: "BlackOpsOne-Regular";
+  src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
 }
 @font-face {
-  font-family: "Creepster";
+  font-family: "Borel-Regular";
+  src: url(../GoogleFonts/Borel-Regular.ttf);
+}
+@font-face {
+  font-family: "Caprasimo-Regular";
+  src: url(../GoogleFonts/Caprasimo-Regular.ttf);
+}
+@font-face {
+  font-family: "Changa-Regular";
+  src: url(../GoogleFonts/Changa-Regular.ttf);
+}
+@font-face {
+  font-family: "Changa-VariableFont_wght";
+  src: url(../GoogleFonts/Changa-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "ChunkFive-Regular";
+  src: url(../GoogleFonts/ChunkFive-Regular.otf);
+}
+
+
+@font-face {
+  font-family: "Creepster-Regular";
   src: url(../GoogleFonts/Creepster-Regular.ttf);
 }
-.Creepster {
-  font-family: "Creepster";
+@font-face {
+  font-family: "DMSerifDisplay-Italic";
+  src: url(../GoogleFonts/DMSerifDisplay-Italic.ttf);
 }
 
 @font-face {
   font-family: "DM_Serif_Display";
   src: url(../GoogleFonts/DMSerifDisplay-Regular.ttf);
 }
-.DMSerifDisplay {
-  font-family: "DM_Serif_Display";
-}
-
 @font-face {
-  font-family: "Itim";
-  src: url(../GoogleFonts/Itim-Regular.ttf);
+  font-family: "EmilysCandy-Regular";
+  src: url(../GoogleFonts/EmilysCandy-Regular.ttf);
 }
-.Itim {
-  font-family: "Itim";
-}
-  
 @font-face {
-  font-family: "Kranky";
-  src: url(../GoogleFonts/Kranky-Regular.ttf);
+  font-family: "Iceberg-Regular";
+  src: url(../GoogleFonts/Iceberg-Regular.ttf);
 }
-.Kranky {
-  font-family: "Kranky";
-}  
 @font-face {
-  font-family: "KingThings";
-  src: url(../GoogleFonts/Kingthings_Petrock.ttf);
-}
-.Kingthings {
-  font-family: "Kingthings";
-}
-
-@font-face {
-  font-family: "Libre_Baskerville";
-  src: url(../GoogleFonts/LibreBaskerville-Regular.ttf);
-}
-.LibreBaskerville {
-  font-family: "Libre_Baskerville";
-}
-
-@font-face {
-  font-family: "PT_Serif";
-  src: url(../GoogleFonts/PTSerif-Regular.ttf);
-}
-.PTSerif {
-  font-family: "PT_Serif";
-}
-
-@font-face {
-  font-family: "Rye";
-  src: url(../GoogleFonts/Rye-Regular.ttf);
-}
-.Rye {
-  font-family: "Rye";
-}
-
-@font-face {
-  font-family: "Black_ops_one";
-  src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
-}
-.BlackOpsOne {
-  font-family: "Black_ops_one";
-}
-
-@font-face {
-  font-family: "Caprasimo";
-  src: url(../GoogleFonts/Caprasimo-Regular.ttf);
-}
-.Caprasimo {
-  font-family: "Caprasimo";
-}
-
-@font-face {
-  font-family: "Archivo_Black";
-  src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
-}
-.ArchivoBlack {
-  font-family: "Archivo_Black";
-}
-
-@font-face {
-  font-family: "Metal_Mania";
-  src: url(../GoogleFonts/MetalMania-Regular.ttf);
-}
-.MetalMania {
-  font-family: "Metal_Mania";
-}
-
-@font-face {
-  font-family: "Nosifer";
-  src: url(../GoogleFonts/Nosifer-Regular.ttf);
-}
-.Nosifer {
-  font-family: "Nosifer";
-}
-
-@font-face {
-  font-family: "Holtwood_one_sc";
+  font-family: "HoltwoodOneSC-Regular";
   src: url(../GoogleFonts/HoltwoodOneSC-Regular.ttf);
 }
-.HoltwoodOneSC {
-  font-family: "Holtwood_one_sc";
+
+@font-face {
+  font-family: "Itim-Regular";
+  src: url(../GoogleFonts/Itim-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Orbitron";
+  font-family: "Kranky-Regular";
+  src: url(../GoogleFonts/Kranky-Regular.ttf);
+}
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url(../GoogleFonts/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+  font-family: "LibreBaskerville-Italic";
+  src: url(../GoogleFonts/LibreBaskerville-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Kingthings_Petrock";
+  src: url(../GoogleFonts/Kingthings_Petrock.ttf);
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url(../GoogleFonts/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+  font-family: "MedievalSharp-Regular";
+  src: url(../GoogleFonts/MedievalSharp-Regular.ttf);
+}
+@font-face {
+  font-family: "MetalMania-Regular";
+  src: url(../GoogleFonts/MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: "Metamorphous-Regular";
+  src: url(../GoogleFonts/Metamorphous-Regular.ttf);
+}
+@font-face {
+  font-family: "Nosifer-Regular";
+  src: url(../GoogleFonts/Nosifer-Regular.ttf);
+}
+@font-face {
+  font-family: "NotoSans-Italic-VariableFont_wdth,wght";
+  src: url(../GoogleFonts/NotoSans-Italic-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+  font-family: "NotoSans-VariableFont_wdth,wght";
+  src: url(../GoogleFonts/NotoSans-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+  font-family: "NovaCut-Regular";
+  src: url(../GoogleFonts/NovaCut-Regular.ttf);
+}
+@font-face {
+  font-family: "Orbitron-Regular";
+  src: url(../GoogleFonts/Orbitron-Regular.ttf);
+}
+@font-face {
+  font-family: "Orbitron-VariableFont_wght";
   src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf);
 }
-.Orbitron {
-  font-family: "orbitron";
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: url(../GoogleFonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url(../GoogleFonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSerif-BoldItalic";
+  src: url(../GoogleFonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Italic";
+  src: url(../GoogleFonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Regular";
+  src: url(../GoogleFonts/PTSerif-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Sixtyfour";
-  src: url(../GoogleFonts/Sixtyfour-Regular-VariableFont_BLED\SCAN.ttf);
+  font-family: "Rye-Regular";
+  src: url(../GoogleFonts/Rye-Regular.ttf);
 }
-.Sixtyfour {
-  font-family: "Sixtyfour";
+@font-face {
+  font-family: "Sansita-Italic";
+  src: url(../GoogleFonts/Sansita-Italic.ttf);
+}
+@font-face {
+  font-family: "Sansita-Regular";
+  src: url(../GoogleFonts/Sansita-Regular.ttf);
+}
+@font-face {
+  font-family: "Sixtyfour-Regular-VariableFont";
+  src: url(../GoogleFonts/Sixtyfour-Regular-VariableFont.ttf);
+}
+
+@font-face {
+  font-family: "Sixtyfour-Regular";
+  src: url(../GoogleFonts/Sixtyfour-Regular.ttf);
+}
+@font-face {
+  font-family: "Yellowtail-Regular";
+  src: url(../GoogleFonts/Yellowtail-Regular.ttf);
 }

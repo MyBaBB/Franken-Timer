@@ -11,7 +11,7 @@ import Rewind from "./Rewind.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NewHoliday />
-    <Timer />
+     <span className="text-xl"><Timer  /></span>
     <Cube />
     <ThumbsUp />
     {/* <AquariumDataTip /> */}
