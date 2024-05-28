@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
- 
+import { MdOutlinePregnantWoman } from "react-icons/md";
 import "./Rewind.css";
-import { GiBulletBill } from "react-icons/gi";
+
 const Rewind = () => {
   return (
     <div className='fixed w-screen bottom-0 h-[100px] z-[5]'>
@@ -15,7 +15,7 @@ const Rewind = () => {
           >
       <div className="forward relative inline-flex  text-green-500 z-50
                       ">
-        < GiBulletBill size={50}/>
+        <MdOutlinePregnantWoman size={50}/>
       </div>
       </div>
       </a> 
@@ -25,9 +25,9 @@ const Rewind = () => {
             data-tool-tip="My Home Page"
           >   
 
-      <div className="rewind relative inline-flex  text-green-500 z-50
+      <div className="rewind relative inline-flex  text-green-500 z-50 scaleX-[-1] 
                       ">
-         <GiBulletBill size={50}/>
+         <MdOutlinePregnantWoman size={50}/>
       </div>
       </div>
       </a> 

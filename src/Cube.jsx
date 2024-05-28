@@ -2,11 +2,11 @@
 import React from "react";
 
  
-import Flag from "./assets/Flag.jpg";
-import HonorFrank from "./assets/HonorFrank.jpg";
-import FranknGirl5 from "./assets/FranknGirl.jpg";
-import DesertFrank1 from "./assets/DesertFrank1.jpg";
-import JesusCross from "./assets/JungleFrank.jpg";
+import TopLogo from "./assets/FrankenTopper.jpg";
+import boyKite from "./assets/boyKite.jpg";
+import FranknGirl5 from "./assets/FranknGirl5.jpg";
+import LittleGirls from "./assets/LittleGirls.jpg";
+import DungeonFrank from "./assets/FathersDungeon.jpg";
 
 import "./Cube.css";
 const Cube = () => {
@@ -33,7 +33,7 @@ const Cube = () => {
                 <div className="top">
                   <img
                     className="Top"
-                    src={Flag}
+                    src={TopLogo}
                     alt="Top"
                     height="300"
                     width="300"
@@ -47,7 +47,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={DesertFrank1}
+                      src={LittleGirls}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -58,7 +58,7 @@ const Cube = () => {
                     className="Side2 border-b-2 border-[#2dd760]"
                     style={{ "--i": 2 }}
                   >
-                    <img src={HonorFrank} alt="Side2" height="300" width="300" />
+                    <img src={boyKite} alt="Side2" height="300" width="300" />
                   </span>
 
 
@@ -75,7 +75,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={JesusCross}
+                      src={DungeonFrank}
                       alt="Side4"
                       height="300"
                       width="300"
