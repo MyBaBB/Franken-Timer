@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { MdOutlinePregnantWoman } from "react-icons/md";
+import PregnantLadyLeft from './PregnantLadyFolder/PregnantLadyLeft'
+import PregnantLadyRight from './PregnantLadyFolder/PregnantLadyRight'
 import "./Rewind.css";
 
 const Rewind = () => {
@@ -15,7 +16,7 @@ const Rewind = () => {
           >
       <div className="forward relative inline-flex  text-green-500 z-50
                       ">
-        <MdOutlinePregnantWoman size={50}/>
+        <PregnantLadyLeft />
       </div>
       </div>
       </a> 
@@ -27,7 +28,7 @@ const Rewind = () => {
 
       <div className="rewind relative inline-flex  text-green-500 z-50 scaleX-[-1] 
                       ">
-         <MdOutlinePregnantWoman size={50}/>
+         <PregnantLadyRight/>
       </div>
       </div>
       </a> 
