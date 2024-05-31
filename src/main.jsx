@@ -10,11 +10,12 @@ import Rewind from "./Rewind.jsx";
 // import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NewHoliday />
-     <span className="text-xl"><Timer  /></span>
+    <NewHoliday  />
+     
+     <span className="text-xl mt-4"><Timer  /></span>
     <Cube />
     <ThumbsUp />
-    {/* <AquariumDataTip /> */}
+  
     < Rewind />
   </React.StrictMode>,
 );

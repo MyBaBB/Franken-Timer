@@ -21,7 +21,7 @@ const Timer = () => {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = `<span  style="font-size: 2rem; font-weight: bold;
+    document.getElementById("demo").innerHTML = `<span  style="font-size: 1rem; font-weight: bold;
      font-style: italic;  text-shadow: 1px 1px 0 #000;">
     ${days} days ${hours}:${minutesStr}:${secondsStr} </span>`;
     var minutesStr = minutes < 10 ? "0" + minutes : minutes;
