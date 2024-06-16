@@ -9,7 +9,7 @@ const NewHoliday = () => {
         <div>
           <p className="topParagraph whitespace-nowrap 
               xxs:text-5xl xs:text-5xl sm:text-5xl md:text-5xl lg:text-6xl   ">
-           Father&apos;s Day 
+          July 4th
            </p> 
           
           
