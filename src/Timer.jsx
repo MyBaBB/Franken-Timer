@@ -2,7 +2,7 @@
 import React from "react";
 
 const Timer = () => {
-  var countDownDate = new Date("June 16, 2024 00:00:00 PST").getTime();
+  var countDownDate = new Date("July 4, 2024 00:00:00 PST").getTime();
  
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -34,7 +34,7 @@ const Timer = () => {
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
-        "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000;  font-size: 2.75rem;'><b>..Old Man!!</b></span>";
+        "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000;  font-size: 2.75rem;'><b>..Colonist!!</b></span>";
     }
   }, 1000);
 };

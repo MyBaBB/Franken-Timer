@@ -14,7 +14,7 @@ const Rewind = () => {
             className="dataToolTip81  font-BlackOpsOneRegular   "
             data-tool-tip="Portfolio Hub "
           >
-      <div className="forward relative inline-flex bottom-5 -left-4 text-green-500 z-50
+      <div className="forward relative inline-flex bottom-5 left-2 text-green-500 z-50
                       ">
         <PregnantLadyLeft />
       </div>
@@ -26,7 +26,7 @@ const Rewind = () => {
             data-tool-tip="My Home Page"
           >   
 
-      <div className="rewind relative inline-flex bottom-5 -right-4 text-green-500 z-50 scaleX-[-1] 
+      <div className="rewind relative inline-flex bottom-5 right-2 text-green-500 z-50 scale-x-[-1] 
                       ">
          <PregnantLadyRight/>
       </div>

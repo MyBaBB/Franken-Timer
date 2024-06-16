@@ -2,12 +2,12 @@
 import React from "react";
 
  
-import TopLogo from "./assets/FrankenTopper.jpg";
-import boyKite from "./assets/boyKite.jpg";
-import FranknGirl5 from "./assets/FranknGirl5.jpg";
-import LittleGirls from "./assets/LittleGirls.jpg";
-import DungeonFrank from "./assets/FathersDungeon.jpg";
-
+import TopLogo from "./assets/TopLogo.jpg";
+ 
+import FrankenGirl from "./assets/FrankenGirl.jpg";
+import FrankenCurls from "./assets/FrankenCurls.jpg";
+import FrankenHorse from "./assets/FrankenHorse.jpg";
+import FrankSigning from "./assets/FrankSigning.jpg";
 import "./Cube.css";
 const Cube = () => {
   return (
@@ -47,7 +47,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={LittleGirls}
+                      src={FrankenGirl}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -58,7 +58,7 @@ const Cube = () => {
                     className="Side2 border-b-2 border-[#2dd760]"
                     style={{ "--i": 2 }}
                   >
-                    <img src={boyKite} alt="Side2" height="300" width="300" />
+                    <img src={FrankenCurls} alt="Side2" height="300" width="300" />
                   </span>
 
 
@@ -66,7 +66,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={FranknGirl5} alt="Side3" height="300" width="300" />
+                    <img src={FrankenHorse} alt="Side3" height="300" width="300" />
                   </span>
 
 
@@ -75,7 +75,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={DungeonFrank}
+                      src={FrankSigning}
                       alt="Side4"
                       height="300"
                       width="300"
