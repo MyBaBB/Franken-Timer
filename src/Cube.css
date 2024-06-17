@@ -179,10 +179,7 @@
   padding: 10px;
 }
 
-.topParagraphWrapper :hover {
-  color: #895b05;
-  text-shadow: 2px 2px 4px wheat;
-}
+
 
 .topParagraphWrapper {
   text-align: center;
@@ -219,54 +216,6 @@
   color: #2dd760;
   text-shadow: #151515 0.75px 0.75px;
   margin: auto;
-}
-
-.outerDemoWrapper {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  padding: 2px;
-}
-
-@media screen and (max-width: 500px) {
-  .outerDemoWrapper {
-    letter-spacing: 3px;
-    position: fixed;
-    display: flex;
-    left: 50%;
-    transform: translate(-50%);
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    text-shadow: #151515 0.5px 0.5px;
-    font-weight: 400;
-    text-decoration: none;
-    margin-top: 5rem;
-  }
-}
-
-.demoWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 3px;
-  position: relative;
-  width: -moz-fit-content;
-  width: fit-content;
-  text-align: center;
-  font-weight: 500;
-  text-decoration: none;
-  text-shadow: #151515 0.5px 0.5px;
-}
-
-#demo {
-  position: relative;
-  padding: 2px;
-  text-shadow: #151515 0.5px 0.5px;
-  white-space: nowrap;
-  letter-spacing: 0px;
-  color: #2dd760;
 }
 
 .cube {

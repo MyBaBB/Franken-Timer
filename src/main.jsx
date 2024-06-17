@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NewHoliday  />
      
-     <span className="text-xl mt-4"><Timer  /></span>
+    <Timer  /> 
     <Cube />
     <ThumbsUp />
   

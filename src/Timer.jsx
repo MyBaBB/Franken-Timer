@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-
+import "./TimerStyles.css";
 const Timer = () => {
   var countDownDate = new Date("July 4, 2024 00:00:00 PST").getTime();
  
@@ -21,12 +21,12 @@ const Timer = () => {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = `<span  style="font-size: 1rem; font-weight: bold;
-     font-style: italic;  text-shadow: 1px 1px 0 #000;">
-    ${days} days ${hours}:${minutesStr}:${secondsStr} </span>`;
+    document.getElementById("demo").innerHTML = `<span>
+    ${days} days ${hours}:${minutesStr}:${secondsStr}</span>`;
     var minutesStr = minutes < 10 ? "0" + minutes : minutes;
     var secondsStr = seconds < 10 ? "0" + seconds : seconds;
-    document.getElementById("demo").innerHTML =`<span style="font-style: italic; font-size: 2rem; font-weight: bold; text-shadow: 1px 1px 0 #000;">
+    document.getElementById("demo").innerHTML =`<span class="timerStyles">
+   
     ${days} days ${hours}:${minutesStr}:${secondsStr} </span>`;
       days + "days " + hours + ":" + minutesStr + ":" + secondsStr + "s";
 
@@ -34,9 +34,13 @@ const Timer = () => {
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
-        "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000;  font-size: 2.75rem;'><b>..Colonist!!</b></span>";
+        "<span>" +
+        "<b><span class='timerStylesFinished1'>..Am</b></span>" +
+        "<span class='timerStylesFinished2'>eric</b></span>" +
+        "<span class='timerStylesFinished3'>ans</b></span>" +
+        "</span>";
     }
   }, 1000);
 };
-
+ 
 export default Timer;
