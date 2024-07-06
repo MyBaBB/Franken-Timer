@@ -86,6 +86,7 @@ export const theme = {
 			},
 
     screens: {
+      xxxs: "250px",
       xxs: "320px",
       xs: "420px",
       sm: "460px",

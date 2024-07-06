@@ -183,13 +183,13 @@
 
 .topParagraphWrapper {
   text-align: center;
-  padding: 0.2rem;
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
+  
+ 
+ 
+ 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 460px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
     position: fixed;
