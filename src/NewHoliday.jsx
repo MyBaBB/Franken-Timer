@@ -22,10 +22,10 @@ const NewHoliday = () => {
 
       <div className="demoWrapper"> 
       <a href="https://Mybabb.com">
-                <div className="  relative min-w-[200px] md:min-w-[320px] flex  ">
+                <div className="  relative    min-w-[225px] lg:min-w-[335px] flex  ">
                 <p
                   id="demo"
-                  className="m-auto relative flex    w-[110%] text-lg sm:text-lg md:text-2xl lg:text-4xl
+                  className="m-auto relative flex ml-8 md:ml-0  justify-start     w-full text-lg sm:text-lg md:text-2xl lg:text-4xl
                    "
                 ></p>
                 </div>
