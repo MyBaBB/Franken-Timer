@@ -1,8 +1,6 @@
 .timerStyles {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #e2d8d4;
-    
-    font-size: 2rem; 
     font-weight: bold; 
     text-shadow: 1px 1px 0 #000;
   ;
@@ -39,7 +37,6 @@
    top: 1rem;
    right: 3rem;
    padding: 2px;
-    
    width: 18rem;
  }
  

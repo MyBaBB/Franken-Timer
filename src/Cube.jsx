@@ -12,16 +12,16 @@ import "./Cube.css";
 const Cube = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container ">
         <br />
 
-        <div className="m-0  px-4 py-3  sm:px-8">
+        <div className="m-0  px-4 py-3  sm:px-8  ">
           <a href="https://Mybabb.com">
-            <div className="outerDemoWrapper">
+            <div className="outerDemoWrapper relative flex justify-end  ">
               <div className="demoWrapper">
                 <p
                   id="demo"
-                  className="text-lg sm:text-lg md:text-2xl lg:text-4xl"
+                  className="text-lg sm:text-lg md:text-2xl lg:text-4xl  "
                 ></p>
               </div>
             </div>
