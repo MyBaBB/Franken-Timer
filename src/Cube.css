@@ -198,11 +198,10 @@
     left: 50%;
     margin-top: 40px;
     padding: 2px;
-    transform: translatex(-50%);
+    transform: translateX(-50%);
     width: -moz-fit-content;
     width: fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: auto;
     text-shadow: white 0.5px 0.5px;
     font-weight: 400;
     text-decoration: none;
