@@ -4,11 +4,15 @@ import React from "react";
  
 import TopLogo from "./assets/TopLogo.jpg";
  
-import FrankenBride300 from "./assets/frankenBride300.jpg";
+import FrankenBride300 from "./assets/frankenBridewinking300.gif";
 import FrankMiner300 from "./assets/frankMiner300.jpg";
 import FrankPlumber from "./assets/FrankPlumber300.jpg";
 import FrankSlave300 from "./assets/frankSlave300.jpg";
 import "./Cube.css";
+
+
+
+
 const Cube = () => {
   return (
     <div>
