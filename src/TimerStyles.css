@@ -1,8 +1,6 @@
 .timerStyles {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #e2d8d4;
-    
-    font-size: 2rem; 
     font-weight: bold; 
     text-shadow: 1px 1px 0 #000;
   ;
@@ -34,37 +32,22 @@
 
 
 
-.outerDemoWrapper {
-   position: fixed;
-   top: 1rem;
-   right: 3rem;
-   padding: 2px;
-    
-   width: 18rem;
- }
+ 
  
  
  
  .demoWrapper {
-   position: relative;
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
    letter-spacing: 3px;
-   position: relative;
-   width: -moz-fit-content;
-   width: fit-content;
-   text-align: center;
    font-weight: 500;
    text-decoration: none;
    text-shadow: #151515 0.5px 0.5px;
-   padding-inline: 1rem;
+ 
    
    
  }
  
  #demo {
-   position: relative;
+  
    padding: 2px;
    text-shadow: #151515 0.5px 0.5px;
    white-space: nowrap;
