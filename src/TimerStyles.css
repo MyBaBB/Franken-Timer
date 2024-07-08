@@ -1,13 +1,13 @@
 .timerStyles {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #e2d8d4;
+    font-family: Aclonica-Regular, 'Aclonica-Regular', Times, serif;
+    color: #bfdbfe;
     font-weight: bold; 
     text-shadow: 1px 1px 0 #000;
   ;
 } 
 
  .timerStylesFinished1 {
-   color: red;
+   color: #bfdbfe;
    font-style: italic;
    font-size: 2rem; 
    font-weight: bold; 
