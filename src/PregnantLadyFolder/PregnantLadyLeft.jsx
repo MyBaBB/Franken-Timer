@@ -6,7 +6,7 @@ const PregnantLadyLeftComponent = () => {
 return (
     <div className=''>
         <img src={PregnantLadyLeft} alt="Pregnant Lady Pointing Left"
-         width={70} height={70} style={{ transform: 'scaleX(-1)' }}/>
+         width={70} height={70} />
     </div>
 )
 }

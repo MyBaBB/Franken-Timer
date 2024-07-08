@@ -4,7 +4,7 @@ import PregnantLadyRightImage from './PregnantLadyRight.svg'
 const PregnantLadyRightComponent = () => {
   return (
     <div>
-      <img src={PregnantLadyRightImage} alt="Pregnant Lady Pointing Right" width={70} height={70}/>
+      <img src={PregnantLadyRightImage} alt="Pregnant Lady Pointing Right" width={70} height={70} style={{ transform: 'scaleX(-1)' }}/>
     </div>
   )
 }
