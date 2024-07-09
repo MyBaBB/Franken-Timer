@@ -11,16 +11,15 @@ const ThumbsUp = () => {
           <span className="post-rating-button material-symbols-outlined  text-black">
             <FaRegThumbsUp />
           </span>
-          <span className="rating-count text-black ">1818</span>
+          <span className="rating-count text-[#87ceeb] ">1818</span>
         </div>
         <div className="post-rating">
           <span className="post-rating-button material-symbols-outlined text-black">
             <FaRegThumbsDown />
           </span>
-          <span className="rating-count  text-black ">1</span>
+          <span className="rating-count   text-[#87ceeb] ">1</span>
         </div>
       </div>
-     
     </div>
   );
 };

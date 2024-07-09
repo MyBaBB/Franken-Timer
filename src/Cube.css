@@ -179,17 +179,11 @@
   padding: 10px;
 }
 
-
-
 .topParagraphWrapper {
   text-align: center;
-  
- 
- 
- 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 500px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
     position: fixed;
@@ -212,7 +206,7 @@
 
 .topParagraph {
   position: relative;
-   
+
   color: #2dd760;
   text-shadow: #151515 0.75px 0.75px;
   margin: auto;
@@ -318,11 +312,12 @@
 
 .post-ratings-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   padding: 12px 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+  margin: 0 auto -1rem 2rem;
+
   width: 100%;
 }
 
@@ -339,6 +334,7 @@
 .post-rating-button {
   margin-right: 6px;
   cursor: pointer;
+  color: skyblue;
 }
 
 .post-rating-selected > .post-rating-button,
