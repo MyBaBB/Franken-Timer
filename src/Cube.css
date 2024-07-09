@@ -312,12 +312,11 @@
 
 .post-ratings-container {
   display: flex;
-  justify-content: start;
+  overflow: hidden;
   align-items: center;
   padding: 12px 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin: 0 auto -1rem 2rem;
-
   width: 100%;
 }
 

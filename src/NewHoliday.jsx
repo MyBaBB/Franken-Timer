@@ -3,8 +3,8 @@ import React from "react";
 import { RxMoon } from "react-icons/rx";
 const NewHoliday = () => {
   return (
-    <div className="mt-4 w-screen">
-      <div className="relative flex w-full xxxs:justify-center sm:justify-between   ">
+    <div className="fixed mt-4 w-screen">
+      <div className="fixed flex w-full xxxs:justify-center sm:justify-between   ">
         <div className="demoWrapper w-full   ">
           <a href="https://Mybabb.com ">
             <div id="demo" className="ml-8 sm:text-xl lg:text-3xl"></div>
