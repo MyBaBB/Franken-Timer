@@ -19,7 +19,7 @@ const Rewind = () => {
               data-tool-tip="Portfolio Hub "
             >
               <div
-                className="forward relative bottom-5 left-2 z-50 inline-flex text-green-500
+                className="forward relative bottom-5 left-2 z-40 inline-flex text-green-500
                       "
               >
                 <PregnantLadyLeft />
@@ -36,7 +36,7 @@ const Rewind = () => {
               data-tool-tip="My Home Page"
             >
               <div
-                className="rewind relative bottom-5 right-2 z-50 inline-flex scale-x-[-1] text-green-500 
+                className="rewind relative bottom-5 right-2 z-40 inline-flex scale-x-[-1] text-green-500 
                       "
               >
                 <PregnantLadyRight />
