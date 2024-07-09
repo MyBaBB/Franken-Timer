@@ -1,17 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
- 
-import TopLogo from "./assets/TopLogo.jpg";
- 
-import FrankenBride300 from "./assets/frankenBridewinking300.gif";
-import FrankMiner300 from "./assets/frankMiner300.jpg";
-import FrankPlumber from "./assets/FrankPlumber300.jpg";
-import FrankSlave300 from "./assets/frankSlave300.jpg";
+import TopLogo from "./assets/topLogo300.jpg";
+
+import FrankenBride300 from "./assets/FrankenCheese300.jpg";
+import FrankMoony300 from "./assets/FrankenMoony300.jpg";
+import FranknBike300 from "./assets/FranknBike300.jpg";
+import FrankOnMoon300 from "./assets/FrankOnMoon300.jpg";
 import "./Cube.css";
-
-
-
 
 const Cube = () => {
   return (
@@ -20,8 +16,6 @@ const Cube = () => {
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
-        
-
           <a href="https://Mybabb.com">
             <div className="outerCubeDiv">
               <div className="cube">
@@ -35,8 +29,6 @@ const Cube = () => {
                   />
                 </div>
                 <div className="boxSides">
-                  
-
                   <span
                     className="Side1 border-b-2 border-[#2dd760]"
                     style={{ "--i": 1 }}
@@ -53,24 +45,32 @@ const Cube = () => {
                     className="Side2 border-b-2 border-[#2dd760]"
                     style={{ "--i": 2 }}
                   >
-                    <img src={FrankMiner300} alt="Side2" height="300" width="300" />
+                    <img
+                      src={FrankMoony300}
+                      alt="Side2"
+                      height="300"
+                      width="300"
+                    />
                   </span>
-
 
                   <span
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={FrankPlumber} alt="Side3" height="300" width="300" />
+                    <img
+                      src={FranknBike300}
+                      alt="Side3"
+                      height="300"
+                      width="300"
+                    />
                   </span>
-
 
                   <span
                     className="Side4 border-b-2 border-[#2dd760]"
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankSlave300}
+                      src={FrankOnMoon300}
                       alt="Side4"
                       height="300"
                       width="300"
@@ -81,9 +81,10 @@ const Cube = () => {
             </div>
           </a>
 
-          <p className="fixed bottom-0 right-5 whitespace-nowrap">
-            <span className="text-[8px] text-white sm:text-[10px] lg:text-sm">
-              &lt;&lt;&lt;&copy;MyBaBB <em>8-2023</em>&gt;&gt;&gt;
+          <p className="fixed bottom-0 right-5 whitespace-nowrap text-[#abdbee]">
+            <span className="text-[8px] text-[#abdbee]  sm:text-[10px] lg:text-sm">
+              &lt;&lt;&lt;&copy;<span className="text-orange-400">MyBaBB</span>{" "}
+              <em>8-2023</em>&gt;&gt;&gt;
             </span>
           </p>
         </div>
