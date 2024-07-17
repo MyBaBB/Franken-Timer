@@ -6,7 +6,7 @@ import TopLogo from "./assets/topLogo300.jpg";
 import FrankenBride300 from "./assets/FrankenCheese300.jpg";
 import FrankMoony300 from "./assets/FrankenMoony300.jpg";
 import FrankenFarmer300 from "./assets/FrankenFarmer300.jpg";
-import FrankOnMoon300 from "./assets/FrankOnMoon300.jpg";
+import FrankenMoonPie300 from "./assets/FrankenMoonPie300.jpg";
 import "./Cube.css";
 
 const Cube = () => {
@@ -70,7 +70,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankOnMoon300}
+                      src={FrankenMoonPie300}
                       alt="Side4"
                       height="300"
                       width="300"
