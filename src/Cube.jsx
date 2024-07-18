@@ -4,7 +4,7 @@ import React from "react";
 import TopLogo from "./assets/topLogo300.jpg";
 
 import FrankenBride300 from "./assets/FrankenCheese300.jpg";
-import FrankMoony300 from "./assets/FrankenMoony300.jpg";
+import FrankMoony300 from "./assets/Franken2Moony300.jpg";
 import FrankenFarmer300 from "./assets/FrankenFarmer300.jpg";
 import FrankenMoonPie300 from "./assets/FrankenMoonPie300.jpg";
 import "./Cube.css";
