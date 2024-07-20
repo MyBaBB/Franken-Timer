@@ -424,7 +424,7 @@
 
 /* media query for bigger cube */
 
-@media screen and (min-width: 900px) and (min-height: 400px) {
+@media screen and (min-width: 900px) and (min-height: 450px) {
   .top::before {
     content: "";
     position: absolute;
