@@ -91,6 +91,9 @@
   --scale: 0;
   z-index: 49;
 }
-.forward {
+/* .forward {
+  transform: scaleX(-1);
+} */
+.rewind {
   transform: scaleX(-1);
 }
