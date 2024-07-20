@@ -1,18 +1,18 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import PregnantLadyRightImage from "./PregnantLadyRight.svg";
-const PregnantLadyRightComponent = () => {
+
+import PregnantLadyLeft from "./PregnantLadyLeft.svg";
+const PregnantLadyLeftComponent = () => {
   return (
-    <div>
+    <div className="">
       <img
-        src={PregnantLadyRightImage}
-        alt="Pregnant Lady Pointing Right"
+        src={PregnantLadyLeft}
+        alt="Pregnant Lady Pointing Left"
         width={70}
         height={70}
-        style={{ transform: "scaleX(-1)" }}
       />
     </div>
   );
 };
 
-export default PregnantLadyRightComponent;
+export default PregnantLadyLeftComponent;

@@ -5,7 +5,7 @@ import React from "react";
  
 import TopLogo from "./assets/TopLogo.jpg";
  
-import FrankenBride300 from "./assets/Cucumber300.jpg";
+import FrankenBride300 from "./assets/frankenBridewinking300.gif";
 import FrankMiner300 from "./assets/frankMiner300.jpg";
 import FrankPlumber from "./assets/FrankPlumber300.jpg";
 import FrankSlave300 from "./assets/frankSlave300.jpg";
@@ -14,11 +14,7 @@ import "./Cube.css";
 
 
 
-import FrankenBride300 from "./assets/FrankenCheese300.jpg";
-import FrankMoony300 from "./assets/FrankenMoony300.jpg";
-import FranknBike300 from "./assets/FranknBike300.jpg";
-import FrankOnMoon300 from "./assets/FrankOnMoon300.jpg";
-import "./Cube.css";
+ 
 
 const Cube = () => {
   return (
@@ -57,7 +53,7 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      src={FrankMoony300}
+                      src={FrankMiner300}
                       alt="Side2"
                       height="300"
                       width="300"
@@ -69,7 +65,7 @@ const Cube = () => {
                     style={{ "--i": 3 }}
                   >
                     <img
-                      src={FranknBike300}
+                      src={ FrankPlumber}
                       alt="Side3"
                       height="300"
                       width="300"
@@ -81,7 +77,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankOnMoon300}
+                      src={ FrankSlave300}
                       alt="Side4"
                       height="300"
                       width="300"
