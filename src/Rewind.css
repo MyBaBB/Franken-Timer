@@ -1,4 +1,3 @@
-
 .dataToolTip82:hover::before,
 .dataToolTip82:hover::after {
   --scale: 1;
@@ -13,7 +12,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: ease-in 0.25s;
-  top: .59rem;
+  top: 0.59rem;
 
   right: 2.8rem;
   border-radius: 10px;
@@ -35,12 +34,12 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: 0.35s;
-  top: .5rem;
+  top: 0.5rem;
   right: 5.9rem;
   border: 15px solid transparent;
   border-left: #52341b 10px solid;
   border-radius: 15px;
-  
+
   --scale: 0;
   z-index: 49;
 }
@@ -56,7 +55,7 @@
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: .59rem;
+  top: 0.59rem;
 
   left: 12.8rem;
   transform: translateX(-50%) scale(var(--scale));
@@ -82,14 +81,13 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: 0.35s;
-  top: .5rem;
-  left:7.28rem;
+  top: 0.5rem;
+  left: 7.28rem;
   bottom: 0.8rem;
   border: 15px solid transparent;
   border-right: #52341b 10px solid;
   border-radius: 15px;
 
-  
   --scale: 0;
   z-index: 49;
 }
