@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./TimerStyles.css";
+
 const Timer = () => {
   var countDownDate = new Date("september 2, 2024 00:00:00 PST").getTime();
- 
+
   // Update the count down every 1 second
   var x = setInterval(function () {
     // Get today's date and time
@@ -18,17 +19,19 @@ const Timer = () => {
       (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
     );
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = `<span>
-    ${days} days ${hours}:${minutesStr}:${secondsStr}</span>`;
     var minutesStr = minutes < 10 ? "0" + minutes : minutes;
-    var secondsStr = seconds < 10 ? "0" + seconds : seconds;
-    document.getElementById("demo").innerHTML =`<span class="timerStyles">
-   
-    ${days} days ${hours}:${minutesStr}:${secondsStr} </span>`;
-      days + "days " + hours + ":" + minutesStr + ":" + secondsStr + "s";
+    document.getElementById("demo").innerHTML =
+
+      `
+      <span class="timerStyles">${days}</span>
+     <span class="timerStylesSmall">&nbsp;days</span>&nbsp;
+      <span class="timerStyles">${hours}</span>
+      <span class="timerStyles">:</span> 
+     <span class="timerStyles">${minutesStr}</span>
+      <span class="timerStylesSmall">&nbsp;hrs</span> 
+     `;
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -42,5 +45,5 @@ const Timer = () => {
     }
   }, 1000);
 };
- 
+
 export default Timer;

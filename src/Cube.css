@@ -203,8 +203,7 @@
     color: blue;
   }
 }
-                /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 .topParagraph {
   position: relative;
@@ -465,8 +464,6 @@
     background: linear-gradient(#151515, #2dd760);
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   }
-
-
 
   /* media query for smaller cube */
 }
