@@ -203,6 +203,8 @@
     color: blue;
   }
 }
+                /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 
 .topParagraph {
   position: relative;
@@ -347,13 +349,13 @@
 
 /* xxxs */
 
-@media (min-width: 300px) {
+@media screen and (min-width: 300px) {
   .container {
     max-width: 300px;
   }
 }
 
-@media (min-width: 350px) {
+@media screen and (min-width: 350px) {
   .container {
     max-width: 350px;
   }
@@ -361,7 +363,7 @@
 
 /* xxs */
 
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) {
   .container {
     max-width: 400px;
   }
@@ -369,7 +371,7 @@
 
 /* xs */
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
   .container {
     max-width: 500px;
   }
@@ -377,7 +379,7 @@
 
 /* s */
 
-@media (min-width: 640px) {
+@media screen and (min-width: 640px) {
   .container {
     max-width: 640px;
   }
@@ -385,7 +387,7 @@
 
 /* md */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -393,7 +395,7 @@
 
 /* lg */
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .container {
     max-width: 1024px;
   }
@@ -401,7 +403,7 @@
 
 /* xl */
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
@@ -409,7 +411,7 @@
 
 /* 2xl */
 
-@media (min-width: 1536px) {
+@media screen and (min-width: 1536px) {
   .container {
     max-width: 1536px;
   }
@@ -417,7 +419,7 @@
 
 /* media query for bigger cube */
 
-@media (min-width: 900px) and (min-height: 500px) {
+@media screen and (min-width: 900px) and (min-height: 450px) {
   .top::before {
     content: "";
     position: absolute;
@@ -464,6 +466,8 @@
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   }
 
+
+
   /* media query for smaller cube */
 }
 
@@ -472,7 +476,7 @@
   background-color: rgb(7 89 133 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 640px) {
+@media screen and (min-width: 640px) {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -493,7 +497,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -505,7 +509,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -517,31 +521,31 @@
   }
 }
 
-@media (min-width: 640px) {
+@media screen and (min-width: 640px) {
   .container {
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .container {
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
+@media screen and (min-width: 1536px) {
   .container {
     max-width: 1536px;
   }

@@ -1,7 +1,18 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import TopLogo from "./assets/topLogo300.jpg";
+
+ 
+import TopLogo from "./assets/TopLogo.jpg";
+ 
+import FrankenBride300 from "./assets/Cucumber300.jpg";
+import FrankMiner300 from "./assets/frankMiner300.jpg";
+import FrankPlumber from "./assets/FrankPlumber300.jpg";
+import FrankSlave300 from "./assets/frankSlave300.jpg";
+import "./Cube.css";
+
+
+
 
 import FrankenBride300 from "./assets/FrankenCheese300.jpg";
 import FrankMoony300 from "./assets/FrankenMoony300.jpg";
