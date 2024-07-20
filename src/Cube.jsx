@@ -5,7 +5,7 @@ import TopLogo from "./assets/TopLogo.jpg";
 
 import FrankenBride300 from "./assets/frankenBride300.jpg";
 import FrankMiner300 from "./assets/frankMiner300.jpg";
-import FrankPlumber from "./assets/FrankPlumber300.jpg";
+import Cucumber from "./assets/Cucumber300.jpg";
 import FrankSlave300 from "./assets/frankSlave300.jpg";
 import "./Cube.css";
 
@@ -58,7 +58,7 @@ const Cube = () => {
                     style={{ "--i": 3 }}
                   >
                     <img
-                      src={FrankPlumber}
+                      src={Cucumber}
                       alt="Side3"
                       height="300"
                       width="300"
