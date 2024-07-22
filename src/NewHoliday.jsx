@@ -16,12 +16,14 @@ const NewHoliday = () => {
               className="topParagraph   whitespace-nowrap 
                text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
             >
+              <span className="mx-2 inline-block text-amber-900 -ml-2 sm:ml-4">
+                <FaHammer size={29} />
+              </span>
+              &nbsp;
               <span className="inline-block text-white">
                 Labor&nbsp;Day&nbsp;
               </span>
-              <span className="mx-2 inline-block text-amber-900">
-                <FaHammer size={29} />
-              </span>
+              
             </p>
           </a>
         </div>
@@ -29,13 +31,14 @@ const NewHoliday = () => {
         <div className="demoWrapper">
           <a href="https://Mybabb.com">
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
-              
               <p
                 id="demo"
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
                    "
               ></p>
-              <span className="clockIcon    "><IoHourglassOutline   color="lightgray"/></span>
+              <span className="clockIcon    ">
+                <IoHourglassOutline color="lightgray" />
+              </span>
             </div>
           </a>
         </div>

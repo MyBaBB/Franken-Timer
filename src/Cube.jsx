@@ -57,12 +57,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img
-                      src={Cucumber}
-                      alt="Side3"
-                      height="300"
-                      width="300"
-                    />
+                    <img src={Cucumber} alt="Side3" height="300" width="300" />
                   </span>
 
                   <span

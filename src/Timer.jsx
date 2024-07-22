@@ -22,9 +22,7 @@ const Timer = () => {
 
     // Display the result in the element with id="demo"
     var minutesStr = minutes < 10 ? "0" + minutes : minutes;
-    document.getElementById("demo").innerHTML =
-
-      `
+    document.getElementById("demo").innerHTML = `
       <span class="timerStyles">${days}</span>
      <span class="timerStylesSmall">&nbsp;days</span>&nbsp;
       <span class="timerStyles">${hours}</span>
