@@ -16,14 +16,13 @@ const NewHoliday = () => {
               className="topParagraph   whitespace-nowrap 
                text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
             >
-              <span className="mx-2 inline-block text-amber-900 -ml-2 sm:ml-4">
+              <span className="mx-2 -ml-2 inline-block text-amber-900 sm:ml-4">
                 <FaHammer size={29} />
               </span>
               &nbsp;
               <span className="inline-block text-white">
                 Labor&nbsp;Day&nbsp;
               </span>
-              
             </p>
           </a>
         </div>
