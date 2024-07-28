@@ -2,6 +2,7 @@
 import React from "react";
 import PregnantLadyLeft from "./PregnantLadyFolder/PregnantLadyLeft";
 import PregnantLadyRight from "./PregnantLadyFolder/PregnantLadyRight";
+import AddMusic from "./AddMusicFolder/AddMusic";
 import "./Rewind.css";
 
 const Rewind = () => {
@@ -26,6 +27,11 @@ const Rewind = () => {
               </div>
             </div>
           </a>
+
+          <div className="relative mt-[40px]  flex h-fit w-fit text-center sm:mt-[60px]  ">
+            <AddMusic />
+          </div>
+
           <a
             href="https://mybabb.com"
             target="_blank"
