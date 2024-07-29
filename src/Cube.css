@@ -439,9 +439,7 @@
       0 0 800px rgba(45, 215, 96, 7),
       0 0 900px rgb(45, 215, 96);
   }
- .speaker, .pauseButton {
-   margin-top: 3rem;
- }
+ 
   .cube {
     width: 300px;
     height: 300px;

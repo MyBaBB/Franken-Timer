@@ -2,20 +2,28 @@
 import React, { useState, useRef } from "react";
 import Sound from "../assets/MonsterMash.mp3";
 import SpookySound from "../assets/SpookySound.mp3";
-
+import { FaPlus, FaMinus } from "react-icons/fa";
 import { BiSolidVolumeMute } from "react-icons/bi";
 import { HiPauseCircle } from "react-icons/hi2";
 import { HiPlayCircle } from "react-icons/hi2";
 import { VscDebugRestart } from "react-icons/vsc";
-
+import  "./AddMusic.css" 
+ 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [volume, setVolume] = useState(1);
   const audioRef = useRef(null);
 
   function play() {
     if (!isPlaying) {
       audioRef.current = new Audio(Sound);
       audioRef.current.play();
+  
+      audioRef.current.addEventListener("ended", () => {
+        const spookyAudio = new Audio(SpookySound);
+        spookyAudio.play();
+      });
+  
       setIsPlaying(true);
     }
   }
@@ -38,31 +46,54 @@ function App() {
       setIsPlaying(false);
     }
   }
+  function increaseVolume() {
+    if (audioRef.current) {
+      const newVolume = Math.min(volume + 0.1, 1);
+      audioRef.current.volume = newVolume;
+      setVolume(newVolume);
+    }
+  }
+
+  function decreaseVolume() {
+    if (audioRef.current) {
+      const newVolume = Math.max(volume - 0.1, 0);
+      audioRef.current.volume = newVolume;
+      setVolume(newVolume);
+    }
+  }
+
 
   return (
-    <div className=" relative flex w-fit justify-center">
+    <div className=" relative flex w-fit justify-center mt-[3rem]">
+      <button onClick={increaseVolume} className="volumeUp text-yellow-100 mr-[1rem]  ">
+                <FaPlus size={30}    />
+              </button>
       <div className="audio speaker flex w-fit ">
         {isPlaying ? (
           <>
             <button onClick={stop} >
-              <VscDebugRestart size={40} color="aliceblue"  />
+              <VscDebugRestart size={30} color="#fef9c3 "  />
             </button>
           </>
         ) : (
           <button onClick={play}>
-            <BiSolidVolumeMute size={40} color="aliceblue" />
+            <BiSolidVolumeMute size={30} color="#fef9c3 " />
           </button>
         )}
       </div>
-      <div className="pauseButton  flex w-fit ">
+      <div className="pauseButton  flex w-fit">
         <button onClick={pause}>
           {isPlaying ? (
-            <HiPauseCircle size={40} color="aliceblue" />
+            <HiPauseCircle size={30} color="#fef9c3 " />
           ) : (
-            <HiPlayCircle size={40} color="aliceblue" />
+            <HiPlayCircle size={30} color="#fef9c3 " />
           )}
         </button>
       </div>
+      
+              <button onClick={decreaseVolume} className="volumeDown text-yellow-100 ml-[1rem] ">
+                <FaMinus size={30}   />
+              </button>
     </div>
   );
 }
