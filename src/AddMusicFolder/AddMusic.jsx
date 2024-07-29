@@ -45,21 +45,21 @@ function App() {
         {isPlaying ? (
           <>
             <button onClick={stop} >
-              <VscDebugRestart size={40} color="white"  />
+              <VscDebugRestart size={40} color="aliceblue"  />
             </button>
           </>
         ) : (
           <button onClick={play}>
-            <BiSolidVolumeMute size={40} color="red" />
+            <BiSolidVolumeMute size={40} color="aliceblue" />
           </button>
         )}
       </div>
       <div className="pauseButton  flex w-fit ">
         <button onClick={pause}>
           {isPlaying ? (
-            <HiPauseCircle size={40} color="white" />
+            <HiPauseCircle size={40} color="aliceblue" />
           ) : (
-            <HiPlayCircle size={40} color="white" />
+            <HiPlayCircle size={40} color="aliceblue" />
           )}
         </button>
       </div>
