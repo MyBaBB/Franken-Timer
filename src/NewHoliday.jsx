@@ -2,6 +2,12 @@
 import React from "react";
 import { FaHammer } from "react-icons/fa6";
 import { IoHourglassOutline } from "react-icons/io5";
+import WolfWhistle from "./assets/wolf-whistle.wav"
+
+function PlayWolfWhistle() {
+  const DrumSolo = new Audio(WolfWhistle);
+  DrumSolo.play();
+}
 
 const NewHoliday = () => {
   return (
@@ -10,6 +16,9 @@ const NewHoliday = () => {
         <div className=" w-fit sm:ml-4   ">
           <a
             href="https://Mybabb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={PlayWolfWhistle}     
             className="  topParagraphWrapper   
               font-Kingthings_Petrock"
           >
@@ -29,7 +38,11 @@ const NewHoliday = () => {
         </div>
 
         <div className="demoWrapper ">
-          <a href="https://Mybabb.com">
+          <a href="https://Mybabb.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={PlayWolfWhistle}
+          >
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
               <p
                 id="demo"

@@ -9,9 +9,9 @@ import Cucumber from "./assets/Cucumber300.jpg";
 import FrankSlave300 from "./assets/frankSlave300.jpg";
 
 import "./Cube.css";
-function playWhipSmack() {
-  const whipSmackAudio = new Audio(WolfWhistle);
-  whipSmackAudio.play();
+function playWolfWhistle() {
+  const Wolf = new Audio(WolfWhistle);
+  Wolf.play();
 }
 
 const Cube = () => {
@@ -25,7 +25,7 @@ const Cube = () => {
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={playWhipSmack}
+            onClick={playWolfWhistle}
           >
             <div className="outerCubeDiv">
               <div className="cube">
