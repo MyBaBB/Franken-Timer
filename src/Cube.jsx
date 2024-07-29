@@ -8,10 +8,11 @@ import FrankMiner300 from "./assets/frankMiner300.jpg";
 import Cucumber from "./assets/Cucumber300.jpg";
 import FrankSlave300 from "./assets/frankSlave300.jpg";
 import "./Cube.css";
-
+ 
 const Cube = () => {
   return (
     <div>
+       
       <div className="container ">
         <br />
 

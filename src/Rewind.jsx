@@ -27,11 +27,10 @@ const Rewind = () => {
               </div>
             </div>
           </a>
-
-          <div className="relative mt-[40px]  flex h-fit w-fit text-center sm:mt-[60px]  ">
+          <div className="addMusic relative flex w-fit m-auto 
+           top-[.2rem] justify-center  ">
             <AddMusic />
-          </div>
-
+  </div>
           <a
             href="https://mybabb.com"
             target="_blank"
