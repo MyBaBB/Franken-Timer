@@ -202,8 +202,6 @@
     text-decoration: none;
     color: blue;
   }
- 
-
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -439,7 +437,7 @@
       0 0 800px rgba(45, 215, 96, 7),
       0 0 900px rgb(45, 215, 96);
   }
- 
+
   .cube {
     width: 300px;
     height: 300px;

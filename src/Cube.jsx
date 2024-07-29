@@ -2,22 +2,31 @@
 import React from "react";
 
 import TopLogo from "./assets/TopLogo.jpg";
-
+import WolfWhistle from "./assets/wolf-whistle.wav";
 import FrankenBride300 from "./assets/frankenBride300.jpg";
 import FrankMiner300 from "./assets/frankMiner300.jpg";
 import Cucumber from "./assets/Cucumber300.jpg";
 import FrankSlave300 from "./assets/frankSlave300.jpg";
+
 import "./Cube.css";
- 
+function playWhipSmack() {
+  const whipSmackAudio = new Audio(WolfWhistle);
+  whipSmackAudio.play();
+}
+
 const Cube = () => {
   return (
     <div>
-       
       <div className="container ">
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
-          <a href="https://Mybabb.com">
+          <a
+            href="https://Mybabb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={playWhipSmack}
+          >
             <div className="outerCubeDiv">
               <div className="cube">
                 <div className="top">

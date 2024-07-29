@@ -7,8 +7,8 @@ import { BiSolidVolumeMute } from "react-icons/bi";
 import { HiPauseCircle } from "react-icons/hi2";
 import { HiPlayCircle } from "react-icons/hi2";
 import { VscDebugRestart } from "react-icons/vsc";
-import  "./AddMusic.css" 
- 
+import "./AddMusic.css";
+
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
@@ -18,12 +18,12 @@ function App() {
     if (!isPlaying) {
       audioRef.current = new Audio(Sound);
       audioRef.current.play();
-  
+
       audioRef.current.addEventListener("ended", () => {
         const spookyAudio = new Audio(SpookySound);
         spookyAudio.play();
       });
-  
+
       setIsPlaying(true);
     }
   }
@@ -62,17 +62,19 @@ function App() {
     }
   }
 
-
   return (
-    <div className=" relative flex w-fit justify-center mt-[3rem]">
-      <button onClick={increaseVolume} className="volumeUp text-yellow-100 mr-[1rem]  ">
-                <FaPlus size={30}    />
-              </button>
+    <div className=" relative mt-[3rem] flex w-fit justify-center">
+      <button
+        onClick={increaseVolume}
+        className="volumeUp mr-[1rem] text-yellow-100  "
+      >
+        <FaPlus size={30} />
+      </button>
       <div className="audio speaker flex w-fit ">
         {isPlaying ? (
           <>
-            <button onClick={stop} >
-              <VscDebugRestart size={30} color="#fef9c3 "  />
+            <button onClick={stop}>
+              <VscDebugRestart size={30} color="#fef9c3 " />
             </button>
           </>
         ) : (
@@ -90,10 +92,13 @@ function App() {
           )}
         </button>
       </div>
-      
-              <button onClick={decreaseVolume} className="volumeDown text-yellow-100 ml-[1rem] ">
-                <FaMinus size={30}   />
-              </button>
+
+      <button
+        onClick={decreaseVolume}
+        className="volumeDown ml-[1rem] text-yellow-100 "
+      >
+        <FaMinus size={30} />
+      </button>
     </div>
   );
 }

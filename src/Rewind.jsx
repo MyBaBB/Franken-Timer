@@ -6,8 +6,6 @@ import AddMusic from "./AddMusicFolder/AddMusic";
 import "./Rewind.css";
 import whipSmack from "./assets/whipSmack.mp3";
 
-
-
 function playWhipSmack() {
   const whipSmackAudio = new Audio(whipSmack);
   whipSmackAudio.play();
@@ -32,14 +30,15 @@ const Rewind = () => {
                       "
               >
                 <PregnantLadyLeft />
-
               </div>
             </div>
           </a>
-          <div className="addMusic relative flex w-fit m-auto 
-           top-[.2rem] justify-center  ">
+          <div
+            className="addMusic relative top-[.2rem] m-auto flex 
+           w-fit justify-center  "
+          >
             <AddMusic />
-  </div>
+          </div>
           <a
             href="https://mybabb.com"
             target="_blank"

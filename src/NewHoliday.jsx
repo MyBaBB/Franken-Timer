@@ -2,7 +2,6 @@
 import React from "react";
 import { FaHammer } from "react-icons/fa6";
 import { IoHourglassOutline } from "react-icons/io5";
- 
 
 const NewHoliday = () => {
   return (
@@ -27,9 +26,8 @@ const NewHoliday = () => {
               </span>
             </p>
           </a>
-          
         </div>
-        
+
         <div className="demoWrapper ">
           <a href="https://Mybabb.com">
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
@@ -43,11 +41,8 @@ const NewHoliday = () => {
               </span>
             </div>
           </a>
-          
         </div>
-        
       </div>
-      
     </div>
   );
 };
