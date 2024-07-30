@@ -21,9 +21,9 @@ const Cube = () => {
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
-          <a
+          <a className="cubeLink"
             href="https://Mybabb.com"
-            
+            target="_blank"
             rel="noopener noreferrer"
             onClick={playWolfWhistle}
           >

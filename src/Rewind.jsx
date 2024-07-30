@@ -17,7 +17,7 @@ const Rewind = () => {
         <div className="relative flex  h-[50px]   w-screen   justify-between px-8">
           <a
             href="https://resume-hub.mybabb.com/"
-        
+            target="_blank"
             rel="noopener noreferrer"
             onClick={playWhipSmack}
           >
@@ -41,7 +41,7 @@ const Rewind = () => {
           </div>
           <a
             href="https://mybabb.com"
-          
+            target="_blank"
             rel="noopener noreferrer"
             onClick={playWhipSmack}
           >
