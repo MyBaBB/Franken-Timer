@@ -23,7 +23,7 @@ const Cube = () => {
         <div className="m-0  px-4 py-3  sm:px-8  ">
           <a
             href="https://Mybabb.com"
-            target="_blank"
+            
             rel="noopener noreferrer"
             onClick={playWolfWhistle}
           >

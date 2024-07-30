@@ -16,7 +16,7 @@ const NewHoliday = () => {
         <div className=" w-fit sm:ml-4   ">
           <a
             href="https://Mybabb.com"
-            target="_blank"
+           
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle}     
             className="  topParagraphWrapper   
@@ -39,7 +39,7 @@ const NewHoliday = () => {
 
         <div className="demoWrapper ">
           <a href="https://Mybabb.com"
-          target="_blank"
+       
           rel="noopener noreferrer"
           onClick={PlayWolfWhistle}
           >
