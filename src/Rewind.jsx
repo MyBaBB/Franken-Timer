@@ -22,7 +22,7 @@ const Rewind = () => {
             onClick={playWhipSmack}
           >
             <div
-              className="dataToolTip81  font-BlackOpsOneRegular   "
+              className="dataToolTip81  font-BlackOpsOneRegular "
               data-tool-tip="Portfolio Hub "
             >
               <div

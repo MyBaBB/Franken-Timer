@@ -97,3 +97,12 @@
 .rewind {
   transform: scaleX(-1);
 }
+
+@media screen and (max-width:550px) {
+  .dataToolTip81::before,
+  .dataToolTip81::after,
+  .dataToolTip82::before,
+  .dataToolTip82::after {
+    display: none;
+  }
+}
