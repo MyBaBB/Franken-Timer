@@ -4,10 +4,10 @@ import PregnantLadyLeft from "./PregnantLadyFolder/PregnantLadyLeft";
 import PregnantLadyRight from "./PregnantLadyFolder/PregnantLadyRight";
 import AddMusic from "./AddMusicFolder/AddMusic";
 import "./Rewind.css";
-import whipSmack from "./assets/whipSmack.mp3";
+import Snore from "./assets/Snore.wav";
 
-function playWhipSmack() {
-  const whipSmackAudio = new Audio(whipSmack);
+function PlaySnore() {
+  const whipSmackAudio = new Audio(Snore);
   whipSmackAudio.play();
 }
 const Rewind = () => {
@@ -19,7 +19,7 @@ const Rewind = () => {
             href="https://resume-hub.mybabb.com/"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={playWhipSmack}
+            onClick={PlaySnore}
           >
             <div
               className="dataToolTip81  font-BlackOpsOneRegular   "
@@ -43,7 +43,7 @@ const Rewind = () => {
             href="https://mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={playWhipSmack}
+            onClick={PlaySnore}
           >
             <div
               className="dataToolTip82 font-BlackOpsOneRegular    "
