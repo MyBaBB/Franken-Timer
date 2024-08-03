@@ -3,10 +3,10 @@ import React from "react";
 
 import TopLogo from "./assets/TopLogo.jpg";
 import WolfWhistle from "./assets/wolf-whistle.wav";
-import FrankenBride300 from "./assets/frankenBride300.jpg";
-import FrankMiner300 from "./assets/frankMiner300.jpg";
-import Cucumber from "./assets/Cucumber300.jpg";
-import FrankSlave300 from "./assets/frankSlave300.jpg";
+import FrankenGirl300 from "./assets/FrankenGirl300.jpg";
+import FrankenChair300 from "./assets/FrankenChair300.jpg";
+import LazyDay300 from "./assets/LazyDay300.jpg";
+import nip300 from "./assets/nip300.jpg";
 
 import "./Cube.css";
 function playWolfWhistle() {
@@ -44,7 +44,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={FrankenBride300}
+                      src={LazyDay300}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -56,7 +56,7 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      src={FrankMiner300}
+                      src={nip300}
                       alt="Side2"
                       height="300"
                       width="300"
@@ -67,7 +67,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={Cucumber} alt="Side3" height="300" width="300" />
+                    <img src={FrankenChair300} alt="Side3" height="300" width="300" />
                   </span>
 
                   <span
@@ -75,7 +75,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankSlave300}
+                      src={FrankenGirl300}
                       alt="Side4"
                       height="300"
                       width="300"
