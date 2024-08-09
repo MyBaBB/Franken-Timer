@@ -27,7 +27,7 @@ const NewHoliday = () => {
                text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
             >
               <span className="mx-2 -ml-2 inline-block text-blue-400 sm:ml-4">
-                <GiNightSleep size={29} />
+                <GiNightSleep size={32} />
               </span>
               &nbsp;
               <span className="inline-block text-white">
