@@ -38,7 +38,7 @@ const Timer = () => {
         "<span>" +
         "<b><span class='timerStylesFinished1'>..Wo</b></span>" +
         "<span class='timerStylesFinished2'>rk</b></span>" +
-        "<span class='timerStylesFinished3'>ers...</b></span>" +
+        "<span class='timerStylesFinished3'>ers.....</b></span>" +
         "</span>";
     }
   }, 1000);
