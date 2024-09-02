@@ -3,10 +3,10 @@ import React from "react";
 
  
 import WolfWhistle from "./assets/wolf-whistle.wav";
-import FrankenBride300 from "./assets/FrankenBrideBurgers300.png";
-import FrankenCow from "./assets/FrankenCow.png";
-import Butcher from "./assets/FrankenButcther.png";
-import FrankenGrill from "./assets/FrankenGrill.png";
+import FrankenBride300 from "./assets/FrankenBrideBurgers300.jpg";
+import FrankenCow from "./assets/FrankenCow.jpg";
+import Butcher from "./assets/FrankenButcher.jpg";
+import FrankenGrill from "./assets/FrankenGrill.jpg";
 import CowTop from "./assets/cowLogo.jpg";
 import "./Cube.css";
 function playWolfWhistle() {
