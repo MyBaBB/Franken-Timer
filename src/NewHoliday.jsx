@@ -3,7 +3,7 @@ import React from "react";
 import { FaHammer } from "react-icons/fa6";
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
-
+import CheeseBurger from "./BurgerFolder/Burger.jsx";
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
   DrumSolo.play();
@@ -26,12 +26,19 @@ const NewHoliday = () => {
               className="topParagraph   whitespace-nowrap 
                text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
             >
-              <span className="mx-2 -ml-2 inline-block text-amber-900 sm:ml-4">
+              {/* <span className="mx-2 -ml-2 inline-block text-amber-900 sm:ml-4">
                 <FaHammer size={29} />
-              </span>
+              </span> */}
               &nbsp;
-              <span className="inline-block text-white">
-                Labor&nbsp;Day&nbsp;
+              
+             <br />
+           
+              <span className="inline-block text-[#ebd2a3] -mt-6">
+                <CheeseBurger />
+              </span>
+             
+              <span className=" block text-[#fcb54d] -mt-4  ">
+               Day 
               </span>
             </p>
           </a>

@@ -20,18 +20,20 @@
 }
 
 .timerStylesFinished1 {
-  color: #bfdbfe;
+  color: #651c32;
   font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
+  
 }
 .timerStylesFinished2 {
-  color: white;
+  color:   #ed181a;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
+  font-family: nosifer, cursive;
 }
 .timerStylesFinished3 {
   color: blue;
