@@ -22,7 +22,7 @@ const Rewind = () => {
             onClick={playWhipSmack}
           >
             <div
-              className="dataToolTip81  font-BlackOpsOneRegular   "
+              className="dataToolTip81  font-Nosifer-Regular    "
               data-tool-tip="Portfolio Hub "
             >
               <div
@@ -46,7 +46,7 @@ const Rewind = () => {
             onClick={playWhipSmack}
           >
             <div
-              className="dataToolTip82 font-BlackOpsOneRegular    "
+              className="dataToolTip82 font-Nosifer-Regular  "
               data-tool-tip="My Home Page"
             >
               <div
