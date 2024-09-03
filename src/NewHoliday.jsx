@@ -37,7 +37,7 @@ const NewHoliday = () => {
                 <CheeseBurger />
               </span>
              
-              <span className=" block text-[#fcb54d] -mt-4  ">
+              <span className="inline-block  text-[#fcb54d] -mt-4  ">
                Day 
               </span>
             </p>
