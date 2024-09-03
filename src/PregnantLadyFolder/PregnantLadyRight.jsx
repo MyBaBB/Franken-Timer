@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import PregnantLadyLeft from "./PregnantLadyLeft.svg";
+import PregnantLadyLeft from "./PregnantLady.svg";
 const PregnantLadyLeftComponent = () => {
   return (
-    <div className="scale-x-[-1]">
+    <div className="scale-x-[-1] ">
       <img
         src={PregnantLadyLeft}
         alt="Pregnant Lady Pointing Left"
