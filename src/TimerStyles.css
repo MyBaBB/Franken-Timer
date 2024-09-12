@@ -20,27 +20,28 @@
 }
 
 .timerStylesFinished1 {
-  color: #651c32;
+  color: sandybrown;
   font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
-  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .timerStylesFinished2 {
-  color:   #ed181a;
-  font-style: italic;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-shadow: 1px 1px 0 black;
-  font-family: nosifer, cursive;
-}
-.timerStylesFinished3 {
-  color: blue;
+  color:   sandybrown;
   font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.timerStylesFinished3 {
+  color:sandybrown;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 black;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .clockIcon {

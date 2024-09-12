@@ -3,7 +3,7 @@ import React from "react";
 
 import DyingCow from "./assets/DyingCow.mp3";
  
-import FrankenBride300 from "./assets/FrankenBrideBurgers300.jpg";
+import FrankenBride300 from "./assets/FranknBridewithCorn4.jpg";
 import FrankenCow from "./assets/FrankenCow.jpg";
 import Butcher from "./assets/FrankenButcher.jpg";
 import FrankenGrill from "./assets/FrankenGrill.jpg";
