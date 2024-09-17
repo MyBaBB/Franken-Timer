@@ -1,16 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import TopLogo from "./assets/TopLogo.jpg";
-import WolfWhistle from "./assets/wolf-whistle.wav";
-import FrankenBride300 from "./assets/frankenBride300.jpg";
-import FrankMiner300 from "./assets/frankMiner300.jpg";
-import Cucumber from "./assets/Cucumber300.jpg";
-import FrankSlave300 from "./assets/frankSlave300.jpg";
-
+import DyingCow from "./assets/DyingCow.mp3";
+import Booby from "./assets/GoodyBooby300.jpg";
+import FrankenBride300 from "./assets/FranknBridewithCorn4.jpg";
+ 
+import FrankenColumbus from "./assets/FrankenColumbus300.jpg"; 
+import FrankenGrill from "./assets/FrankenGrill.jpg";
+import Top from "./assets/Choctaw300.jpg"
 import "./Cube.css";
-function playWolfWhistle() {
-  const Wolf = new Audio(WolfWhistle);
+function PoorCow() {
+  const Wolf = new Audio(DyingCow);
   Wolf.play();
 }
 
@@ -25,14 +25,14 @@ const Cube = () => {
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={playWolfWhistle}
+            onClick={PoorCow}
           >
             <div className="outerCubeDiv">
               <div className="cube">
                 <div className="top">
                   <img
                     className="Top"
-                    src={TopLogo}
+                    src={Top}
                     alt="Top"
                     height="300"
                     width="300"
@@ -56,31 +56,31 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      src={FrankMiner300}
+                      src={Booby}
                       alt="Side2"
                       height="300"
                       width="300"
                     />
                   </span>
-
-                  <span
-                    className="side3 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 3 }}
-                  >
-                    <img src={Cucumber} alt="Side3" height="300" width="300" />
-                  </span>
-
-                  <span
+ <span
                     className="Side4 border-b-2 border-[#2dd760]"
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankSlave300}
+                      src={FrankenColumbus}
                       alt="Side4"
                       height="300"
                       width="300"
                     />
                   </span>
+                  <span
+                    className="side3 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 3 }}
+                  >
+                    <img src={FrankenGrill} alt="Side3" height="300" width="300" />
+                  </span>
+
+                 
                 </div>
               </div>
             </div>

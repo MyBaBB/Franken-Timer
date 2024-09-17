@@ -4,10 +4,10 @@ import PregnantLadyLeft from "./PregnantLadyFolder/PregnantLadyLeft";
 import PregnantLadyRight from "./PregnantLadyFolder/PregnantLadyRight";
 import AddMusic from "./AddMusicFolder/AddMusic";
 import "./Rewind.css";
-import whipSmack from "./assets/whipSmack.mp3";
+import DyingCow from "./assets/DyingCow.mp3";
 
 function playWhipSmack() {
-  const whipSmackAudio = new Audio(whipSmack);
+  const whipSmackAudio = new Audio(DyingCow);
   whipSmackAudio.play();
 }
 const Rewind = () => {
@@ -22,11 +22,11 @@ const Rewind = () => {
             onClick={playWhipSmack}
           >
             <div
-              className="dataToolTip81  font-BlackOpsOneRegular   "
+              className="dataToolTip81  font-Nosifer-Regular    "
               data-tool-tip="Portfolio Hub "
             >
               <div
-                className="forward relative bottom-5 left-2 z-40 inline-flex text-green-500
+                className="forward relative bottom-12 left-0 z-40 inline-flex text-green-500
                       "
               >
                 <PregnantLadyLeft />
@@ -46,11 +46,11 @@ const Rewind = () => {
             onClick={playWhipSmack}
           >
             <div
-              className="dataToolTip82 font-BlackOpsOneRegular    "
+              className="dataToolTip82 font-Nosifer-Regular  "
               data-tool-tip="My Home Page"
             >
               <div
-                className="rewind relative bottom-5 right-2 z-40 inline-flex scale-x-[-1] text-green-500 
+                className="rewind relative bottom-12 right-0 z-40 inline-flex scale-x-[-1] text-green-500 
                       "
               >
                 <PregnantLadyRight />
