@@ -2,12 +2,12 @@
 import React from "react";
 
 import DyingCow from "./assets/DyingCow.mp3";
- 
+import Booby from "./assets/GoodyBooby300.jpg";
 import FrankenBride300 from "./assets/FranknBridewithCorn4.jpg";
-import FrankenCow from "./assets/FrankenCow.jpg";
-import Butcher from "./assets/FrankenButcher.jpg";
+ 
+import FrankenColumbus from "./assets/FrankenColumbus300.jpg"; 
 import FrankenGrill from "./assets/FrankenGrill.jpg";
-import CowTop from "./assets/cowLogo.jpg";
+import Top from "./assets/Choctaw300.jpg"
 import "./Cube.css";
 function PoorCow() {
   const Wolf = new Audio(DyingCow);
@@ -32,7 +32,7 @@ const Cube = () => {
                 <div className="top">
                   <img
                     className="Top"
-                    src={CowTop}
+                    src={Top}
                     alt="Top"
                     height="300"
                     width="300"
@@ -56,7 +56,7 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      src={FrankenCow}
+                      src={Booby}
                       alt="Side2"
                       height="300"
                       width="300"
@@ -67,7 +67,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={Butcher}
+                      src={FrankenColumbus}
                       alt="Side4"
                       height="300"
                       width="300"
