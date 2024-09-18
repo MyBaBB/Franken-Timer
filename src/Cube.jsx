@@ -2,11 +2,11 @@
 import React from "react";
 
 import DyingCow from "./assets/DyingCow.mp3";
-import Booby from "./assets/GoodyBooby300.jpg";
-import FrankenDrink from "./assets/FrankenDrink300.jpg";
+import Booby from "./assets/0-300pxGoodyBooby.jpg";
+import FrankenDrink from "./assets/2-300pxFrankenDrink.jpg";
  
-import FrankenColumbus from "./assets/FrankenColumbus300.jpg"; 
-import FrankenBride from "./assets/FrankenBride300.jpg"
+import FrankenColumbus from "./assets/1-300pxFrankenColumbus.jpg"; 
+import FrankenBride from "./assets/3-300pxFrankenGirl.jpg"
 import Top from "./assets/Choctaw300.jpg"
 import "./Cube.css";
 function PoorCow() {
@@ -44,7 +44,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={FrankenDrink}
+                      src={Booby}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -56,7 +56,7 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      src={Booby}
+                      src={FrankenColumbus}
                       alt="Side2"
                       height="300"
                       width="300"
@@ -67,7 +67,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankenColumbus}
+                      src={FrankenDrink}
                       alt="Side4"
                       height="300"
                       width="300"
