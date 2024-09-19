@@ -4,7 +4,7 @@ import PregnantLadyLeft from "./PregnantLadyFolder/PregnantLadyLeft";
 import PregnantLadyRight from "./PregnantLadyFolder/PregnantLadyRight";
 import AddMusic from "./AddMusicFolder/AddMusic";
 import "./Rewind.css";
-import DyingCow from "./assets/DyingCow.mp3";
+import DyingCow from "./assets/whipSmack.mp3";
 
 function playWhipSmack() {
   const whipSmackAudio = new Audio(DyingCow);
