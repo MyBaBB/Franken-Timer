@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import DyingCow from "./assets/DyingCow.mp3";
+import DyingCow from "./assets/whipSmack.mp3";
 import Booby from "./assets/GoodyBooby300.jpg";
 import FrankenDrink from "./assets/FrankenDrink300.jpg";
  
