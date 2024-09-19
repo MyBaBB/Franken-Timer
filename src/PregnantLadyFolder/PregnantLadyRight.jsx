@@ -4,7 +4,7 @@ import React from "react";
 import PregnantLadyLeft from "./PregnantLady.svg";
 const PregnantLadyLeftComponent = () => {
   return (
-    <div className="scale-x-[-1] ">
+    <div className=" ">
       <img
         src={PregnantLadyLeft}
         alt="Pregnant Lady Pointing Left"
