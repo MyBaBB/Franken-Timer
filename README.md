@@ -1,23 +1,23 @@
 <!-- note to self  use npm run deploy for putting on github Pages. -->
+  #    Leave alone -- New Update Doesn't work on github. Add A reference to the Render Version" 
+## Frankentimer
 
-# Frankentimer
-
-# This was originally the "GLowing Cube"
+## This was originally the "GLowing Cube"
 
 I used it for study and have reworked it 100 times,
 I have Completely reworked it,
 
-# I converted it to React
+## I converted it to React
 
 I added 3 sizes for media queries,
 added images,
 
-## Turned it in to React,
+### Turned it in to React,
 
 Made it into a countdown timer with JavaScript for Holidays,
 I make a new version every Holiday.
 
-## Fun stuff
+### Fun stuff
 
 I have the thumbs turned off since this repo is public, Database is not connected
 ![image](FrankReadme.png)
