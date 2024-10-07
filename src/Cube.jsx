@@ -2,12 +2,14 @@
 import React from "react";
 
 import DyingCow from "./assets/whipSmack.mp3";
-import Booby from "./assets/GoodyBooby300.jpg";
-import FrankenDrink from "./assets/FrankenDrink300.jpg";
+import One from "./assets/1-300-unfinished.jpg"; 
+import Two from "./assets/2-300-unfinished.jpg"; 
+import Three from "./assets/3-300-unfinished.jpg"; 
+import Four from "./assets/4-300-unfinished.jpg"; 
  
-import FrankenColumbus from "./assets/FrankenColumbus300.jpg"; 
-import FrankenBride from "./assets/FrankenBride300.jpg"
-import Top from "./assets/Choctaw300.jpg"
+ 
+import Top from "./assets/PumpkinTop.jpg";
+ 
 import "./Cube.css";
 function PoorCow() {
   const Wolf = new Audio(DyingCow);
@@ -44,7 +46,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={FrankenDrink}
+                      src={One}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -56,7 +58,7 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      src={Booby}
+                      src={Two}
                       alt="Side2"
                       height="300"
                       width="300"
@@ -67,7 +69,7 @@ const Cube = () => {
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={FrankenColumbus}
+                      src={Three}
                       alt="Side4"
                       height="300"
                       width="300"
@@ -77,7 +79,7 @@ const Cube = () => {
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={FrankenBride} alt="Side3" height="300" width="300" />
+                    <img src={Four} alt="Side3" height="300" width="300" />
                   </span>
 
                  
