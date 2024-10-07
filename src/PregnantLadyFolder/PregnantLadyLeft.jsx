@@ -5,7 +5,7 @@ import EyeBallLeft from "../EyeBallFolder/EyeBallLeft";
 
 const PregnantLadyLeftComponent = () => {
   return (
-    <div className="eyeScale   scale-[85%] md:scale-100 hidden md:block">
+    <div className="eyeScale    hidden md:block  ">
       < EyeBallLeft />
     </div>
   );
