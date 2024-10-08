@@ -4,9 +4,11 @@ import EyeBallRight from "../EyeBallFolder/EyeBallRight";
 // import PregnantLadyLeft from "./PregnantLady.svg";
 const PregnantLadyLeftComponent = () => {
   return (
-    <div className="eyeScale   scale-[85%] md:scale-100 hidden md:block">
+     
+    <div className=" eyeScale    hidden md:block      ">
      < EyeBallRight />
     </div>
+     
   );
 };
 
