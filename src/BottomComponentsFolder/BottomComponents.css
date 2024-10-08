@@ -100,7 +100,7 @@
   transform: scaleX(-1);
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:685px) {
   .dataToolTip81::before,
   .dataToolTip81::after,
   .dataToolTip82::before,
