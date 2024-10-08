@@ -88,9 +88,9 @@ const Cube = () => {
             </div>
           </a>
 
-          <p className="fixed bottom-0 right-5 whitespace-nowrap text-[#abdbee]">
+          <p className="fixed bottom-0 z-50 right-5 whitespace-nowrap text-[#abdbee]">
             <span className="text-[8px] text-[#abdbee]  sm:text-[10px] lg:text-sm">
-              &lt;&lt;&lt;&copy;<span className="text-orange-400">MyBaBB</span>{" "}
+              &lt;&lt;&lt;&copy;<span className="text-orange-400">Brett&apos;s</span>{" "}
               <em>8-2023</em>&gt;&gt;&gt;
             </span>
           </p>
