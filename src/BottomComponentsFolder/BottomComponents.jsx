@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import PregnantLadyLeft from "./PregnantLadyFolder/PregnantLadyLeft";
-import PregnantLadyRight from "./PregnantLadyFolder/PregnantLadyRight";
-import AddMusic from "./AddMusicFolder/AddMusic";
-import "./Rewind.css";
-import DyingCow from "./assets/whipSmack.mp3";
+import BottomComponentLeft from "./BottomLeft";
+import BottomComponentRight from "./BottomRight";
+import MusicPlayer from "../MusicPlayerFolder/AddMusic";
+import "./BottomComponents.css";
+import DyingCow from "../assets/whipSmack.mp3";
 
 function playWhipSmack() {
   const whipSmackAudio = new Audio(DyingCow);
@@ -12,9 +12,13 @@ function playWhipSmack() {
 }
 const Rewind = () => {
   return (
-    <div className="fixed bottom-0 z-[5] h-[100px] w-screen">
+  
       <div>
-        <div className="relative flex  h-[50px]   w-screen   justify-between px-8">
+ <div className="relative flex h-fit bottom-[9rem] md:bottom-20 w-screen  justify-center z-40 ">
+            <MusicPlayer />
+          </div>
+        <div className="relative flex  h-fit bottom-[5rem]  w-screen  justify-between ">
+        
           <a
             href="https://resume-hub.mybabb.com/"
             target="_blank"
@@ -29,16 +33,12 @@ const Rewind = () => {
                 className="forward relative bottom-12 left-0 z-40 inline-flex text-green-500
                       "
               >
-                <PregnantLadyLeft />
+                <BottomComponentLeft />
               </div>
             </div>
+            
           </a>
-          <div
-            className="addMusic relative top-[.2rem] m-auto flex 
-           w-fit justify-center  "
-          >
-            <AddMusic />
-          </div>
+         
           <a
             href="https://mybabb.com"
             target="_blank"
@@ -53,13 +53,13 @@ const Rewind = () => {
                 className="rewind relative bottom-12 right-0 z-40 inline-flex scale-x-[-1] text-green-500 
                       "
               >
-                <PregnantLadyRight />
+               < BottomComponentRight />
               </div>
             </div>
           </a>
         </div>
       </div>
-    </div>
+ 
   );
 };
 

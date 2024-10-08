@@ -67,7 +67,8 @@ function App() {
   }
 
   return (
-    <div className=" relative mt-[3rem] flex w-fit justify-center">
+
+    <div className=" absolute m-auto  flex w-fit">
       <button
         onClick={increaseVolume}
         className="volumeUp mr-[1rem] text-yellow-100  "
