@@ -14,10 +14,10 @@ const Rewind = () => {
   return (
   
       <div>
- <div className="relative flex h-fit bottom-[9rem] md:bottom-20 w-screen  justify-center z-40 ">
+ <div className="relative flex h-fit bottom-[10rem] md:bottom-20 w-screen  justify-center z-40 ">
             <MusicPlayer />
           </div>
-        <div className="relative flex  h-fit bottom-[5rem]  w-screen  justify-between ">
+        <div className="relative flex  h-fit bottom-[6rem]  w-screen  justify-between ">
         
           <a
             href="https://resume-hub.mybabb.com/"
