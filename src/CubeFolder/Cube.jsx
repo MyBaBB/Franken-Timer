@@ -3,7 +3,7 @@ import React from "react";
 
 import DyingCow from "../assets/whipSmack.mp3";
 import One from "../assets/1-300-unfinished.jpg"; 
-import Two from "../assets/2-300-unfinished.jpg"; 
+import Two from "../assets/5-300-unfinished.jpg"; 
 import Three from "../assets/3-300-unfinished.jpg"; 
 import Four from "../assets/4-300-unfinished.jpg"; 
  
