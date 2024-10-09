@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-<div className="absolute z-50  top-[7.5rem] md:bottom-[-22rem]  lg:bottom-[-23rem]  m-auto flex w-full">
+<div className="musicPlayerWrapper absolute z-50  top-[7.5rem] md:bottom-[-22rem]  lg:bottom-[-23rem]  m-auto flex w-full">
     <div className=" relative m-auto  flex w-fit">
       <button
         onClick={increaseVolume}
