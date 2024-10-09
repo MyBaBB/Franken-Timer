@@ -67,8 +67,8 @@ function App() {
   }
 
   return (
-
-    <div className=" absolute m-auto  flex w-fit">
+<div className="absolute z-10  bottom-[13.5rem] md:bottom-[5rem] lg:bottom-[3rem]  m-auto flex w-full">
+    <div className=" relative m-auto  flex w-fit">
       <button
         onClick={increaseVolume}
         className="volumeUp mr-[1rem] text-yellow-100  "
@@ -104,6 +104,7 @@ function App() {
       >
         <FaMinus size={30} />
       </button>
+    </div>
     </div>
   );
 }

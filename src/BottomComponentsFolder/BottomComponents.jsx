@@ -14,8 +14,9 @@ const Rewind = () => {
   return (
   
       <div>
- <div className="relative flex h-fit bottom-[10rem] md:bottom-20 w-screen  justify-center z-40 ">
-            <MusicPlayer />
+        <MusicPlayer />
+ <div className="relative flex h-fit bottom-[10rem] md:bottom-[5rem] w-screen  justify-center z-40  ">
+            
           </div>
         <div className="relative flex  h-fit bottom-[6rem]  w-screen  justify-between ">
         
@@ -30,7 +31,7 @@ const Rewind = () => {
               data-tool-tip="Portfolio Hub "
             >
               <div
-                className="forward relative bottom-12 left-0 z-40 inline-flex text-green-500
+                className="forward relative bottom-[4.5rem] left-0 z-40 inline-flex text-green-500
                       "
               >
                 <BottomComponentLeft />
@@ -50,7 +51,7 @@ const Rewind = () => {
               data-tool-tip="My Home Page"
             >
               <div
-                className="rewind relative bottom-12 right-0 z-40 inline-flex scale-x-[-1] text-green-500 
+                className="rewind relative bottom-[4.5rem] right-0 z-40 inline-flex scale-x-[-1] text-green-500 
                       "
               >
                < BottomComponentRight />
