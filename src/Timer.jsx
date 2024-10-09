@@ -3,7 +3,7 @@ import React from "react";
 import "./TimerStyles.css";
 
 const Timer = () => {
-  var countDownDate = new Date("october 24, 2024 00:00:00 PST").getTime();
+  var countDownDate = new Date("october 31, 2024 00:00:00 PST").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -36,9 +36,9 @@ const Timer = () => {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
         "<span>" +
-        " <span class='timerStylesFinished1'>Everybody </span>" +
-        "<span class='timerStylesFinished2'>Get </span>" +
-        "<span class='timerStylesFinished3'>Along </span>" +
+        " <span class='timerStylesFinished1'>Eat </span>" +
+        "<span class='timerStylesFinished2'>More </span>" +
+        "<span class='timerStylesFinished3'>Candy </span>" +
         "</span>";
     }
   }, 1000);

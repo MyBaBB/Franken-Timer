@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { FaHammer } from "react-icons/fa6";
+ 
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
- 
+
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
   DrumSolo.play();
@@ -20,11 +20,11 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle}     
             className="  topParagraphWrapper   
-              font-Kingthings_Petrock"
+              font-Creepster-Regular tracking-wider"
           >
             <p
               className="topParagraph   whitespace-nowrap 
-               text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
+               text-3xl sm:text-4xl md:text-5xl lg:text-6xl    "
             >
              
               &nbsp;
@@ -33,8 +33,8 @@ const NewHoliday = () => {
            
              
              
-              <span className="inline-block  text-[#fcb54d] -mt-4  ">
-              Indigenous Day 
+              <span className="inline-block  text-[LimeGreen] -mt-4  ">
+             Halloween 
               </span>
             </p>
           </a>
@@ -53,10 +53,11 @@ const NewHoliday = () => {
                    "
               ></p>
               <span className="clockIcon    ">
-                <IoHourglassOutline color="lightgray" />
+                <IoHourglassOutline  color="#f97316" />
               </span>
             </div>
           </a>
+        
         </div>
       </div>
     </div>

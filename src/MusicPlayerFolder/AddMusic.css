@@ -4,9 +4,15 @@
 }
 /* disable volume buttons on mobile */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 685px) {
   .volumeUp,
   .volumeDown {
     display: none;
   }
+}
+ 
+  .musicPlayerWrapper {
+    
+    margin-top: -3.5rem;
+ 
 }
