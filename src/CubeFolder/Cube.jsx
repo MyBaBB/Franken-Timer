@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import DyingCow from "../assets/whipSmack.mp3";
+import WolfWhistle from "../assets/wolf-whistle.wav";
 import One from "../assets/1-300-unfinished.jpg"; 
 import Two from "../assets/5-300-unfinished.jpg"; 
 import Three from "../assets/3-300-unfinished.jpg"; 
@@ -11,8 +11,8 @@ import Four from "../assets/4-300-unfinished.jpg";
 import Top from "../assets/PumpkinTop.jpg";
  
 import "./Cube.css";
-function PoorCow() {
-  const Wolf = new Audio(DyingCow);
+function WolfWhistleFunction() {
+  const Wolf = new Audio(WolfWhistle);
   Wolf.play();
 }
 
@@ -27,7 +27,7 @@ const Cube = () => {
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={PoorCow}
+            onClick={WolfWhistleFunction}
           >
             <div className="outerCubeDiv">
               <div className="cube">
