@@ -18,7 +18,7 @@ const Rewind = () => {
  <div className="relative flex h-fit bottom-[10rem] md:bottom-[5rem] w-screen  justify-center z-40  ">
             
           </div>
-        <div className="relative flex  h-fit bottom-[4rem]  w-screen  justify-between ">
+        <div className="relative flex  h-fit bottom-[6.3rem]  w-screen  justify-between ">
         
           <a
             href="https://resume-hub.mybabb.com/"
