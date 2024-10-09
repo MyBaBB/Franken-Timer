@@ -3,7 +3,7 @@ import React from "react";
  
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
- 
+
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
   DrumSolo.play();
@@ -57,6 +57,7 @@ const NewHoliday = () => {
               </span>
             </div>
           </a>
+        
         </div>
       </div>
     </div>

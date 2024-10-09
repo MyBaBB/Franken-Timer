@@ -67,8 +67,8 @@ function App() {
   }
 
   return (
-
-    <div className=" absolute m-auto  flex w-fit">
+<div className="musicPlayerWrapper absolute z-50  top-[7.5rem] md:bottom-[-22rem]  lg:bottom-[-23rem]  m-auto flex w-full">
+    <div className=" relative m-auto  flex w-fit">
       <button
         onClick={increaseVolume}
         className="volumeUp mr-[1rem] text-yellow-100  "
@@ -104,6 +104,7 @@ function App() {
       >
         <FaMinus size={30} />
       </button>
+    </div>
     </div>
   );
 }
