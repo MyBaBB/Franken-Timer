@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { Canvas, useFrame, } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
  
-import EyeballRight from "../../public/EyeballRight.jsx";
+import EyeballRight from "./EyeballRightSource.jsx";
 import './Eyeball.css';
 
  
