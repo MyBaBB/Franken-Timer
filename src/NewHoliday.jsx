@@ -11,7 +11,7 @@ function PlayWolfWhistle() {
 
 const NewHoliday = () => {
   return (
-    <div className="fixed left-0 top-0 w-screen">
+    <div className="fixed left-0 top-4 w-screen">
       <div className="relative flex xxxs:justify-center sm:justify-between   ">
         <div className=" w-fit  sm:ml-4    ">
           <a
@@ -20,7 +20,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle}     
             className="  topParagraphWrapper   
-              font-Kingthings_Petrock tracking-wider"
+              font-LibreBaskerville-Regular tracking-wider"
           >
             <p
               className="topParagraph   whitespace-nowrap 
