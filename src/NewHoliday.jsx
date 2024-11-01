@@ -33,7 +33,7 @@ const NewHoliday = () => {
            
              
              
-              <span className="inline-block  text-[#e6c587] -mt-4  ">
+              <span className="inline-block  text-[#e6c587] -mt-4 mb-2 ">
             Thanksgiving Day  
               </span>
               <span className=" m-auto flex justify-center"><PiHandsPrayingThin color="orange" /></span> 
@@ -53,7 +53,7 @@ const NewHoliday = () => {
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
                    "
               ></p>
-              <span className="clockIcon mt-4 mr-2   ">
+              <span className="clockIcon mt-0 mr-2   ">
                 <IoHourglassOutline  size={40} color="orange" />
               </span>
             </div>
