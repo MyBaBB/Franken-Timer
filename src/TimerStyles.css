@@ -1,14 +1,14 @@
 .timerStyles {
-  color: limegreen;
+  color: #e6c587;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 2.4rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Creepster-Regular";
+  font-family: "Kingthings_Petrock";
 }
 .timerStylesSmall {
   font-family: Aclonica-Regular, "Aclonica-Regular", Times, serif;
-  color: #f97316;
+  color: orange;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
 }
@@ -22,15 +22,16 @@
 }
 
 .timerStylesFinished1 {
-  color: limegreen;
+  color: orange;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 3.4rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Creepster-Regular";
+  font-family: "Kingthings_Petrock";
+  letter-spacing: 3px;
 }
 .timerStylesFinished2 {
-  color: limegreen;
+  color: #e6c587;
   font-style: italic;
   font-size: 2rem;
   letter-spacing: 2px;
@@ -38,7 +39,7 @@
   font-family: "Creepster-Regular";
 }
 .timerStylesFinished3 {
-  color: limegreen;
+  color: #e6c587;
   font-style: italic;
   font-size: 2rem;
   letter-spacing: 2px;
@@ -48,7 +49,7 @@
 
 .clockIcon {
   font-size: 1.5rem;
-  color: #bfdbfe;
+  color: #e6c587;
   text-shadow: 1px 1px 0 black;
   padding: 2px;
   margin-right: 0.25rem;
