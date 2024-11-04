@@ -11,7 +11,7 @@ function PlayWolfWhistle() {
 
 const NewHoliday = () => {
   return (
-    <div className="fixed left-0 top-0 w-screen">
+    <div className="fixed left-0 top-4 w-screen">
       <div className="relative flex xxxs:justify-center sm:justify-between   ">
         <div className=" w-fit  sm:ml-4    ">
           <a
@@ -20,11 +20,12 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle}     
             className="  topParagraphWrapper   
-              font-Kingthings_Petrock tracking-wider"
+              "
           >
             <p
               className="topParagraph   whitespace-nowrap 
-               text-3xl sm:text-4xl md:text-5xl lg:text-6xl    "
+              font-LibreBaskerville-Regular tracking-wider 
+              text-3xl sm:text-4xl md:text-4xl     "
             >
              
               &nbsp;
@@ -33,7 +34,7 @@ const NewHoliday = () => {
            
              
              
-              <span className="inline-block  text-[#e6c587] -mt-4  ">
+              <span className="inline-block  text-[#e6c587] -mt-4 mb-2 ">
             Thanksgiving Day  
               </span>
               <span className=" m-auto flex justify-center"><PiHandsPrayingThin color="orange" /></span> 
@@ -53,7 +54,7 @@ const NewHoliday = () => {
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
                    "
               ></p>
-              <span className="clockIcon mt-4 mr-2   ">
+              <span className="clockIcon mt-0 mr-2   ">
                 <IoHourglassOutline  size={40} color="orange" />
               </span>
             </div>
