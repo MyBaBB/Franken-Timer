@@ -1,5 +1,5 @@
 <!-- note to self  use npm run deploy for putting on github Pages. 
-Now using the Render deploy branch.
+Now using the Render deploy branch  Do-   npm run build on Render deploy branch.
  This is the old branch . outdated -->
   #    Leave alone -- New Update Doesn't work on github. Add A reference to the Render Version" 
 ## Frankentimer
