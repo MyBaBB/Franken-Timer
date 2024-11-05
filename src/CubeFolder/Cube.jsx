@@ -36,8 +36,8 @@ const Cube = () => {
                     className="Top"
                     src={Top}
                     alt="Top"
-                    height="300"
-                    width="300"
+                    height={300}
+                    width={300}
                     aria-label="Top of Cube is a Turkey Leg image"
                   />
                 </div>
@@ -49,8 +49,8 @@ const Cube = () => {
                     <img
                       src={One}
                       alt="Side1"
-                      height="300"
-                      width="300"
+                      height={300}
+                    width={300}
                       aria-label="Side 1 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
@@ -62,8 +62,8 @@ const Cube = () => {
                     <img
                       src={Two}
                       alt="Side2"
-                      height="300"
-                      width="300"
+                      height={300}
+                      width={300}
                        aria-label="Side 2 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
@@ -74,8 +74,8 @@ const Cube = () => {
                     <img
                       src={Three}
                       alt="Side4"
-                      height="300"
-                      width="300"
+                      height={300}
+                      width={300}
                        aria-label="Side 4 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
@@ -85,8 +85,8 @@ const Cube = () => {
                   >
                     <img src={Four}
                      alt="Side3"
-                      height="300"
-                      width="300" 
+                     height={300}
+                    width={300}
                       aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
                   </span>
 
