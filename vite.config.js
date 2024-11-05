@@ -14,6 +14,7 @@ plugins: [
   })
 ],
 build: {
+  minify: 'terser',
   chunkSizeWarningLimit: 1200,
 }
 });
