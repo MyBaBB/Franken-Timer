@@ -19,9 +19,10 @@ const NewHoliday = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle}     
-            className="  topParagraphWrapper   
-              "
-          >
+            className="  topParagraphWrapper "
+            title="Click to go to Mybabb.com" 
+            aria-label="Click to go to Mybabb.com"
+             >
             <p
               className="topParagraph   whitespace-nowrap 
               font-LibreBaskerville-Regular tracking-wider 
@@ -47,6 +48,8 @@ const NewHoliday = () => {
           target="_blank"
           rel="noopener noreferrer"
           onClick={PlayWolfWhistle}
+          title="Click to go to Mybabb.com"
+          aria-label="Click to go to Mybabb.com"
           >
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
               <p
