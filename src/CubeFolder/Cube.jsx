@@ -26,6 +26,8 @@ const Cube = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={WolfWhistleFunction}
+            title="Click to go to Mybabb.com"
+            aria-label="Click to go to Mybabb.com"
           >
             <div className="outerCubeDiv">
               <div className="cube">
@@ -36,6 +38,7 @@ const Cube = () => {
                     alt="Top"
                     height="300"
                     width="300"
+                    aria-label="Top of Cube is a Turkey Leg image"
                   />
                 </div>
                 <div className="boxSides">
@@ -48,6 +51,7 @@ const Cube = () => {
                       alt="Side1"
                       height="300"
                       width="300"
+                      aria-label="Side 1 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
 
@@ -60,6 +64,7 @@ const Cube = () => {
                       alt="Side2"
                       height="300"
                       width="300"
+                       aria-label="Side 2 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
  <span
@@ -71,13 +76,18 @@ const Cube = () => {
                       alt="Side4"
                       height="300"
                       width="300"
+                       aria-label="Side 4 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
                   <span
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={Four} alt="Side3" height="300" width="300" />
+                    <img src={Four}
+                     alt="Side3"
+                      height="300"
+                      width="300" 
+                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
                   </span>
 
                  
