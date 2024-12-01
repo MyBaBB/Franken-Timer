@@ -1,5 +1,5 @@
 .timerStyles {
-  color: #e6c587;
+  color: red;
   font-style: italic;
   font-size: 2.4rem;
   letter-spacing: 2px;
@@ -9,12 +9,14 @@
 }
 .timerStylesSmall {
   font-family:   "LibreBaskerville-Regular", Times, serif;
-  color: orange;
+  color: aliceblue;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
   margin-bottom: 15px;
 }
-
+.timerStylesSmall:hover {
+  color: greenyellow;
+}
 #demo {
   padding: 2px;
   text-shadow: #151515 0.5px 0.5px;
@@ -25,7 +27,7 @@
 }
 
 .timerStylesFinished1 {
-  color: orange;
+  color: red;
   font-style: italic;
   font-size: 3.4rem;
   letter-spacing: 2px;

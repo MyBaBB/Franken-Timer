@@ -6,7 +6,7 @@ import One from "../assets/1-3001-unfinished.webp";
 import Two from "../assets/5-3001-unfinished.webp"; 
 import Three from "../assets/3-3001-unfinished.webp"; 
 import Four from "../assets/4-3001-unfinished.webp"; 
-import Top from "../assets/top1.webp";
+import Top from "../assets/Top.jpg";
  
 import "./Cube.css";
 function WolfWhistleFunction() {
