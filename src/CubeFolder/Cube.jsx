@@ -2,10 +2,10 @@
 import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
-import One from "../assets/1-3001-unfinished.webp"; 
-import Two from "../assets/5-3001-unfinished.webp"; 
-import Three from "../assets/3-3001-unfinished.webp"; 
-import Four from "../assets/4-3001-unfinished.webp"; 
+import One from "../assets/Frank1.jpg"; 
+import Two from "../assets/Frank2.jpg"; 
+import Three from "../assets/Frank3.jpg"; 
+import Four from "../assets/Frank4.jpg"; 
 import Top from "../assets/Top.jpg";
  
 import "./Cube.css";
