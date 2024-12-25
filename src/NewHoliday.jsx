@@ -58,7 +58,7 @@ const NewHoliday = () => {
                    "
               ></p>
               <span className="clockIcon mt-0 mr-2   ">
-                <IoHourglassOutline  size={40} className=" text-red-500" />
+                <IoHourglassOutline  size={40} className=" text-red-500 hidden md:block" />
               </span>
             </div>
           </a>
