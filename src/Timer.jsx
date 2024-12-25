@@ -38,7 +38,7 @@ const Timer = () => {
         "<span>" +
         " <span class='timerStylesFinished1'>Christians </span>" +
         "<span class='timerStylesFinished2'></span>" +
-        "<span class='timerStylesFinished3'>🎅</span>" +
+        "<span class='timerStylesFinished3'></span>" +
         "</span>";
     }
   }, 1000);
