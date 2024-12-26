@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
- 
+import "./NewHoliday.css"
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
-
-import { FaCross } from "react-icons/fa";
+import { TbConfetti } from "react-icons/tb";
+ 
 
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
@@ -40,10 +40,10 @@ const NewHoliday = () => {
              
              
 
-              <span className="inline-block text-[aliceblue] hover:text-red-500 -mt-4 mb-2 ">
-            Merry Christmas  
+              <span className="inline-block text-green-400 hover:text-[aliceblue] -mt-4 mb-2 ">
+            Happy New Year  
               </span>
-              <span className=" m-auto flex justify-center text-red-500 hover:text-[aliceblue]"><FaCross  /></span> 
+              <span className="holidayIcon m-auto flex justify-center text-[aliceblue] hover:text-green-400 animate-pulse "><TbConfetti /></span> 
 
             </p>
           </a>
@@ -64,7 +64,7 @@ const NewHoliday = () => {
                    "
               ></p>
               <span className="clockIcon mt-0 mr-2   ">
-                <IoHourglassOutline  size={40} className=" text-red-500 hidden md:block" />
+                <IoHourglassOutline  size={40} className=" text-green-400 hidden md:block" />
               </span>
             </div>
           </a>
