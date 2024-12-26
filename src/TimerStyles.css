@@ -1,5 +1,5 @@
 .timerStyles {
-  color: red;
+  color: limegreen;
   font-style: italic;
   font-size: 2.4rem;
   letter-spacing: 2px;
@@ -27,7 +27,7 @@
 }
 
 .timerStylesFinished1 {
-  color: red;
+  color: limegreen;
  
   font-size: 2.4rem;
   letter-spacing: 2px;
