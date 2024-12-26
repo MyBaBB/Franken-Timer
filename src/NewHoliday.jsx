@@ -3,7 +3,9 @@ import React from "react";
  
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
+
 import { FaCross } from "react-icons/fa";
+
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
   DrumSolo.play();
@@ -25,8 +27,10 @@ const NewHoliday = () => {
              >
             <p
               className="topParagraph   whitespace-nowrap 
+
               font-Kingthings_Petrock tracking-wider 
               text-3xl sm:text-4xl md:text-5xl     "
+
             >
              
               &nbsp;
@@ -35,10 +39,12 @@ const NewHoliday = () => {
            
              
              
+
               <span className="inline-block text-[aliceblue] hover:text-red-500 -mt-4 mb-2 ">
             Merry Christmas  
               </span>
               <span className=" m-auto flex justify-center text-red-500 hover:text-[aliceblue]"><FaCross  /></span> 
+
             </p>
           </a>
         </div>
