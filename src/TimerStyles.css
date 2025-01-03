@@ -1,5 +1,5 @@
 .timerStyles {
-  color: limegreen;
+  color: red;
   font-style: italic;
   font-size: 2.4rem;
   letter-spacing: 2px;
@@ -15,7 +15,7 @@
   margin-bottom: 15px;
 }
 .timerStylesSmall:hover {
-  color: greenyellow;
+  color: red;
 }
 #demo {
   padding: 2px;
@@ -27,16 +27,23 @@
 }
 
 .timerStylesFinished1 {
-  color: limegreen;
+  color: red;
  
-  font-size: 2.4rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular";
   letter-spacing: 3px;
 }
+
+
+
+
+
+
+
 .timerStylesFinished2 {
-  color: #e6c587;
+  color: red;
   font-style: italic;
   font-size: 2rem;
   letter-spacing: 2px;
@@ -45,13 +52,65 @@
   margin-bottom: 15px;
 }
 .timerStylesFinished3 {
-  color: lime;
+  color: red;
   font-style: italic;
   font-size: 2rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular", Times, serif;
   margin-bottom: 15px;
+}
+
+@media screen and (min-width: 320px) {
+  .timerStyles {
+    font-size: 1rem;
+  }
+  .timerStylesSmall {
+    font-size: 1rem;
+  }
+  .timerStylesFinished1 {
+    font-size: 1rem;
+  }
+  .timerStylesFinished2 {
+    font-size: 1rem;
+  }
+  .timerStylesFinished3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 420px) {
+  .timerStyles {
+    font-size: 1.2rem;
+  }
+  .timerStylesSmall {
+    font-size: 1.2rem;
+  }
+  .timerStylesFinished1 {
+    font-size: 1.2rem;
+  }
+  .timerStylesFinished2 {
+    font-size: 1.2rem;
+  }
+  .timerStylesFinished3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 685px) {
+  .timerStyles {
+    font-size: 2.2rem;
+  }
+  .timerStylesSmall {
+    font-size: 2.2rem;
+  }
+  .timerStylesFinished1 {
+    font-size: 2.2rem;
+  }
+  .timerStylesFinished2 {
+    font-size: 2.2rem;
+  }
+  .timerStylesFinished3 {
+    font-size: 2.2rem;
+  }
 }
 
 .clockIcon {
