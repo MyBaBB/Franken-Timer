@@ -8,7 +8,7 @@ animation: colorChangePulseScale 3s infinite;
   }
   33% {
     color: greenyellow;
-    transform: scale(1.1);
+    transform: scale(1.13);
   }
   66% {
     color: orangered;
