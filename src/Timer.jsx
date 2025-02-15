@@ -4,7 +4,7 @@ import "./TimerStyles.css";
 
 const Timer = () => {
 
-  var countDownDate = new Date("Feb 14, 2025 00:00:00 PST").getTime();
+  var countDownDate = new Date("mar 17, 2025 00:00:00 PST").getTime();
 
 
   // Update the count down every 1 second
@@ -39,7 +39,7 @@ const Timer = () => {
       document.getElementById("demo").innerHTML =
         "<span>" +
 
-        " <span class='timerStylesFinished1'>Lovers 💘 </span>" +
+        " <span class='timerStylesFinished1'>Drinkers</span>" +
         "<span class='timerStylesFinished2'></span>" +
         "<span class='timerStylesFinished3'></span>" +
 
