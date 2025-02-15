@@ -3,11 +3,11 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-import One from "../assets/01Frank300.jpg"; 
-import Two from "../assets/02Frank300.jpg"; 
-import Three from "../assets/03Frank300.jpg"; 
-import Four from "../assets/04Frank300.jpg"; 
-import Top from "../assets/05Top300.jpg";
+import One from "../assets/01Frank300.webp"; 
+import Two from "../assets/02Frank300.webp"; 
+import Three from "../assets/03Frank300.webp"; 
+import Four from "../assets/04Frank300.webp"; 
+import Top from "../assets/05Top300.webp";
 
  
  

@@ -3,7 +3,7 @@ animation: colorChangePulseScale 3s infinite;
 }
 @keyframes colorChangePulseScale {
   0% {
-    color: aliceblue;
+    color: green;
     transform: scale(1);
   }
   33% {
@@ -11,11 +11,11 @@ animation: colorChangePulseScale 3s infinite;
     transform: scale(1.13);
   }
   66% {
-    color: orangered;
+    color: green;
     transform: scale(1.2);
   }
   100% {
-    color: aliceblue;
+    color: lightgreen;
     transform: scale(1);
   }
 }

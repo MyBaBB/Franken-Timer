@@ -1,5 +1,5 @@
 .timerStyles {
-  color: red;
+  color: lightgreen;
   font-style: italic;
   font-size: 1.3rem;
   letter-spacing: 2px;
@@ -15,7 +15,7 @@
   margin-bottom: 15px;
 }
 .timerStylesSmall:hover {
-  color: red;
+  color: green;
 }
 #demo {
   padding: 2px;
