@@ -1,5 +1,5 @@
 .holidayIcon {
-animation: colorChangePulseScale 3s infinite;
+animation: colorChangePulseScale 12s infinite;
 }
 @keyframes colorChangePulseScale {
   0% {
@@ -7,15 +7,15 @@ animation: colorChangePulseScale 3s infinite;
     transform: scale(1);
   }
   33% {
-    color: greenyellow;
+    color: orangered;
     transform: scale(1.13);
   }
   66% {
-    color: green;
+    color: purple;
     transform: scale(1.2);
   }
   100% {
-    color: lightgreen;
+    color: blue;
     transform: scale(1);
   }
 }

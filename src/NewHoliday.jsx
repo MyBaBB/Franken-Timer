@@ -3,7 +3,7 @@ import React from "react";
 import "./NewHoliday.css"
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
-import { IoMdBeer } from "react-icons/io";
+import { FaCross } from "react-icons/fa";
  
 
 function PlayWolfWhistle() {
@@ -40,11 +40,11 @@ const NewHoliday = () => {
              
              
 
-              <span className="inline-block  text-green-400 hover:text-[aliceblue] -mt-4 mb-2 ">
-            St. Patrick&apos;s Day 
+              <span className="inline-block  text-orange-400 hover:text-[aliceblue] -mt-4 mb-2 ">
+            Happy Easter&apos;s 
               </span>
               <span className="holidayIcon m-auto flex justify-center text-[aliceblue]
-               hover:text-green-400 animate-pulse "><IoMdBeer /></span> 
+               "><FaCross /></span> 
 
             </p>
           </a>
