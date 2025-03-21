@@ -1,5 +1,5 @@
 .timerStyles {
-  color: lightgreen;
+  color: orange;
   font-style: italic;
   font-size: 1.3rem;
   letter-spacing: 2px;
@@ -28,7 +28,7 @@
 
 .timerStylesFinished1 {
   color: red;
- 
+  font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
@@ -45,7 +45,7 @@
 .timerStylesFinished2 {
   color: red;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular", Times, serif;
@@ -54,7 +54,7 @@
 .timerStylesFinished3 {
   color: red;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular", Times, serif;
@@ -97,19 +97,19 @@
 }
 @media screen and (min-width: 785px) and (orientation: landscape) and (min-height: 375px) {
   .timerStyles {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
   .timerStylesSmall {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .timerStylesFinished1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .timerStylesFinished2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .timerStylesFinished3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 

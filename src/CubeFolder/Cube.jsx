@@ -3,11 +3,11 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-import One from "../assets/01Frank300.webp"; 
-import Two from "../assets/02Frank300.webp"; 
-import Three from "../assets/03Frank300.webp"; 
-import Four from "../assets/04Frank300.webp"; 
-import Top from "../assets/05Top300.webp";
+import One from "../assets/01Frank300.jpg"; 
+import Two from "../assets/02Frank300.jpg"; 
+import Three from "../assets/03Frank300.jpg"; 
+import Four from "../assets/04Frank300.jpg"; 
+import Top from "../assets/05TopFrank300.jpg";
 
  
  
@@ -71,28 +71,30 @@ const Cube = () => {
                        aria-label="Side 2 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
+
+                  <span
+                    className="side3 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 3 }}
+                  >
+                    <img src={Three}
+                     alt="Side3"
+                     height={300}
+                    width={300}
+                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
+                  </span>
  <span
                     className="Side4 border-b-2 border-[#2dd760]"
                     style={{ "--i": 4 }}
                   >
                     <img
-                      src={Three}
+                      src={Four}
                       alt="Side4"
                       height={300}
                       width={300}
                        aria-label="Side 4 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
-                  <span
-                    className="side3 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 3 }}
-                  >
-                    <img src={Four}
-                     alt="Side3"
-                     height={300}
-                    width={300}
-                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
-                  </span>
+                 
 
                  
                 </div>
