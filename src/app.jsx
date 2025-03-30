@@ -1,6 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Main from "./main.jsx"
+
+
+import Main from "./main"
+
 import EasterPage from "./PagesFolder/EasterPage/EasterComponents/Easter.jsx";
 import {
   Route,
