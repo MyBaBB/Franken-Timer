@@ -1,0 +1,21 @@
+.canvasWrapper {
+    
+    width: 200px;
+    height: 200px;
+    margin: -2rem  auto -2rem;
+    z-index: -1;
+
+
+}
+
+
+canvas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+    
+    
+}  
