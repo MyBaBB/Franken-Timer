@@ -1,13 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import WolfWhistle from "../assets/wolf-whistle.wav";
+import WolfWhistle from "../../../assets/wolf-whistle.wav";
 
-import One from "../PagesFolder/EasterPage/Images/01EasterFrank300.jpg"; 
-import Two from "../PagesFolder/EasterPage/Images/02EasterFrank300.jpg"; 
-import Three from "../PagesFolder/EasterPage/Images/03EasterFrank300.jpg"; 
-import Four from "../PagesFolder/EasterPage/Images/04EasterFrank300.jpg"; 
-import Top from "../PagesFolder/EasterPage/Images/05EasterTopFrank300.jpg";
+import One from "../Images/01EasterFrank300.jpg"; 
+import Two from "../Images/02EasterFrank300.jpg"; 
+import Three from "../Images/03EasterFrank300.jpg"; 
+import Four from "../Images/04EasterFrank300.jpg"; 
+import Top from "../Images/05EasterTopFrank300.jpg";
 
  
  

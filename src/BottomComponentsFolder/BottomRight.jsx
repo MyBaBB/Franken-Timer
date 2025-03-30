@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import EyeBallRight from "../EyeBallFolder/EyeBallRight";
+import EyeBallRight from "../PagesFolder/EasterPage/EasterComponents/EasterBottomFolder/EasterEyeballFolder/EyeBallRight";
 import "./BottomComponents.css";
 
 

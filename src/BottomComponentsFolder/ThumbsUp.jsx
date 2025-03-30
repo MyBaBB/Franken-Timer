@@ -2,7 +2,7 @@
 import React from "react";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { FaRegThumbsDown } from "react-icons/fa";
-import "./ThumbsUp.css"
+
 const ThumbsUp = () => {
   return (
     <div className="thumbsUpWrapper ">

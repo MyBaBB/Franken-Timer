@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import BottomComponentLeft from "./BottomLeft";
-import BottomComponentRight from "./BottomRight";
-import MusicPlayer from "../MusicPlayerFolder/AddMusic";
-import "./Easter.css";
-import Ghost from "../assets/ghost-woo.mp3";
+import BottomComponentLeft from "./EasterEyeballFolder/EasterBottomLeft";
+import BottomComponentRight from "./EasterEyeballFolder/EasterBottomRight";
+import MusicPlayer from "../../../../MusicPlayerFolder/AddMusic";
+import "../Easter.css";
+import Ghost from "../../../../assets/ghost-woo.mp3";
 
 function GhostWooFunction() {
   const whipSmackAudio = new Audio(Ghost);
