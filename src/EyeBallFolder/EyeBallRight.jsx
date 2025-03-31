@@ -4,8 +4,9 @@ import { useState, Suspense, useEffect, useRef } from "react";
 import * as THREE from 'three';
 import { Canvas, useFrame, } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
- 
+import EyeBallCanvasLoader from './EyeBallCanvasLoader.jsx' 
 import EyeballRight from "./EyeballRightSource.jsx";
+import EyeBallLeft from "./EyeballLeftSource.jsx";
 import './Eyeball.css';
 
  
@@ -67,6 +68,7 @@ meshRef.current.lookAt(direction);
      <mesh ref={meshRef}  >
        <EyeballRight />
        <meshStandardMaterial color="blue" />
+       
      </mesh>
    );
  }
@@ -80,7 +82,7 @@ function Scene() {
       <ambientLight intensity={2.5} />
       <pointLight position={[0, 0, 0.1]} /> 
         <OrbitControls    enabled={false} enableZoom={false}/>
-        <Suspense fallback={null}>
+        <Suspense fallback={EyeBallCanvasLoader}>
                  <EyeFunction />
         </Suspense>
     

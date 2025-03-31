@@ -1,7 +1,7 @@
 import { Html, useProgress } from "@react-three/drei";
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./ThreeDFrontPage.css";
+
 const DeskCanvasLoader = () => {
   const { progress } = useProgress();
   return (
