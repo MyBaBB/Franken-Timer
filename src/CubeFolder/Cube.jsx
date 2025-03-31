@@ -4,9 +4,9 @@ import React from "react";
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
 import One from "../assets/01Frank300.jpg"; 
-import Two from "../assets/02Frank300.jpg"; 
+import Two from "../assets/22Jesus300px.mp4"; 
 import Three from "../assets/03Frank300.jpg"; 
-import Four from "../assets/04Frank300.jpg"; 
+import Four from "../assets/44Jesus300px.mp4"; 
 import Top from "../assets/05TopFrank300.jpg";
 
  
@@ -63,12 +63,16 @@ const Cube = () => {
                     className="Side2 border-b-2 border-[#2dd760]"
                     style={{ "--i": 2 }}
                   >
-                    <img src={Two}
-                     alt="Side2"
-                     height={300}
-                    width={300}
-                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
-                    
+                    <video
+                      src={Two}
+                      alt="Side2"
+                      height={300}
+                      width={300}
+                      autoPlay={true}
+                      loop={true}
+                      muted={true}
+                       aria-label="Side 2 of the Cube is a Frankensteins Monster image"
+                    />
                   </span>
 
                   <span
@@ -85,11 +89,16 @@ const Cube = () => {
                     className="Side4 border-b-2 border-[#2dd760] "
                     style={{ "--i": 4 }}
                   >
-                   <img src={Four}
-                     alt="Side4"
-                     height={300}
-                    width={300}
-                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
+                    <video
+                      src={Four}
+                      alt="Side4"
+                      height={300}
+                      width={300}
+                      autoPlay={true}
+                      loop={true}
+                      muted={true}
+                      aria-label="Side 4 of the Cube is a Frankensteins Monster video"
+                    />
                     
                   </span>
                  
