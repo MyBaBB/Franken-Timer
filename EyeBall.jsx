@@ -76,7 +76,7 @@ function Scene() {
  <div className="canvasWrapper ">
     <Canvas >
        
-    <Suspense fallback={<EyeBallCanvasLoader />} > 
+    <Suspense fallback={< EyeBallCanvasLoader />} > 
       <ambientLight intensity={2.5} />
       <pointLight position={[0, 0, 0.1]} /> 
         <OrbitControls    enabled={false} enableZoom={false}/>
