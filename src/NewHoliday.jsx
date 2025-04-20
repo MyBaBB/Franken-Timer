@@ -1,9 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
- 
+import "./NewHoliday.css"
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
-import { FaPersonRifle } from "react-icons/fa6";
+import { FaCross } from "react-icons/fa";
+ 
+
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
   DrumSolo.play();
@@ -25,8 +27,10 @@ const NewHoliday = () => {
              >
             <p
               className="topParagraph   whitespace-nowrap 
-              font-BlackOpsOne-Regular tracking-wider 
-              text-3xl sm:text-4xl md:text-4xl     "
+
+              font-Kingthings_Petrock tracking-wider 
+              text-2xl sm:text-3xl md:text-4xl     "
+
             >
              
               &nbsp;
@@ -35,10 +39,13 @@ const NewHoliday = () => {
            
              
              
-              <span className="inline-block  text-[#e6c587] -mt-4 mb-2 ">
-            Veterans Day  
+
+              <span className="inline-block  text-orange-400 hover:text-[aliceblue] -mt-4 mb-2 ">
+            Happy Easter&apos;s 
               </span>
-              <span className=" m-auto flex justify-center"><FaPersonRifle   color="lime" /></span> 
+              <span className="holidayIcon m-auto flex justify-center text-[aliceblue]
+               "><FaCross /></span> 
+
             </p>
           </a>
         </div>
@@ -58,7 +65,7 @@ const NewHoliday = () => {
                    "
               ></p>
               <span className="clockIcon mt-0 mr-2   ">
-                <IoHourglassOutline  size={40} color="orange" />
+                <IoHourglassOutline  size={35} className=" text-green-300 hidden sm:block" />
               </span>
             </div>
           </a>

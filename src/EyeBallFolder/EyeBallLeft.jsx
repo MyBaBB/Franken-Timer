@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { Canvas, useFrame, } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
 import EyeballLeft from "./EyeballLeftSource.jsx";
- 
+import EyeBallCanvasLoader from './EyeBallCanvasLoader.jsx' 
 import './Eyeball.css';
 
  
@@ -80,7 +80,7 @@ function Scene() {
       <ambientLight intensity={2.5} />
       <pointLight position={[0, 0, 0.1]} /> 
         <OrbitControls    enabled={false} enableZoom={false}/>
-        <Suspense fallback={null}>
+        <Suspense fallback={EyeBallCanvasLoader}>
                  <EyeFunction />
         </Suspense>
     
