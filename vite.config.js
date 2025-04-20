@@ -11,6 +11,7 @@ plugins: [
     ext: '.gz',
     deleteOriginFile: false,
     threshold: 10240,
+    assetsInclude: ['**/*.glb'],
   })
 ],
 build: {

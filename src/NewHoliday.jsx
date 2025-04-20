@@ -1,10 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./NewHoliday.css"
+import "./NewHoliday.css";
 import { IoHourglassOutline } from "react-icons/io5";
-import WolfWhistle from "./assets/wolf-whistle.wav"
+import WolfWhistle from "./assets/wolf-whistle.wav";
 import { FaCross } from "react-icons/fa";
- 
 
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
@@ -20,43 +19,38 @@ const NewHoliday = () => {
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={PlayWolfWhistle}     
+            onClick={PlayWolfWhistle}
             className="  topParagraphWrapper "
-            title="Click to go to Mybabb.com" 
+            title="Click to go to Mybabb.com"
             aria-label="Click to go to Mybabb.com"
-             >
+          >
             <p
               className="topParagraph   whitespace-nowrap 
-
-              font-Kingthings_Petrock tracking-wider 
-              text-2xl sm:text-3xl md:text-4xl     "
-
+              font-Kingthings_Petrock text-2xl 
+              tracking-wider sm:text-3xl md:text-4xl     "
             >
-             
               &nbsp;
-              
-           
-           
-             
-             
-
-              <span className="inline-block  text-orange-400 hover:text-[aliceblue] -mt-4 mb-2 ">
-            Happy Easter&apos;s 
+              <span className="-mt-4  mb-2 inline-block text-[greenyellow] hover:text-[aliceblue] ">
+                Memorial Day
               </span>
-              <span className="holidayIcon m-auto flex justify-center text-[aliceblue]
-               "><FaCross /></span> 
-
+              <span
+                className="holidayIcon m-auto flex justify-center text-[aliceblue]
+               "
+              >
+                <FaCross />
+              </span>
             </p>
           </a>
         </div>
 
         <div className="demoWrapper ">
-          <a href="https://Mybabb.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={PlayWolfWhistle}
-          title="Click to go to Mybabb.com"
-          aria-label="Click to go to Mybabb.com"
+          <a
+            href="https://Mybabb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={PlayWolfWhistle}
+            title="Click to go to Mybabb.com"
+            aria-label="Click to go to Mybabb.com"
           >
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
               <p
@@ -64,12 +58,14 @@ const NewHoliday = () => {
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
                    "
               ></p>
-              <span className="clockIcon mt-0 mr-2   ">
-                <IoHourglassOutline  size={35} className=" text-green-300 hidden sm:block" />
+              <span className="clockIcon mr-2 mt-0   ">
+                <IoHourglassOutline
+                  size={35}
+                  className=" hidden text-green-300 sm:block"
+                />
               </span>
             </div>
           </a>
-        
         </div>
       </div>
     </div>
