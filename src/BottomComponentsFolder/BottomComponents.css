@@ -59,7 +59,6 @@
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
   top: 0.59rem;
-
   left: 17.3rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
@@ -85,7 +84,7 @@
   transform-origin: right;
   transition: 0.35s;
   top: 0.5rem;
-  left: 11rem;
+  left: 11.3rem;
   bottom: 0.8rem;
   border: 15px solid transparent;
   border-right: rgb(153, 179, 102) 10px solid;

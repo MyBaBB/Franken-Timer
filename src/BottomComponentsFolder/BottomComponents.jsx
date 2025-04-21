@@ -17,14 +17,14 @@ const Rewind = () => {
       <div className="relative bottom-[10rem] z-40 flex h-fit w-screen  justify-center md:bottom-[5rem]  "></div>
       <div className="relative bottom-[6.3rem]  flex h-fit  w-screen  justify-between ">
         <a
-          href="https://resume-hub.mybabb.com/"
+          href="https://about.us.mybabb.com/AboutUsPage"
           target="_blank"
           rel="noopener noreferrer"
           onClick={GhostWooFunction}
         >
           <div
             className="dataToolTip81  font-BlackOpsOne-Regular    "
-            data-tool-tip="Portfolio Hub "
+            data-tool-tip="My Services "
             aria-label="Go to Brett's Portfolio Hub"
           >
             <div
