@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useRef } from "react";
 import Sound from "../assets/MonsterMash.mp3";
-import SpookySound from "../assets/SpookySound.mp3";
+import GunShotSound from "../assets/Gunshot.mp3";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { BiSolidVolumeMute } from "react-icons/bi";
 import { HiPauseCircle } from "react-icons/hi2";
@@ -20,8 +20,8 @@ function App() {
       audioRef.current.play();
 
       audioRef.current.addEventListener("ended", () => {
-        const spookyAudio = new Audio(SpookySound);
-        spookyAudio.play();
+        const gunShotAudio = new Audio(GunShotSound);
+        gunShotAudio.play();
       });
 
       setIsPlaying(true);
