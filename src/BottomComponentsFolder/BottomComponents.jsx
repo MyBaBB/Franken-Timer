@@ -23,7 +23,7 @@ const Rewind = () => {
           onClick={GhostWooFunction}
         >
           <div
-            className="dataToolTip81  font-Nosifer-Regular    "
+            className="dataToolTip81  font-BlackOpsOne-Regular    "
             data-tool-tip="Portfolio Hub "
             aria-label="Go to Brett's Portfolio Hub"
           >
@@ -43,7 +43,7 @@ const Rewind = () => {
           onClick={GhostWooFunction}
         >
           <div
-            className="dataToolTip82 font-Nosifer-Regular  "
+            className="dataToolTip82 font-BlackOpsOne-Regular  "
             data-tool-tip="My Home Page"
             aria-label="Go to Brett's Home Page"
           >
