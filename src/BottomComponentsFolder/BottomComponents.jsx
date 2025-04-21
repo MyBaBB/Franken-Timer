@@ -6,9 +6,9 @@ import MusicPlayer from "../MusicPlayerFolder/AddMusic";
 import "./BottomComponents.css";
 import Ghost from "../assets/Gunshot.mp3";
 
-function GhostWooFunction() {
-  const whipSmackAudio = new Audio(Ghost);
-  whipSmackAudio.play();
+function GunshotFunction() {
+  const gunshotAudio = new Audio(Ghost);
+  gunshotAudio.play();
 }
 const Rewind = () => {
   return (
@@ -20,7 +20,7 @@ const Rewind = () => {
           href="https://about.us.mybabb.com/AboutUsPage"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={GhostWooFunction}
+          onClick={GunshotFunction}
         >
           <div
             className="dataToolTip81  font-BlackOpsOne-Regular    "
@@ -40,7 +40,7 @@ const Rewind = () => {
           href="https://mybabb.com"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={GhostWooFunction}
+          onClick={GunshotFunction}
         >
           <div
             className="dataToolTip82 font-BlackOpsOne-Regular  "
