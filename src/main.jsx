@@ -14,11 +14,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <NewHoliday />
 
     <Timer />
-   
+     
+    {/* <AquariumDataTip /> */}
     <Cube />
 
     <ThumbsUp />
-
+    
     <BottomComponents />
   </React.StrictMode>,
 );

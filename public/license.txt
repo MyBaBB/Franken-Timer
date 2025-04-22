@@ -1,0 +1,11 @@
+Model Information:
+* title:	Classic M1 Helmet
+* source:	https://sketchfab.com/3d-models/classic-m1-helmet-455cc3674c294fa4a3c86134e18e6181
+* author:	RomarovArt (https://sketchfab.com/RomarArt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Classic M1 Helmet" (https://sketchfab.com/3d-models/classic-m1-helmet-455cc3674c294fa4a3c86134e18e6181) by RomarovArt (https://sketchfab.com/RomarArt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
