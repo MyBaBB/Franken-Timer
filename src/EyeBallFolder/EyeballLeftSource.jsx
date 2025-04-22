@@ -9,30 +9,95 @@ Title: blue_eyeball_free
 */
 
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useRef } from 'react'
 import { useGLTF } from "@react-three/drei";
-
+import Helmet2 from "./Helmet2.glb"
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/Helmet.gltf");
+  const { nodes, materials } = useGLTF(Helmet2);
   return (
-    <group {...props} dispose={null}>
-       <group rotation={[-Math.PI / 2, 0, 3]} position={[0, -2.5, 0]} scale={.175}>
-        <mesh geometry={nodes.Object_2.geometry} material={materials.BadgeFront} />
-        <mesh geometry={nodes.Object_3.geometry} material={materials.BadgeLeft} />
-        <mesh geometry={nodes.Object_4.geometry} material={materials.BadgeRight} />
-        <mesh geometry={nodes.Object_5.geometry} material={materials.Bullets} />
-        <mesh geometry={nodes.Object_6.geometry} material={materials.Card} />
-        <mesh geometry={nodes.Object_7.geometry} material={materials.CigaretteBox} />
-        <mesh geometry={nodes.Object_8.geometry} material={materials.DogTag} />
-        <mesh geometry={nodes.Object_9.geometry} material={materials.FrontStrap} />
-        <mesh geometry={nodes.Object_10.geometry} material={materials.HoldingStrap} />
-        <mesh geometry={nodes.Object_11.geometry} material={materials.InnerShell} />
-        <mesh geometry={nodes.Object_12.geometry} material={materials.OuterShell} />
-        <mesh geometry={nodes.Object_13.geometry} material={materials['Straps.Fasten']} />
-        <mesh geometry={nodes.Object_14.geometry} material={materials['Straps.Unfasten']} />
-      </group>
+    <group dispose={null}>
+     <group rotation={[-Math.PI / 2, 0, 3]} position={[0, -2.5, 0]} scale={.175}>
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_10.geometry}
+        material={materials.HoldingStrap}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_11.geometry}
+        material={materials.InnerShell}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_12.geometry}
+        material={materials.OuterShell}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_13.geometry}
+        material={materials['Straps.Fasten']}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_14.geometry}
+        material={materials['Straps.Unfasten']}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_2.geometry}
+        material={materials.BadgeFront}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_3.geometry}
+        material={materials.BadgeLeft}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_4.geometry}
+        material={materials.BadgeRight}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_5.geometry}
+        material={materials.Bullets}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_6.geometry}
+        material={materials.Card}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_7.geometry}
+        material={materials.CigaretteBox}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_8.geometry}
+        material={materials.DogTag}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_9.geometry}
+        material={materials.FrontStrap}
+      />
     </group>
+  </group>
   );
 }
 
-useGLTF.preload("/Helmet.gltf");
+useGLTF.preload("/Helmet2.glb");
