@@ -5,7 +5,7 @@ import { FaRegThumbsDown } from "react-icons/fa";
 import "./ThumbsUp.css";
 const ThumbsUp = () => {
   return (
-    <div className="thumbsUpWrapper ">
+    <div className="thumbsUpWrapper hidden ">
       <div className="post-ratings-container fixed bottom-2 ">
         <div className="post-rating">
           <span className="post-rating-button material-symbols-outlined  text-black">

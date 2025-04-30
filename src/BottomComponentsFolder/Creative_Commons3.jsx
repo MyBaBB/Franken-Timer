@@ -15,7 +15,7 @@ const Credits = () => {
   }, [isOpen]);
 
   return (
-    <div className="fixed bottom-4 right-4  z-50">
+    <div className="fixed bottom-0 right-4  z-50">
     <button
       className={`bg-gray-800 text-white text-opacity-90 px-2 text-[10px] rounded
          hover:bg-gray-700 ${isOpen ? 'hidden' : ''}`}
