@@ -118,14 +118,18 @@ const Cube = () => {
             </div>
           </a>
 
-          <p className="fixed bottom-0 left-[.3rem] xxs:left-[2rem] z-50 whitespace-nowrap text-[#abdbee] ">
-            <span className="text-[8px] text-[#abdbee]  sm:text-[10px] lg:text-sm
-            border-[.5px] border-black rounded-md p-[.5px] bg-[#0a0a0a]/50">
+          <p className="fixed bottom-0 left-[.3rem] z-50 whitespace-nowrap text-[#abdbee] xxs:left-[2rem] ">
+            <span
+              className="rounded-md border-[.5px]  border-black bg-[#0a0a0a]/50
+            p-[.5px] text-[8px] text-[#abdbee] sm:text-[10px] lg:text-sm"
+            >
               &lt;&lt;&lt;&copy;
-              <span className="text-orange-400  
-                ">
+              <span
+                className="text-orange-400  
+                "
+              >
                 Brett&apos;s
-                </span>{" "}
+              </span>{" "}
               <em>8-2023</em>&gt;&gt;&gt;
             </span>
           </p>

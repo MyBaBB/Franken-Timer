@@ -27,7 +27,6 @@ function EyeFunction() {
         x: (event.clientX / window.innerWidth) * 2 - 1,
         y: -(event.clientY / window.innerHeight) * 2 + 1,
       });
-   
     }
   };
 
@@ -42,7 +41,7 @@ function EyeFunction() {
 
   useFrame(() => {
     const cursorPosition = new THREE.Vector3(
-      -mousePos.x *1.4,
+      -mousePos.x * 1.4,
       -mousePos.y * 0.5,
       0,
     );

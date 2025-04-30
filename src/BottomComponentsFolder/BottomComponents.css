@@ -2,7 +2,7 @@
 .dataToolTip82:hover::after {
   --scale: 1;
 }
- /* right side */
+/* right side */
 .dataToolTip82::before {
   content: attr(data-tool-tip);
   background: radial-gradient(rgba(78, 104, 26), rgba(28, 38, 8));

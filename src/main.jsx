@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
-import OldNerd from "./TechSupportButton/TechSupportButton.jsx"
+import OldNerd from "./TechSupportButton/TechSupportButton.jsx";
 import Cube from "./CubeFolder/Cube.jsx";
 import Timer from "./Timer.jsx";
 import ThumbsUp from "./BottomComponentsFolder/ThumbsUp.jsx";
@@ -15,13 +15,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <NewHoliday />
 
     <Timer />
-     
+
     {/* <AquariumDataTip /> */}
     <Cube />
-     < OldNerd />  
+    <OldNerd />
     <ThumbsUp />
-    
+
     <BottomComponents />
-    < Credits />
+    <Credits />
   </React.StrictMode>,
 );
