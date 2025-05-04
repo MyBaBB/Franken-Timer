@@ -62,7 +62,7 @@ function EyeFunction() {
 }
 function Scene() {
   return (
-    <div className="canvasWrapper ">
+    <div className="canvasWrapper  ">
       <Canvas>
         <ambientLight intensity={2.5} />
         <pointLight position={[0, 0, 0.1]} />
