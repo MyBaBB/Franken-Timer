@@ -3,7 +3,7 @@ import React from "react";
 import "./NewHoliday.css";
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav";
-import { FaCross } from "react-icons/fa";
+import { GiFireworkRocket } from "react-icons/gi";
 
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
@@ -14,34 +14,23 @@ const NewHoliday = () => {
   return (
     <div className="fixed left-0 top-4 w-screen">
       <div className="relative flex xxxs:justify-center sm:justify-between   ">
-        <div className=" w-fit  sm:ml-4    ">
-          <a
-            href="https://Mybabb.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={PlayWolfWhistle}
-            className="  topParagraphWrapper "
-            title="Click to go to Mybabb.com"
-            aria-label="Click to go to Mybabb.com"
-          >
-            <p
-              className="topParagraph   whitespace-nowrap 
-              font-Kingthings_Petrock text-2xl 
-              tracking-wider sm:text-3xl md:text-4xl     "
-            >
-              &nbsp;
-              <span className="-mt-4  mb-2 inline-block text-[aliceblue] hover:text-[aliceblue] ">
-                Memorial Day
-              </span>
-              <span
-                className="holidayIcon m-auto flex justify-center text-[aliceblue]
-               "
-              >
-                <FaCross />
-              </span>
-            </p>
-          </a>
+         <div className="">
+      <a href="https://Mybabb.com"  className="  topParagraphWrapper relative justify-center  align-middle 
+      flex-row font-Kingthings_Petrock" >
+        <div className=" w-fit ">
+          <p className="topParagraph whitespace-nowrap pl-8
+              xxs:text-5xl xs:text-5xl sm:text-5xl md:text-5xl lg:text-6xl   ">
+          <span className='text-red-600 inline-block'  >July&nbsp;</span>
+          <span className='text-white inline-block mx-2' ><GiFireworkRocket size={29} /></span>
+          <span className='text-blue-700 inline-block '  >4</span>
+          <div className='text-blue-700 inline-block absolute  text-2xl  '  >th</div>
+          
+           </p> 
+          
+          
         </div>
+      </a>
+    </div>
 
         <div className="demoWrapper ">
           <a
@@ -61,7 +50,7 @@ const NewHoliday = () => {
               <span className="clockIcon mr-2 mt-0   ">
                 <IoHourglassOutline
                   size={35}
-                  className=" hidden text-green-300 sm:block"
+                  className=" hidden text-blue-200 sm:block"
                 />
               </span>
             </div>
