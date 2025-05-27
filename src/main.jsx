@@ -2,20 +2,26 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
-import Cube from "./Cube.jsx";
+import OldNerd from "./TechSupportButton/TechSupportButton.jsx";
+import Cube from "./CubeFolder/Cube.jsx";
 import Timer from "./Timer.jsx";
-import ThumbsUp from "./ThumbsUp.jsx";
+import ThumbsUp from "./BottomComponentsFolder/ThumbsUp.jsx";
 import NewHoliday from "./NewHoliday.jsx";
-import Rewind from "./Rewind.jsx";
+import BottomComponents from "./BottomComponentsFolder/BottomComponents.jsx";
+import Credits from "./BottomComponentsFolder/Creative_Commons3.jsx";
 // import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NewHoliday  />
-     
-    <Timer  /> 
+    <NewHoliday />
+
+    <Timer />
+
+    {/* <AquariumDataTip /> */}
     <Cube />
+    <OldNerd />
     <ThumbsUp />
-  
-    < Rewind />
+
+    <BottomComponents />
+    <Credits />
   </React.StrictMode>,
 );

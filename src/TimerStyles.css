@@ -1,91 +1,135 @@
 .timerStyles {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #e2d8d4;
-    
-    font-size: 2rem; 
-    font-weight: bold; 
-    text-shadow: 1px 1px 0 #000;
-  ;
-} 
-
- .timerStylesFinished1 {
-   color: red;
-   font-style: italic;
-   font-size: 2rem; 
-   font-weight: bold; 
-   text-shadow: 1px 1px 0 black;
+  color: rgb(243, 126, 126);
+  font-style: italic;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 black;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  margin-bottom: 15px;
 }
- .timerStylesFinished2 {
-   color: white;
-   font-style: italic;
-   font-size: 2rem; 
-   font-weight: bold; 
-   text-shadow: 1px 1px 0 black;
+.timerStylesSmall {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  color: aliceblue;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 55%;
+  margin-bottom: 15px;
 }
- .timerStylesFinished3 {
-   color: blue;
-   font-style: italic;
-   font-size: 2rem; 
-   font-weight: bold; 
-   text-shadow: 1px 1px 0 black;
+.timerStylesSmall:hover {
+  color: skyblue;
+}
+#demo {
+  padding: 2px;
+  text-shadow: #151515 0.5px 0.5px;
+  white-space: nowrap;
+  letter-spacing: 0.15px;
+  margin-right: 1.5rem;
+  margin-bottom: 15px;
 }
 
+.timerStylesFinished1 {
+  color: red;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 black;
+  font-family: "LibreBaskerville-Regular";
+  letter-spacing: 3px;
+  
+}
 
+.timerStylesFinished2 {
+  color: white;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 black;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  margin-bottom: 15px;
+}
+.timerStylesFinished3 {
+  color: blue;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 black;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  margin-bottom: 15px;
+}
 
+@media screen and (min-width: 320px) {
+  .timerStyles {
+    font-size: 1rem;
+  }
+  .timerStylesSmall {
+    font-size: 1rem;
+  }
+  .timerStylesFinished1 {
+    font-size: 1rem;
+  }
+  .timerStylesFinished2 {
+    font-size: 1rem;
+  }
+  .timerStylesFinished3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 420px) {
+  .timerStyles {
+    font-size: 1.2rem;
+  }
+  .timerStylesSmall {
+    font-size: 1.2rem;
+  }
+  .timerStylesFinished1 {
+    font-size: 1.2rem;
+  }
+  .timerStylesFinished2 {
+    font-size: 1.2rem;
+  }
+  .timerStylesFinished3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 785px) and (orientation: landscape) and (min-height: 375px) {
+  .timerStyles {
+    font-size: 1.9rem;
+  }
+  .timerStylesSmall {
+    font-size: 2rem;
+  }
+  .timerStylesFinished1 {
+    font-size: 2rem;
+  }
+  .timerStylesFinished2 {
+    font-size: 2rem;
+  }
+  .timerStylesFinished3 {
+    font-size: 2rem;
+  }
+}
 
+.clockIcon {
+  font-size: 1.5rem;
+  color: #e6c587;
+  text-shadow: 1px 1px 0 black;
+  padding: 2px;
+  margin-right: 0.25rem;
+}
 
-.outerDemoWrapper {
-   position: fixed;
-   top: 1rem;
-   right: 3rem;
-   padding: 2px;
-    
-   width: 18rem;
- }
- 
- 
- 
- .demoWrapper {
-   position: relative;
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   letter-spacing: 3px;
-   position: relative;
-   width: -moz-fit-content;
-   width: fit-content;
-   text-align: center;
-   font-weight: 500;
-   text-decoration: none;
-   text-shadow: #151515 0.5px 0.5px;
-   padding-inline: 1rem;
-   
-   
- }
- 
- #demo {
-   position: relative;
-   padding: 2px;
-   text-shadow: #151515 0.5px 0.5px;
-   white-space: nowrap;
-   letter-spacing: 0px;
-   
- }
 @media screen and (max-width: 500px) {
-   .outerDemoWrapper {
-     letter-spacing: 3px;
-     position: fixed;
-     display: flex;
-     left: 50%;
-     transform: translate(-50%);
-     width: -moz-fit-content;
-     width: fit-content;
-     height: -webkit-max-content;
-     height: -moz-max-content;
-     height: max-content;
-     text-shadow: #151515 0.5px 0.5px;
-     font-weight: 400;
-     text-decoration: none;
-     margin-top: 5rem;
-   }
- }
+  .demoWrapper {
+    letter-spacing: 3px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    text-shadow: #151515 0.5px 0.5px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+}
