@@ -36,9 +36,9 @@ const Timer = () => {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
         "<span>" +
-        " <span class='timerStylesFinished1'>U.S.A.</span>" +
-        "<span class='timerStylesFinished2'></span>" +
-        "<span class='timerStylesFinished3'>Warriors</span>" +
+        "<b><span class='timerStylesFinished1'>..Am</b></span>" +
+        "<span class='timerStylesFinished2'>eric</b></span>" +
+        "<span class='timerStylesFinished3'>ans</b></span>" +
         "</span>";
     }
   }, 1000);
