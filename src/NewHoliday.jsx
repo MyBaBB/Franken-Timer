@@ -30,7 +30,7 @@ const NewHoliday = () => {
               tracking-wider sm:text-3xl md:text-4xl     "
             >
               &nbsp;
-              <span className="-mt-4  mb-2 inline-block text-[greenyellow] hover:text-[aliceblue] ">
+              <span className="-mt-4  mb-2 inline-block text-[aliceblue] hover:text-[aliceblue] ">
                 Memorial Day
               </span>
               <span

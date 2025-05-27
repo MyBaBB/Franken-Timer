@@ -1,5 +1,5 @@
 .timerStyles {
-  color: greenyellow;
+  color: rgb(239, 80, 80);
   font-style: italic;
   font-size: 1.3rem;
   letter-spacing: 2px;
@@ -15,7 +15,7 @@
   margin-bottom: 15px;
 }
 .timerStylesSmall:hover {
-  color: green;
+  color: skyblue;
 }
 #demo {
   padding: 2px;
@@ -27,17 +27,18 @@
 }
 
 .timerStylesFinished1 {
-  color: greenyellow;
+  color: red;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular";
   letter-spacing: 3px;
+  
 }
 
 .timerStylesFinished2 {
-  color: green;
+  color: white;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -46,7 +47,7 @@
   margin-bottom: 15px;
 }
 .timerStylesFinished3 {
-  color: greenyellow;
+  color: blue;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
