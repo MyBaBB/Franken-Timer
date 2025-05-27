@@ -4,7 +4,6 @@ import "./TimerStyles.css";
 
 const Timer = () => {
   var countDownDate = new Date("July 4, 2025 00:00:00 PST").getTime();
-
   // Update the count down every 1 second
   var x = setInterval(function () {
     // Get today's date and time
