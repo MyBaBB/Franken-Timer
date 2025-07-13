@@ -37,7 +37,7 @@ const Cube = () => {
               <div className="cube">
                 <div className="top">
                   <img
-                    className="Top"
+                    className="Top rotate-180"
                     src={Top}
                     alt="Top"
                     height={300}
