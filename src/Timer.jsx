@@ -39,7 +39,7 @@ const Timer = () => {
       document.getElementById("demo").innerHTML =
         "<span>" +
 
-        " <span class='timerStylesFinished1'>Chilli</span>" +
+        " <span class='timerStylesFinished1'>Chili</span>" +
         "<span class='timerStylesFinished2'> </span>" +
         "<span class='timerStylesFinished3'>Doggers</span>" +
 

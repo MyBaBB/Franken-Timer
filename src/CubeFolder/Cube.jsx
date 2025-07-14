@@ -4,7 +4,7 @@ import React from "react";
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
 import One from "../assets/01Frank300-2.jpg"; 
-import Two from "../assets/02Frank300.jpg"; 
+import Two from "../assets/02Frank300-2.jpg"; 
 import Three from "../assets/03Frank300-3.jpg"; 
 import Four from "../assets/04Frank300-4.jpg"; 
 import Top from "../assets/05TopFrank300.jpg";
@@ -89,7 +89,7 @@ const Cube = () => {
                     style={{ "--i": 4}}
                   >
                     <img src={Four}
-                     alt="Side3"
+                     alt="Side"
                      height={300}
                     width={300}
                       aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>

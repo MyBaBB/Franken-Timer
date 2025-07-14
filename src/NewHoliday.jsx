@@ -41,7 +41,7 @@ const NewHoliday = () => {
              
 
               <span className="inline-block  text-orange-400 hover:text-[aliceblue] -mt-4 mb-2 ">
-            Chilli Dog Day 
+            Chili Dog Day 
               </span>
               <span className="holidayIcon m-auto flex justify-center text-[aliceblue]
                "><GiHotDog /></span> 
