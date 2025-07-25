@@ -73,7 +73,7 @@ meshRef.current.lookAt(direction);
 function Scene() {
  
   return (
- <div className="canvasWrapper ">
+ <div className="canvasWrapper  ">
     <Canvas >
          
          

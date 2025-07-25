@@ -3,15 +3,11 @@ import React from "react";
 import EyeBallRight from "../EyeBallFolder/EyeBallRight";
 import "./BottomComponents.css";
 
-
-
 const BottomRightComponent = () => {
   return (
-     
     <div className=" eyeScale relative    hidden md:flex  ">
-     < EyeBallRight />
+      <EyeBallRight />
     </div>
-     
   );
 };
 

@@ -3,6 +3,7 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
+<<<<<<< HEAD
 import One from "../assets/01Frank300-2.jpg"; 
 import Two from "../assets/02Frank300-2.jpg"; 
 import Three from "../assets/03Frank300-3.jpg"; 
@@ -13,6 +14,14 @@ import Top from "../assets/05TopFrank300.jpg";
 
  
  
+=======
+import One from "../assets/01Frank300.jpg";
+import Two from "../assets/02Frank300.jpg";
+import Three from "../assets/03Frank300.jpg";
+import Four from "../assets/04Frank300.jpg";
+import Top from "../assets/05TopFrank300.jpg";
+
+>>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
 import "./Cube.css";
 function WolfWhistleFunction() {
   const Wolf = new Audio(WolfWhistle);
@@ -26,7 +35,8 @@ const Cube = () => {
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
-          <a className="cubeLink"
+          <a
+            className="cubeLink"
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +65,7 @@ const Cube = () => {
                       src={One}
                       alt="Side1"
                       height={300}
-                    width={300}
+                      width={300}
                       aria-label="Side 1 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
@@ -65,25 +75,28 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                    className="Top"
-                    src={Two}
-                    alt="Top"
-                    height={300}
-                    width={300}
-                    aria-label="Top of Cube is a Turkey Leg image"
-                  />
+                      className="Top"
+                      src={Two}
+                      alt="Top"
+                      height={300}
+                      width={300}
+                      aria-label="Top of Cube is a Turkey Leg image"
+                    />
                   </span>
 
                   <span
                     className="side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img src={Three}
-                     alt="Side3"
-                     height={300}
-                    width={300}
-                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"/>
+                    <img
+                      src={Three}
+                      alt="Side3"
+                      height={300}
+                      width={300}
+                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"
+                    />
                   </span>
+<<<<<<< HEAD
           
                   <span
                     className="side3 border-b-2 border-[#2dd760]"
@@ -103,6 +116,23 @@ const Cube = () => {
 
 
                    {/* <span
+=======
+
+                  <span
+                    className="side4 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 4 }}
+                  >
+                    <img
+                      src={Four}
+                      alt="Side4"
+                      height={300}
+                      width={300}
+                      aria-label="Side 4 of the Cube is a Frankensteins Monster image"
+                    />
+                  </span>
+
+                  {/* <span
+>>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
                     className="Side4 border-b-2 border-[#2dd760] "
                     style={{ "--i": 4 }}
                      >
@@ -118,17 +148,29 @@ const Cube = () => {
                     />
                     
                   </span> */}
+<<<<<<< HEAD
                  
 
                  
+=======
+>>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
                 </div>
               </div>
             </div>
           </a>
 
-          <p className="fixed bottom-0 z-50 right-5 whitespace-nowrap text-[#abdbee]">
-            <span className="text-[8px] text-[#abdbee]  sm:text-[10px] lg:text-sm">
-              &lt;&lt;&lt;&copy;<span className="text-orange-400">Brett&apos;s</span>{" "}
+          <p className="fixed bottom-0 left-[.3rem] z-50 whitespace-nowrap text-[#abdbee] xxs:left-[2rem] ">
+            <span
+              className="rounded-md border-[.5px]  border-black bg-[#0a0a0a]/50
+            p-[.5px] text-[8px] text-[#abdbee] sm:text-[10px] lg:text-sm"
+            >
+              &lt;&lt;&lt;&copy;
+              <span
+                className="text-orange-400  
+                "
+              >
+                Brett&apos;s
+              </span>{" "}
               <em>8-2023</em>&gt;&gt;&gt;
             </span>
           </p>
