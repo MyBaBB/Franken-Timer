@@ -21,10 +21,10 @@ const NewHoliday = () => {
         <div className=" w-fit ">
           <p className="topParagraph whitespace-nowrap pl-8
               xxs:text-5xl xs:text-5xl sm:text-5xl md:text-5xl lg:text-6xl   ">
-          <span className='text-red-600 inline-block'  >July&nbsp;</span>
-          <span className='text-white inline-block mx-2' > </span>
-          <span className='text-blue-700 inline-block '  >4</span>
-          <div className='text-blue-700 inline-block absolute  text-2xl  '  >th</div>
+          <span className=' text-amber-500 inline-block'  >Chili&nbsp;</span>
+          <span className='text-amber-100 inline-block mx-2' >< GiHotDog size={30} /></span>
+          <span className='text-amber-500 inline-block '  >Dog</span>
+          <div className='text-amber-100 inline-block absolute  text-2xl '  >&nbsp;&nbsp; day</div>
           
            </p> 
           
@@ -42,28 +42,7 @@ const NewHoliday = () => {
             title="Click to go to Mybabb.com"
             aria-label="Click to go to Mybabb.com"
              >
-            <p
-              className="topParagraph   whitespace-nowrap 
-
-              font-Kingthings_Petrock tracking-wider 
-              text-2xl sm:text-3xl md:text-4xl     "
-
-            >
-             
-              &nbsp;
-              
-           
-           
-             
-             
-
-              <span className="inline-block  text-orange-400 hover:text-[aliceblue] -mt-4 mb-2 ">
-            Chili Dog Day 
-              </span>
-              <span className="holidayIcon m-auto flex justify-center text-[aliceblue]
-               "><GiHotDog /></span> 
-
-            </p>
+          
           </a>
         </div>
 
