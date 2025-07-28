@@ -2,14 +2,9 @@
 import React from "react";
 import "./NewHoliday.css";
 import { IoHourglassOutline } from "react-icons/io5";
-<<<<<<< HEAD
 import WolfWhistle from "./assets/wolf-whistle.wav"
 import { GiHotDog } from "react-icons/gi";
  
-=======
-import WolfWhistle from "./assets/wolf-whistle.wav";
-import { GiFireworkRocket } from "react-icons/gi";
->>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
 
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
@@ -27,7 +22,7 @@ const NewHoliday = () => {
           <p className="topParagraph whitespace-nowrap pl-8
               xxs:text-5xl xs:text-5xl sm:text-5xl md:text-5xl lg:text-6xl   ">
           <span className='text-red-600 inline-block'  >July&nbsp;</span>
-          <span className='text-white inline-block mx-2' ><GiFireworkRocket size={29} /></span>
+          <span className='text-white inline-block mx-2' > </span>
           <span className='text-blue-700 inline-block '  >4</span>
           <div className='text-blue-700 inline-block absolute  text-2xl  '  >th</div>
           
@@ -46,7 +41,6 @@ const NewHoliday = () => {
             onClick={PlayWolfWhistle}
             title="Click to go to Mybabb.com"
             aria-label="Click to go to Mybabb.com"
-<<<<<<< HEAD
              >
             <p
               className="topParagraph   whitespace-nowrap 
@@ -81,8 +75,6 @@ const NewHoliday = () => {
           onClick={PlayWolfWhistle}
           title="Click to go to Mybabb.com"
           aria-label="Click to go to Mybabb.com"
-=======
->>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
           >
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
               <p
@@ -90,16 +82,8 @@ const NewHoliday = () => {
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
                    "
               ></p>
-<<<<<<< HEAD
               <span className="clockIcon mt-0 mr-2   ">
                 <IoHourglassOutline  size={35} className=" text-[#ffa500] hidden sm:block" />
-=======
-              <span className="clockIcon mr-2 mt-0   ">
-                <IoHourglassOutline
-                  size={35}
-                  className=" hidden text-blue-200 sm:block"
-                />
->>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
               </span>
             </div>
           </a>

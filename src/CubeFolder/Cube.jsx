@@ -3,7 +3,7 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-<<<<<<< HEAD
+
 import One from "../assets/01Frank300-2.jpg"; 
 import Two from "../assets/02Frank300-2.jpg"; 
 import Three from "../assets/03Frank300-3.jpg"; 
@@ -14,14 +14,9 @@ import Top from "../assets/05TopFrank300.jpg";
 
  
  
-=======
-import One from "../assets/01Frank300.jpg";
-import Two from "../assets/02Frank300.jpg";
-import Three from "../assets/03Frank300.jpg";
-import Four from "../assets/04Frank300.jpg";
-import Top from "../assets/05TopFrank300.jpg";
 
->>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
+
+
 import "./Cube.css";
 function WolfWhistleFunction() {
   const Wolf = new Audio(WolfWhistle);
@@ -96,7 +91,6 @@ const Cube = () => {
                       aria-label="Side 3 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
-<<<<<<< HEAD
           
                   <span
                     className="side3 border-b-2 border-[#2dd760]"
@@ -116,23 +110,6 @@ const Cube = () => {
 
 
                    {/* <span
-=======
-
-                  <span
-                    className="side4 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 4 }}
-                  >
-                    <img
-                      src={Four}
-                      alt="Side4"
-                      height={300}
-                      width={300}
-                      aria-label="Side 4 of the Cube is a Frankensteins Monster image"
-                    />
-                  </span>
-
-                  {/* <span
->>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
                     className="Side4 border-b-2 border-[#2dd760] "
                     style={{ "--i": 4 }}
                      >
@@ -148,12 +125,9 @@ const Cube = () => {
                     />
                     
                   </span> */}
-<<<<<<< HEAD
                  
 
                  
-=======
->>>>>>> c513891ea769cab7e724bc78b87de78bbb0c8f70
                 </div>
               </div>
             </div>
