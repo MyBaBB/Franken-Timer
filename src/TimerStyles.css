@@ -15,8 +15,9 @@
   margin-bottom: 15px;
 }
 .timerStylesSmall:hover {
-  color: green;
+  color: gray;
 }
+
 #demo {
   padding: 2px;
   text-shadow: #151515 0.5px 0.5px;
