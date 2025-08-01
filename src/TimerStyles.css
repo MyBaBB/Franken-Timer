@@ -27,7 +27,7 @@
 }
 
 .timerStylesFinished1 {
-  color: red;
+  color:whitesmoke;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -43,7 +43,7 @@
 
 
 .timerStylesFinished2 {
-  color: red;
+  color:whitesmoke;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -52,7 +52,7 @@
   margin-bottom: 15px;
 }
 .timerStylesFinished3 {
-  color: red;
+  color:whitesmoke;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;

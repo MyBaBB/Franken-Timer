@@ -4,10 +4,11 @@ import BottomComponentLeft from "./BottomLeft";
 import BottomComponentRight from "./BottomRight";
 import MusicPlayer from "../MusicPlayerFolder/AddMusic";
 import "./BottomComponents.css";
-import Ghost from "../assets/ghost-woo.mp3";
+ 
+import SnoreSound from "../assets/Snore.wav";
 
-function GhostWooFunction() {
-  const whipSmackAudio = new Audio(Ghost);
+function SnoreFunction() {
+  const whipSmackAudio = new Audio(SnoreSound);
   whipSmackAudio.play();
 }
 const Rewind = () => {
@@ -24,7 +25,7 @@ const Rewind = () => {
             href="https://resume-hub.mybabb.com/"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={GhostWooFunction}
+            onClick={SnoreFunction}
           >
             <div
               className="dataToolTip81  font-Nosifer-Regular    "
@@ -45,7 +46,7 @@ const Rewind = () => {
             href="https://mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={GhostWooFunction}
+            onClick={SnoreFunction}
           >
             <div
               className="dataToolTip82 font-Nosifer-Regular  "
