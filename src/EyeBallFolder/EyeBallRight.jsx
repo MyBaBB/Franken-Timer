@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 
  
 import { useState, Suspense, useEffect, useRef } from "react";
@@ -6,7 +7,7 @@ import { Canvas, useFrame, } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
 import EyeBallCanvasLoader from './EyeBallCanvasLoader.jsx' 
 import EyeballRight from "./EyeballRightSource.jsx";
-import EyeBallLeft from "./EyeballLeftSource.jsx";
+
 import './Eyeball.css';
 
  

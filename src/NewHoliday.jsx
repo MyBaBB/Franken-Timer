@@ -3,7 +3,7 @@ import React from "react";
 import "./NewHoliday.css"
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/wolf-whistle.wav"
-import { GiHotDog } from "react-icons/gi";
+import { FaShieldDog } from "react-icons/fa6";
  
 
 function PlayWolfWhistle() {
@@ -41,10 +41,10 @@ const NewHoliday = () => {
              
 
               <span className="inline-block  text-orange-400 hover:text-[aliceblue] -mt-4 mb-2 ">
-           National Lazy Day 
+           Labor Day 
               </span>
               <span className="holidayIcon m-auto flex justify-center text-[aliceblue]
-               "><GiHotDog /></span> 
+               "><FaShieldDog /></span> 
 
             </p>
           </a>
