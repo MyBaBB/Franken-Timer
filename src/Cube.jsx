@@ -3,7 +3,7 @@ import React from "react";
 
  
 import WolfeWhistle from "./assets/wolf-whistle.wav";
-import Booby from "./assets/0-300pxGoodyBooby.jpg";
+import Booby from "./assets/0-300pxCanoeRide.jpg";
 import FrankenDrink from "./assets/2-300pxFrankenDrink.jpg";
  
 import FrankenColumbus from "./assets/1-300pxFrankenColumbus.jpg"; 
