@@ -36,7 +36,7 @@ const Timer = () => {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
         "<span>" +
-        " <span class='timerStylesFinished1'>Everybody </span>" +
+        " <span class='timerStylesFinished1'> Everybody </span>" +
         "<span class='timerStylesFinished2'>Get </span>" +
         "<span class='timerStylesFinished3'>Along </span>" +
         "</span>";
