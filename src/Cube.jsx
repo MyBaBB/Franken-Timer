@@ -4,7 +4,7 @@ import React from "react";
  
 import WolfeWhistle from "./assets/wolf-whistle.wav";
 import Booby from "./assets/0-300pxCanoeRide.jpg";
-import FrankenDrink from "./assets/2-300pxFrankenDrink.jpg";
+import FrankenDrink from "./assets/2-300pxFrankenDrink2.jpg";
  
 import FrankenColumbus from "./assets/1-300pxFrankenColumbus.jpg"; 
 import FrankenBride from "./assets/3-300pxFrankenGirly.jpg"
