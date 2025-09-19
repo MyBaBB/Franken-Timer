@@ -3,11 +3,11 @@ import React from "react";
 
  
 import WolfeWhistle from "./assets/wolf-whistle.wav";
-import FrankenCasino from "./assets/4-300pxCasino.jpg";
-import FrankenBeach from "./assets/2-300pxFrankenBeach4.jpg";
+import FrankenCasino from "./assets/4-300pxCasino44.jpg";
+import FrankenBeach from "./assets/2-300pxFrankenBeach44.jpg";
  
-import FrankenColumbus from "./assets/1-300px1FrankenColumbus4.jpg"; 
-import FrankenCastle from "./assets/3-300pxFrankenCastle.jpg"
+import FrankenColumbus from "./assets/1-300px1FrankenColumbus44.jpg"; 
+import FrankenCastle from "./assets/3-300pxFrankenCastle44.jpg"
 import Top from "./assets/Choctaw300.jpg"
 import "./Cube.css";
 function WolfWhistle() {
