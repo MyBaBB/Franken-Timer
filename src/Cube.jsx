@@ -4,9 +4,9 @@ import React from "react";
  
 import WolfeWhistle from "./assets/wolf-whistle.wav";
 import Booby from "./assets/0-300pxCanoeRide.jpg";
-import FrankenDrink from "./assets/2-300pxFrankenDrink3.jpg";
+import FrankenDrink from "./assets/2-300pxFrankenDrink4.jpg";
  
-import FrankenColumbus from "./assets/1-300pxFrankenColumbus.jpg"; 
+import FrankenColumbus from "./assets/1-300px1FrankenColumbus2.jpg"; 
 import FrankenBride from "./assets/3-300pxFrankenGirly.jpg"
 import Top from "./assets/Choctaw300.jpg"
 import "./Cube.css";
