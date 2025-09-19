@@ -3,11 +3,11 @@ import React from "react";
 
  
 import WolfeWhistle from "./assets/wolf-whistle.wav";
-import Booby from "./assets/0-300pxCanoeRide3.jpg";
-import FrankenDrink from "./assets/2-300pxFrankenDrink4.jpg";
+import FrankenCasino from "./assets/4-300pxCasino.jpg";
+import FrankenBeach from "./assets/2-300pxFrankenBeach4.jpg";
  
 import FrankenColumbus from "./assets/1-300px1FrankenColumbus4.jpg"; 
-import FrankenBride from "./assets/3-300pxFrankenGirlyer.jpg"
+import FrankenCastle from "./assets/3-300pxFrankenCastle.jpg"
 import Top from "./assets/Choctaw300.jpg"
 import "./Cube.css";
 function WolfWhistle() {
@@ -17,7 +17,7 @@ function WolfWhistle() {
 
 const Cube = () => {
   return (
-    <div>
+    <div> 
       <div className="container ">
         <br />
 
@@ -45,7 +45,7 @@ const Cube = () => {
                     style={{ "--i": 1 }}
                   >
                     <img
-                      src={Booby}
+                      src={FrankenBeach}
                       alt="Side1"
                       height="300"
                       width="300"
@@ -64,21 +64,21 @@ const Cube = () => {
                     />
                   </span>
  <span
-                    className="Side4 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 4 }}
+                    className="Side3 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 3 }}
                   >
                     <img
-                      src={FrankenDrink}
-                      alt="Side4"
+                      src={FrankenCasino}
+                      alt="Side3"
                       height="300"
                       width="300"
                     />
                   </span>
                   <span
-                    className="side3 border-b-2 border-[#2dd760]"
-                    style={{ "--i": 3 }}
+                    className="side4 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 4 }}
                   >
-                    <img src={FrankenBride} alt="Side3" height="300" width="300" />
+                    <img src={FrankenCastle} alt="Side4" height="300" width="300" />
                   </span>
 
                  
