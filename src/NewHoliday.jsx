@@ -41,6 +41,7 @@ const NewHoliday = () => {
         </div>
 
         <div className="demoWrapper ">
+          <p className="demoText text-[#fcb54d]  text-center font-Creepster-Regular">Franken-Timer</p>
           <a href="https://Mybabb.com"
           target="_blank"
           rel="noopener noreferrer"
