@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./favicon.png" />
+    <!-- <link rel="icon" type="image/png" href="./favicon.png" /> -->
+    
+
+    <link id="favicon" rel="icon" href="favicon1.png" type="image/x-icon">
+    
     <meta name="google-site-verification"
       content="N1Kv_9Bc2iJDNV-qP331BhPnkzd79T0xVx1X1gLquEc" />
       <!-- HTML Meta Tags -->
@@ -31,14 +35,33 @@
 <meta name="twitter:title" content="Franken-Timer">
 <meta name="twitter:description" content="Cool Holiday Timer ">
 <meta name="twitter:image" content="https://fastweb.mybabb.com/images/FrankenMoonPie.jpg">
-
+<link rel="preload" href="favicon1.png" as="image">
+<link rel="preload" href="favicon2.png" as="image">
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
- 
-   
   </head>
+
+
+
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+  <script>
+  const favicons = ["favicon1.png", "favicon2.png"];
+  let current = 0;
+
+  function flicker() {
+    const link = document.getElementById("favicon");
+    current = (current + 1) % favicons.length;
+    link.href = favicons[current];
+
+    // Random delay between 300ms and 3000ms
+    const delay = Math.floor(Math.random() * (3000 - 300 + 1)) + 300;
+    setTimeout(flicker, delay);
+  }
+
+  flicker(); // Start the flicker loop
+</script>
 </html>
