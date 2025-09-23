@@ -40,14 +40,16 @@ const NewHoliday = () => {
           </a>
         </div>
 
-        <div className="demoWrapper ">
-          <p className="demoText text-[#fcb54d]  text-center font-Creepster-Regular">Franken-Timer</p>
+        <div className="demoWrapper  ">
+         <p className="demoText hidden sm:block text-[#fcb54d] whitespace-nowrap relative
+                              text-center font-Creepster-Regular">Franken-Timer</p>
           <a href="https://Mybabb.com"
           target="_blank"
           rel="noopener noreferrer"
           onClick={PlayWolfWhistle}
           >
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
+               
               <p
                 id="demo"
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
