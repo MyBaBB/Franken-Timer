@@ -2,11 +2,16 @@
 import React from "react";
 
 import { IoHourglassOutline } from "react-icons/io5";
-import WolfWhistle from "./assets/wolf-whistle.wav"
+import WolfWhistle from "./assets/PutCandleBack.mp3";
+import WolfWhistle2 from "./assets/LookDoctor.mp3";
  
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
   DrumSolo.play();
+}
+function PlayWolfWhistle2() {
+  const DrumSolo2 = new Audio(WolfWhistle2);
+  DrumSolo2.play();
 }
 
 const NewHoliday = () => {
@@ -46,7 +51,7 @@ const NewHoliday = () => {
           <a href="https://Mybabb.com"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={PlayWolfWhistle}
+          onClick={PlayWolfWhistle2}
           >
             <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
                
