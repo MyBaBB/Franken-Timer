@@ -10,6 +10,7 @@ import FlameStone2 from "./WallSconceImages/Flame-Stone-4.jpg";
 import FlameStone3 from "./WallSconceImages/Flame-Stone-3.jpg";
 import FlameStone4 from "./WallSconceImages/Flame-Stone-2.jpg";
 import FlameStone5 from "./WallSconceImages/Flame-Stone-1.jpg";
+import FlameStone6 from "./WallSconceImages/Flame-Stone-3.jpg";
 
 
 
@@ -20,10 +21,9 @@ import FlameStone5 from "./WallSconceImages/Flame-Stone-1.jpg";
 
 
 
+ 
 
-
-
-const flameFrames = [FlameStone1, FlameStone2, FlameStone3, FlameStone4, FlameStone5];
+const flameFrames = [FlameStone1, FlameStone2, FlameStone3, FlameStone4, FlameStone5, FlameStone6];
 
 const WallSconce = () => {
   const [currentFrame, setCurrentFrame] = useState(0);
@@ -31,7 +31,7 @@ const WallSconce = () => {
   useEffect(() => {
     const flickerInterval = setInterval(() => {
       setCurrentFrame((prevFrame) => (prevFrame + 1) % flameFrames.length);
-    }, 2000); // Adjust timing for faster/slower flicker
+    }, 250); // Adjust timing for faster/slower flicker
 
     return () => clearInterval(flickerInterval);
   }, []);

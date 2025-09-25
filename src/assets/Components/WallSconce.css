@@ -15,17 +15,16 @@
 .flame {
   width: 100px;
   height: auto;
-  animation: subtleGlow 4s infinite ease-in-out;
+   animation: flickerGlow 1.35s infinite ease-in-out;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+
 }
 
-@keyframes subtleGlow {
-  0% {
-    filter: brightness(.95);
-  }
-  50% {
-    filter: brightness(1.1);
-  }
-  100% {
-    filter: brightness(1);
-  }
+@keyframes flickerGlow {
+  0%   { opacity: 0.9; filter: brightness(1); }
+  20%  { opacity: 1; filter: brightness(1.01); }
+  40%  { opacity: 0.85; filter: brightness(0.99); }
+  60%  { opacity: 1; filter: brightness(1.01); }
+  80%  { opacity: 0.88; filter: brightness(1); }
+  100% { opacity: 1; filter: brightness(1.01); }
 }
