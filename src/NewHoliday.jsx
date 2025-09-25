@@ -47,7 +47,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle2}
           >
-            <div className="  relative flex min-w-[225px] lg:min-w-[335px]  ">
+            <div className="mt-2 relative flex min-w-[225px] lg:min-w-[335px]  ">
               <p
                 id="demo"
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
