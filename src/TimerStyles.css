@@ -17,7 +17,7 @@
   white-space: nowrap;
   letter-spacing: 0.15px;
   margin-right: 1.5rem;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
 }
 
 .timerStylesFinished1 {
@@ -26,23 +26,26 @@
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .timerStylesFinished2 {
-  color:   sandybrown;
+  color: sandybrown;
   font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
-  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .timerStylesFinished3 {
-  color:sandybrown;
+  color: sandybrown;
   font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
-  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .clockIcon {

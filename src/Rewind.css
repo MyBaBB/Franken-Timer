@@ -4,7 +4,7 @@
 }
 .dataToolTip82::before {
   content: attr(data-tool-tip);
-  background: radial-gradient(#535a47,  #d9d4c3);
+  background: radial-gradient(#535a47, #d9d4c3);
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
@@ -51,13 +51,13 @@
 }
 .dataToolTip81::before {
   content: attr(data-tool-tip);
-  background: radial-gradient(#535a47,  #d9d4c3);
+  background: radial-gradient(#535a47, #d9d4c3);
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
   top: 0.59rem;
- 
+
   left: 17.3rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
@@ -100,7 +100,7 @@
   transform: scaleX(-1);
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .dataToolTip81::before,
   .dataToolTip81::after,
   .dataToolTip82::before,

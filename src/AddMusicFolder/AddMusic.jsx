@@ -9,14 +9,11 @@ import { HiPlayCircle } from "react-icons/hi2";
 import { VscDebugRestart } from "react-icons/vsc";
 import "./AddMusic.css";
 
-
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
   const audioRef = useRef(null);
 
-
- 
   function play() {
     if (!isPlaying) {
       audioRef.current = new Audio(Sound);
@@ -49,7 +46,7 @@ function App() {
       setIsPlaying(false);
     }
   }
-  
+
   function increaseVolume() {
     if (audioRef.current) {
       const newVolume = Math.min(volume + 0.1, 1);

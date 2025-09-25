@@ -1,14 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
- 
 import WolfeWhistle from "./assets/wolf-whistle.wav";
 import FrankenCasino from "./assets/4-300pxCasino44.jpg";
 import FrankenBeach from "./assets/2-300pxFrankenBeach444.jpg";
- 
-import FrankenColumbus from "./assets/1-300px1FrankenColumbus44.jpg"; 
-import FrankenCastle from "./assets/3-300pxFrankenCastle44.jpg"
-import Top from "./assets/Choctaw300.jpg"
+
+import FrankenColumbus from "./assets/1-300px1FrankenColumbus44.jpg";
+import FrankenCastle from "./assets/3-300pxFrankenCastle44.jpg";
+import Top from "./assets/Choctaw300.jpg";
 import "./Cube.css";
 function WolfWhistle() {
   const Wolf = new Audio(WolfeWhistle);
@@ -17,12 +16,13 @@ function WolfWhistle() {
 
 const Cube = () => {
   return (
-    <div> 
+    <div>
       <div className="container ">
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
-          <a className="cubeLink"
+          <a
+            className="cubeLink"
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const Cube = () => {
                       width="300"
                     />
                   </span>
- <span
+                  <span
                     className="Side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
@@ -78,10 +78,13 @@ const Cube = () => {
                     className="side4 border-b-2 border-[#2dd760]"
                     style={{ "--i": 4 }}
                   >
-                    <img src={FrankenCastle} alt="Side4" height="300" width="300" />
+                    <img
+                      src={FrankenCastle}
+                      alt="Side4"
+                      height="300"
+                      width="300"
+                    />
                   </span>
-
-                 
                 </div>
               </div>
             </div>
