@@ -9,7 +9,7 @@
 }
 
 .flame {
-  width: 100%;
+  width: 100px;
   height: auto;
   animation: subtleGlow 2.9s infinite ease-in-out;
 }
