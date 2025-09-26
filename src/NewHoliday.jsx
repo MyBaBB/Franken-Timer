@@ -57,7 +57,7 @@ const NewHoliday = () => {
                 <IoHourglassOutline color="lightgray" />
               </span>
             </div>
-            <p className="wallSconceWrapper2 pt-[4rem] bp500:pt-2 ">
+            <p className="wallSconceWrapper2 pt-[4rem] bp500:pt-[.7rem] ">
   <WallSconce />
 </p>
 
