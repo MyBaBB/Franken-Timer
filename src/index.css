@@ -7,6 +7,9 @@
     rgba(65, 79, 91, 1) 60%-80%,
     rgba(151, 145, 144, 1) 100%
   );
+ 
+  background-repeat: repeat;
+
 }
 body {
   top: 0;
@@ -17,8 +20,8 @@ body {
   height: screen;
   position: fixed;
 
-  background-image: linear-gradient(
-    rgba(55, 124, 178, 1) 15%,
+   background-image: linear-gradient(
+    rgba(55, 124, 177, 1) 15%,
     rgba(65, 79, 91, 1) 60%-80%,
     rgba(151, 145, 144, 1) 100%
   );

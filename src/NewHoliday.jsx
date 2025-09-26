@@ -30,13 +30,13 @@ const NewHoliday = () => {
             <p
               className="topParagraph   whitespace-nowrap 
                text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
-            >
+            > 
               &nbsp;
-              <span className="-mt-4  inline-block text-[#fcb54d]  ">
+              <span className="mt-2  inline-block text-[#fcb54d]  ">
                 Indigenous Day
               </span>
             </p>
-            <WallSconce />
+            <p className="wallSconceWrapper relative  pt-2 hidden bp500:block "> <WallSconce /></p>
           </a>
         </div>
 
@@ -57,7 +57,10 @@ const NewHoliday = () => {
                 <IoHourglassOutline color="lightgray" />
               </span>
             </div>
-            <WallSconce />
+            <p className="wallSconceWrapper2 pt-[4rem] bp500:pt-2 ">
+  <WallSconce />
+</p>
+
           </a>
         </div>
       </div>

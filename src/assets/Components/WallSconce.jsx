@@ -38,8 +38,8 @@ const WallSconce = () => {
 
   return (
     <div
-      className="wall-sconce m-auto hidden 
-          h-auto w-fit border-2 border-red-500 md:block"
+      className="wall-sconce m-auto   
+          h-auto w-fit   "
     >
       <img
         src={flameFrames[currentFrame]}
