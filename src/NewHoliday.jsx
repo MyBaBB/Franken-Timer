@@ -12,6 +12,7 @@ function PlayWolfWhistle() {
 function PlayWolfWhistle2() {
   const DrumSolo2 = new Audio(WolfWhistle2);
   DrumSolo2.play();
+  
 }
 
 const NewHoliday = () => {
