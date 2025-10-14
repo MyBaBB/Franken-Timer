@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 :root {
-  background-image: url('/public/Stone_Floor.png');
+  background-image: url('/StoneerrRipper.webp');
   background-repeat: repeat;
   background-size: cover;
   overflow: hidden;
