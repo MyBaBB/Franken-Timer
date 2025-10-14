@@ -20,4 +20,15 @@ animation: colorChangePulseScale 12s infinite;
   }
 }
 
- 
+ @media screen and (max-width: 500px) {
+ .wallSconceWrapper{
+  display:none}
+  
+}
+ @media screen and (min-width: 500px) {
+ .wallSconceWrapper{
+
+  margin-top: 1rem;
+}
+  
+}

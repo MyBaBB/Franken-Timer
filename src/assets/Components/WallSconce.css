@@ -23,12 +23,7 @@
   padding-top: 3rem; /* Default padding (pt-12) */
 }
 
-@media (min-width: 500px) {
-  .wallSconceWrapper2 {
-    padding-top: 5rem; /* Override at 500px (pt-2) */
-    
-  }
-}
+
 }
 
 .flame {

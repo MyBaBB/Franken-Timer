@@ -2,12 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 :root {
-  background-image: linear-gradient(
-    rgba(55, 124, 177, 1) 16%,
-    rgba(65, 79, 91, 1) 60%-80%,
-    rgba(151, 145, 144, 1) 100%
-  );
-}
+  background-image: url('./Stone_Floor.png');
+  background-repeat: repeat;
+  background-size: cover;
+  overflow: hidden;
+};
 body {
   top: 0;
   left: 0;
@@ -17,11 +16,7 @@ body {
   height: screen;
   position: fixed;
 
-  background-image: linear-gradient(
-    rgba(55, 124, 178, 1) 15%,
-    rgba(65, 79, 91, 1) 60%-80%,
-    rgba(151, 145, 144, 1) 100%
-  );
+ 
 }
 @font-face {
   font-family: "DM_Serif_Display";
