@@ -1,0 +1,110 @@
+.dataToolTip82:hover::before,
+.dataToolTip82:hover::after {
+  --scale: 1;
+}
+.dataToolTip82::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(rgb(226, 222, 222),  #b17065);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: ease-in 0.25s;
+  top: 0.59rem;
+
+  right: 3.1rem;
+  border: 1px solid salmon;
+  border-radius: 10px;
+  color: rgb(195, 22, 22);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 51;
+}
+
+.dataToolTip82::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: 0.35s;
+  top: 0.5rem;
+  right: 7.9rem;
+  border: 15px solid transparent;
+  border-left: salmon 10px solid;
+  border-radius: 15px;
+
+  --scale: 0;
+  z-index: 49;
+}
+
+.dataToolTip81:hover::before,
+.dataToolTip81:hover::after {
+  --scale: 1;
+}
+.dataToolTip81::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(rgb(226, 222, 222), #b17065);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  top: 0.59rem;
+ 
+  left: 17.3rem;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: ease-in 0.25s;
+  border: 1px solid salmon;
+  border-radius: 10px;
+  color: rgb(195, 22, 22);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 50;
+}
+
+.dataToolTip81::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: 0.35s;
+  top: 0.5rem;
+  left: 9.28rem;
+  bottom: 0.8rem;
+  border: 15px solid transparent;
+  border-right: salmon 10px solid;
+  border-radius: 15px;
+
+  --scale: 0;
+  z-index: 49;
+}
+/* .forward {
+  transform: scaleX(-1);
+} */
+.rewind {
+  transform: scaleX(-1);
+}
+
+@media screen and (max-width:685px) {
+  .dataToolTip81::before,
+  .dataToolTip81::after,
+  .dataToolTip82::before,
+  .dataToolTip82::after {
+    display: none;
+  }
+}
