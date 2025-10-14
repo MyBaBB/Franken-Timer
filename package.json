@@ -1,10 +1,12 @@
 {
-  "name": "franken-timer",
+  "name": "newstuff",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mybabb.github.io/MyBABBFrankenTimer",
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
@@ -16,12 +18,9 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.10",
-    "@react-three/drei": "^9.114.2",
-    "@react-three/fiber": "^8.17.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
-    "three": "^0.169.0"
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
@@ -34,11 +33,11 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.1.0",
-    "vite-plugin-compression": "^0.5.1"
+    "vite": "^5.1.0"
   }
 }

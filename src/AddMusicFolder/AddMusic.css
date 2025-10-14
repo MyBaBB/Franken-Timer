@@ -1,0 +1,12 @@
+.speaker,
+.pauseButton {
+  margin-inline: 1rem;
+}
+/* disable volume buttons on mobile */
+
+@media only screen and (max-width: 470px) {
+  .volumeUp,
+  .volumeDown {
+    display: none;
+  }
+}

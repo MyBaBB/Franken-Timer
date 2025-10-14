@@ -3,7 +3,8 @@ import React from "react";
 import "./TimerStyles.css";
 
 const Timer = () => {
-  var countDownDate = new Date("July 4, 2025 00:00:00 PST").getTime();
+  var countDownDate = new Date("october 13, 2025 00:00:00 PST").getTime();
+
   // Update the count down every 1 second
   var x = setInterval(function () {
     // Get today's date and time
@@ -35,9 +36,9 @@ const Timer = () => {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
         "<span>" +
-        "<b><span class='timerStylesFinished1'>..Am</b></span>" +
-        "<b><span class='timerStylesFinished2'>eric</b></span>" +
-        "<b><span class='timerStylesFinished3'>ans</b></span>" +
+        " <span class='timerStylesFinished1'> Everybody </span>" +
+        "<span class='timerStylesFinished2'>Get </span>" +
+        "<span class='timerStylesFinished3'>Along </span>" +
         "</span>";
     }
   }, 1000);

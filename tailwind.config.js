@@ -93,6 +93,7 @@ export const theme = {
       md: "685px",
       lg: "1024px",
       xl: "1280px",
+      'bp500': '500px', // Custom breakpoint
     },
   },
 };
