@@ -1,14 +1,14 @@
 .wall-sconce {
   position: relative;
-  background: #1f1f1f ;
+  background: transparent;
   padding-top: 0.75rem;
-  border: 1px solid rgba(119, 120, 124, 0.5);
-  border-top-left-radius: 45%;
-  border-top-right-radius: 45%;
-  border-bottom-left-radius: 15%;
-  border-bottom-right-radius: 15%;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
+ 
+ 
+ 
+ 
+ 
+ 
+  
 }
 @media screen and (max-width: 50px) and (max-height: 350px) and (orientation: landscape) {
   .wall-sconce {
