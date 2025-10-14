@@ -2,14 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 :root {
- background-image: url('/StoneWallBest.jpg');
+  background-image: url("/StoneWallBest.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
-  
-  overflow: hidden;
 
-};
+  overflow: hidden;
+}
 body {
   top: 0;
   left: 0;
@@ -18,8 +17,6 @@ body {
   width: screen;
   height: screen;
   position: fixed;
- 
- 
 }
 @font-face {
   font-family: "DM_Serif_Display";
@@ -202,4 +199,3 @@ body {
   font-family: "Yellowtail-Regular";
   src: url(../GoogleFonts/Yellowtail-Regular.ttf);
 }
-

@@ -4,7 +4,7 @@
 }
 .dataToolTip82::before {
   content: attr(data-tool-tip);
-  background: radial-gradient(rgb(226, 222, 222),  #b17065);
+  background: radial-gradient(rgb(226, 222, 222), #b17065);
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
@@ -57,7 +57,7 @@
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
   top: 0.59rem;
- 
+
   left: 17.3rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
@@ -100,7 +100,7 @@
   transform: scaleX(-1);
 }
 
-@media screen and (max-width:685px) {
+@media screen and (max-width: 685px) {
   .dataToolTip81::before,
   .dataToolTip81::after,
   .dataToolTip82::before,

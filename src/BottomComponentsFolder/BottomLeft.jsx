@@ -4,17 +4,13 @@ import React from "react";
 import EyeBallLeft from "../EyeBallFolder/EyeBallLeft";
 import "./BottomComponents.css";
 
-
 const BottomLeftLeftComponent = () => {
   return (
-    <div className="relative flex  w-screen md:w-fit h-fit  ">
-    <div className="eyeScale   m-auto ">
-      < EyeBallLeft  />
+    <div className="relative flex  h-fit w-screen md:w-fit  ">
+      <div className="eyeScale   m-auto ">
+        <EyeBallLeft />
+      </div>
     </div>
-   
-
-    </div>
-
   );
 };
 

@@ -12,7 +12,6 @@ function PlayWolfWhistle() {
 function PlayWolfWhistle2() {
   const DrumSolo2 = new Audio(WolfWhistle2);
   DrumSolo2.play();
-  
 }
 
 const NewHoliday = () => {
@@ -31,14 +30,14 @@ const NewHoliday = () => {
             <p
               className="topParagraph   whitespace-nowrap 
                text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
-            > 
+            >
               &nbsp;
-              <span className="mt-2 mb-5 relative  inline-block text-[#fcb54d]  ">
+              <span className="relative mb-5 mt-2  inline-block text-[#fcb54d]  ">
                 Halloween
               </span>
             </p>
-            <p className="wallSconceWrapper relative  pt-2   bp500:block ">
-               <WallSconce />
+            <p className="wallSconceWrapper bp500:block  relative   pt-2 ">
+              <WallSconce />
             </p>
           </a>
         </div>
@@ -50,7 +49,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle2}
           >
-            <div className="mt-4 relative flex min-w-[225px] lg:min-w-[335px]  ">
+            <div className="relative mt-4 flex min-w-[225px] lg:min-w-[335px]  ">
               <p
                 id="demo"
                 className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
@@ -61,9 +60,8 @@ const NewHoliday = () => {
               </span>
             </div>
             <p className="wallSconceWrapper2  m-auto mt-4 ">
-                <WallSconce />
-             </p>
-
+              <WallSconce />
+            </p>
           </a>
         </div>
       </div>

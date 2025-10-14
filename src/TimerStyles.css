@@ -8,7 +8,7 @@
   margin-bottom: 15px;
 }
 .timerStylesSmall {
-  font-family:   "LibreBaskerville-Regular", Times, serif;
+  font-family: "LibreBaskerville-Regular", Times, serif;
   color: aliceblue;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
@@ -35,12 +35,6 @@
   font-family: "LibreBaskerville-Regular";
   letter-spacing: 3px;
 }
-
-
-
-
-
-
 
 .timerStylesFinished2 {
   color: orange;
@@ -119,7 +113,6 @@
   text-shadow: 1px 1px 0 black;
   padding: 2px;
   margin-right: 0.25rem;
-  
 }
 
 @media screen and (max-width: 500px) {

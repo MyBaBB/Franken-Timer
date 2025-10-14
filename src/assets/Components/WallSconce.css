@@ -2,13 +2,6 @@
   position: relative;
   background: transparent;
   padding-top: 0.75rem;
- 
- 
- 
- 
- 
- 
-  
 }
 @media screen and (max-width: 50px) and (max-height: 350px) and (orientation: landscape) {
   .wall-sconce {
@@ -17,28 +10,44 @@
     scale: 0.7;
     top: -4rem;
     display: none;
-   
   }
   .wallSconceWrapper2 {
-  padding-top: 3rem; /* Default padding (pt-12) */
-}
-
-
+    padding-top: 3rem; /* Default padding (pt-12) */
+  }
 }
 
 .flame {
   width: 100px;
   height: auto;
-   animation: flickerGlow 1.35s infinite ease-in-out;
-  transition: opacity 0.2s ease, filter 0.2s ease;
-
+  animation: flickerGlow 1.35s infinite ease-in-out;
+  transition:
+    opacity 0.2s ease,
+    filter 0.2s ease;
 }
 
 @keyframes flickerGlow {
-  0%   { opacity: 0.9; filter: brightness(1); }
-  20%  { opacity: 1; filter: brightness(1.01); }
-  40%  { opacity: 0.85; filter: brightness(0.99); }
-  60%  { opacity: 1; filter: brightness(1.01); }
-  80%  { opacity: 0.88; filter: brightness(1); }
-  100% { opacity: 1; filter: brightness(1.01); }
+  0% {
+    opacity: 0.9;
+    filter: brightness(1);
+  }
+  20% {
+    opacity: 1;
+    filter: brightness(1.01);
+  }
+  40% {
+    opacity: 0.85;
+    filter: brightness(0.99);
+  }
+  60% {
+    opacity: 1;
+    filter: brightness(1.01);
+  }
+  80% {
+    opacity: 0.88;
+    filter: brightness(1);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1.01);
+  }
 }
