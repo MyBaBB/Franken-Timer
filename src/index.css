@@ -3,10 +3,10 @@
 @import "tailwindcss/utilities";
 :root {
  background-image: url('/StoneWallBest.jpg');
+
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  background: cover;
+  background-size: cover;
+  
   overflow: hidden;
 
 };
