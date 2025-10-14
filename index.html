@@ -5,15 +5,14 @@
     <link rel="preload" href="./GoogleFonts/LibreBaskerville-Regular.ttf" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="./GoogleFonts/Nosifer-Regular.ttf" as="font" type="font/woff2" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preload" href="./src/assets/1-300-unfinished.webp" as="image" type="image/webp" />
-<link rel="preload" href="./src/assets/5-300-unfinished.webp" as="image" type="image/webp" />
-<link rel="preload" href="./src/assets/3-300-unfinished.webp" as="image" type="image/webp" />
-<link rel="preload" href="./src/assets/4-300-unfinished.webp" as="image" type="image/webp" />
-<link rel="preload" href="./src/assets/top.webp" as="image" type="image/jpeg" />
+
 
     
 
-    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="preload" href="favicon101.png" as="image">
+<link rel="preload" href="favicon202.png" as="image">
+<link rel="preload" href="favicon303.png" as="image">
+    <link id="favicon" rel="icon" href="favicon101.png" type="image/x-icon">
     <meta name="google-site-verification"
       content="N1Kv_9Bc2iJDNV-qP331BhPnkzd79T0xVx1X1gLquEc" />
       <!-- HTML Meta Tags -->
@@ -57,4 +56,20 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+  <script>
+  const favicons = ["favicon101.png", "favicon202.png", "favicon303.png"];
+  let current = 0;
+
+  function flicker() {
+    const link = document.getElementById("favicon");
+    current = (current + 1) % favicons.length;
+    link.href = favicons[current];
+
+    // Random delay between 300ms and 3000ms
+    const delay = Math.floor(Math.random() * (3000 - 300 + 1)) + 300;
+    setTimeout(flicker, delay);
+  }
+
+  flicker(); // Start the flicker loop
+</script>
 </html>
