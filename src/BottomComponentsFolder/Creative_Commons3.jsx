@@ -17,14 +17,14 @@ const Credits = () => {
          hover:bg-gray-700 ${isOpen ? "hidden" : ""}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        Credits
+        Credits 
       </button>
 
       {isOpen && (
         <div className="mt-2 rounded bg-gray-900/50 p-2 text-center text-white shadow-md">
           <hr className="my-1 opacity-50" />
           <a
-            href="(https://skfb.ly/6XOnU)"
+            href="https://skfb.ly/6XOnU"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[10px] z-50 font-thin text-orange-400 hover:text-blue-400"
