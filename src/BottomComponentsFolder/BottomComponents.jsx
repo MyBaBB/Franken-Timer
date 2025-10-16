@@ -28,7 +28,7 @@ const Rewind = () => {
             aria-label="Go to Brett's Portfolio Hub"
           >
             <div
-              className="forward relative bottom-[4.5rem] left-0 z-40 inline-flex text-green-500
+              className="forward relative bottom-[7.5rem] left-0 z-40 inline-flex text-green-500
                       "
             >
               <BottomComponentLeft />
@@ -48,7 +48,7 @@ const Rewind = () => {
             aria-label="Go to Brett's Home Page"
           >
             <div
-              className="rewind relative bottom-[4.5rem] right-0 z-40 inline-flex scale-x-[-1] text-green-500 
+              className="rewind relative bottom-[7.5rem] right-0 z-40 inline-flex scale-x-[-1] text-green-500 
                       "
             >
               <BottomComponentRight />

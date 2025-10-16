@@ -5,7 +5,7 @@ import "./BottomComponents.css";
 
 const BottomRightComponent = () => {
   return (
-    <div className=" eyeScale relative    hidden md:flex  ">
+    <div className=" eyeScale relative    hidden md:flex ">
       <EyeBallRight />
     </div>
   );
