@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
 import EyeBallCanvasLoader from "./EyeBallCanvasLoader.jsx";
-import EyeballRight from "./EyeballMiddleSource.jsx";
+ 
  
 import "./Eyeball.css";
 
@@ -56,7 +56,7 @@ function EyeFunction() {
 
   return (
     <mesh ref={meshRef}>
-      <EyeballRight />
+      
       <meshStandardMaterial color="blue" />
     </mesh>
   );

@@ -14,7 +14,7 @@ import Flame4 from "./WallSconceImages/WallSconce4.png";
 
 const flameFrames = [Flame1, Flame2, Flame3, Flame4];
 
-const WallSconce = () => {
+const RightWallSconce = () => {
   const [currentFrame, setCurrentFrame] = useState(0);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const WallSconce = () => {
 
   return (
     <div
-      className="wall-sconce m-auto   
+      className="wall-sconce  m-auto   
           h-auto w-fit   "
     >
       <img
@@ -40,4 +40,4 @@ const WallSconce = () => {
   );
 };
 
-export default WallSconce;
+export default RightWallSconce;

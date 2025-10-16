@@ -9,7 +9,7 @@ const BottomLeftLeftComponent = () => {
     <div className="relative flex  h-fit w-screen md:w-fit  ">
       <div className="eyeScale   m-auto ">
         <EyeBallLeft />
-      </div>
+      </div> 
     </div>
   );
 };

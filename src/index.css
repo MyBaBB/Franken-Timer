@@ -1,21 +1,80 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-:root {
+/* :root {
   background-image: url("/StoneWallBest900x529.webp");
   background-repeat: repeat;
   background-size: cover;
   overflow: hidden;
 }
-@media screen and (min-width: 900px) {
+{ */
   :root {
-    background-image: url("/StoneWallBest2.jpg");
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
+    background-image: url("/Stone_Room.jpg");
+    position: absolute;
+    
+  z-index: -1;
+  bottom: 0rem;
+  left: 0;
+   
+  width: auto;
+  height: cover;
     overflow: hidden;
   }
+
+
+  .leftColumn-overlay {
+  position: absolute;
+  z-index: -1;
+  bottom: 0.5rem;
+  left: 0;
+   
+  width: auto;
+  height: cover;
+  pointer-events: none; /* optional if you want it non-interactive */
 }
+  .rightColumn-overlay {
+  position: absolute;
+  z-index: -1;
+  bottom: 0.5rem;
+  right: 0rem;
+  width: auto;
+  height: cover;
+  pointer-events: none; /* optional if you want it non-interactive */
+}
+.leftColumnWrapper {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.rightColumnWrapper {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.MiddleColumnWrapper {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  
+}
+
+.main-image { 
+  width: 100%;
+  display: block;
+}
+@media screen and (max-width: 685px)  {
+  .leftColumnWrapper  {
+    display: none;
+  }
+  .rightColumnWrapper {
+    display: none;
+  }
+.middleColumnWrapper {
+    display: block;
+  }
+}
+
+
 
 body {
   top: 0;
