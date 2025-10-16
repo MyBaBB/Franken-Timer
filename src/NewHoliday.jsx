@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import WallSconce from "./assets/Components/WallSconce";
+
 import { IoHourglassOutline } from "react-icons/io5";
 import WolfWhistle from "./assets/PutCandleBack.mp3";
 import WolfWhistle2 from "./assets/LookDoctor.mp3";
@@ -36,9 +36,7 @@ const NewHoliday = () => {
                 Halloween
               </span>
             </p>
-            <p className="wallSconceWrapper bp500:block  relative   pt-2 ">
-              <WallSconce />
-            </p>
+           
           </a>
         </div>
 
@@ -59,9 +57,7 @@ const NewHoliday = () => {
                 <IoHourglassOutline color="lightgray" />
               </span>
             </div>
-            <p className="wallSconceWrapper2  m-auto mt-4 ">
-              <WallSconce />
-            </p>
+             
           </a>
         </div>
       </div>

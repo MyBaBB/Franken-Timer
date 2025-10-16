@@ -10,3 +10,10 @@ canvas {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 685px) {
+  .canvasWrapper {
+    width: 150px;
+    height: 150px;
+    margin: -2rem auto -2rem;
+  }
+}
