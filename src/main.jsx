@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Cube from "./CubeFolder/Cube.jsx";
 import Timer from "./Timer.jsx";
- 
+
 import NewHoliday from "./NewHoliday.jsx";
 import BottomComponents from "./BottomComponentsFolder/BottomComponents.jsx";
 
@@ -16,8 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Timer />
 
     <Cube />
-
- 
 
     <BottomComponents />
   </React.StrictMode>,

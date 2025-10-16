@@ -2,13 +2,21 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 :root {
-  background-image: url("/StoneWallBest.jpg");
-
-  background-repeat: no-repeat;
+  background-image: url("/StoneWallBest900x529.webp");
+  background-repeat: repeat;
   background-size: cover;
-
   overflow: hidden;
 }
+@media screen and (min-width: 900px) {
+  :root {
+    background-image: url("/StoneWallBest2.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
+
 body {
   top: 0;
   left: 0;

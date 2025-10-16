@@ -53,11 +53,10 @@ const Rewind = () => {
             >
               <BottomComponentRight />
             </div>
-         
           </div>
         </a>
       </div>
-         <Credits />
+      <Credits />
     </div>
   );
 };
