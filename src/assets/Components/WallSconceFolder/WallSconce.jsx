@@ -5,6 +5,7 @@ import Flame2 from "./WallSconceImages/WallSconce2.png";
 import Flame3 from "./WallSconceImages/WallSconce3.png";
 import Flame4 from "./WallSconceImages/WallSconce4.png";
 
+
 // import FlameStone2 from "./WallSconceImages/Flame-Stone-4.jpg";
 // import FlameStone3 from "./WallSconceImages/Flame-Stone-3.jpg";
 // import FlameStone4 from "./WallSconceImages/Flame-Stone-2.jpg";
@@ -26,9 +27,10 @@ const WallSconce = () => {
   }, []);
 
   return (
+    <div>
     <div
-      className="wall-sconce m-auto   
-          h-auto w-fit   "
+      className="wall-sconce1 m-auto   
+          h-auto w-fit  "
     >
       <img
         src={flameFrames[currentFrame]}
@@ -36,6 +38,8 @@ const WallSconce = () => {
         loading="lazy"
         className="flame "
       />
+    </div>
+     
     </div>
   );
 };

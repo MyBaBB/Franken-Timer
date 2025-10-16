@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import WallSconce from "./assets/Components/WallSconce";
+import WallSconce from "../WallSconceFolder/WallSconce.jsx";
 import { IoHourglassOutline } from "react-icons/io5";
-import WolfWhistle from "./assets/PutCandleBack.mp3";
-import WolfWhistle2 from "./assets/LookDoctor.mp3";
+import WolfWhistle from "../MusicPlayerFolder/AddMusic.jsx";
+import WolfWhistle2 from "../WallSconceFolder/WallSconceSoundFolder/LookDoctor.mp3";
 import "./NewHoliday.css";
 function PlayWolfWhistle() {
   const DrumSolo = new Audio(WolfWhistle);
@@ -36,7 +36,7 @@ const NewHoliday = () => {
                 Halloween
               </span>
             </p>
-            <p className="wallSconceWrapper bp500:block  relative   pt-2 ">
+            <p className="wallSconceWrapper bp500:block  relative   pt-[2.8rem] right-[1.6rem] ">
               <WallSconce />
             </p>
           </a>
@@ -49,17 +49,17 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle2}
           >
-            <div className="relative mt-4 flex min-w-[225px] lg:min-w-[335px]  ">
+            <div className="relative pt-4 flex min-w-[225px] lg:min-w-[335px]  ">
               <p
                 id="demo"
-                className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
+                className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg sm:ml-0 md:text-2xl lg:text-4xl
                    "
               ></p>
               <span className="clockIcon    ">
                 <IoHourglassOutline color="lightgray" />
               </span>
             </div>
-            <p className="wallSconceWrapper2  m-auto mt-4 ">
+            <p className="wallSconceWrapper2 -pt-4 m-auto xs:mt-8 ] ">
               <WallSconce />
             </p>
           </a>

@@ -2,9 +2,9 @@
 import React from "react";
 import BottomComponentLeft from "./BottomLeft";
 import BottomComponentRight from "./BottomRight";
-import MusicPlayer from "../MusicPlayerFolder/AddMusic";
+import MusicPlayer from "../MusicPlayerFolder/AddMusic.jsx";
 import "./BottomComponents.css";
-import Ghost from "../assets/ghost-woo.mp3";
+import Ghost from "./ghost-woo.mp3";
 import Credits from "./Creative_Commons3";
 function GhostWooFunction() {
   const whipSmackAudio = new Audio(Ghost);
