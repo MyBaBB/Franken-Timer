@@ -7,9 +7,9 @@
   background-size: cover;
   overflow: hidden;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) and (min-height: 529px) {
   :root {
-    background-image: url("/StoneWallBest2.jpg");
+    background-image: url("/StoneWallBest1248x832.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;

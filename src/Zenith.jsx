@@ -1,4 +1,6 @@
-import React from "react";
+
+import React from 'react'
+ 
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
@@ -8,8 +10,9 @@ import Timer from "./Timer.jsx";
 import NewHoliday from "./NewHoliday.jsx";
 import BottomComponents from "./BottomComponentsFolder/BottomComponents.jsx";
 
-// import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-ReactDOM.createRoot(document.getElementById("root")).render(
+const Zenith = () => {
+  return (
+  ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NewHoliday />
 
@@ -19,4 +22,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
     <BottomComponents />
   </React.StrictMode>,
-);
+)
+
+
+  )
+}
+
+export default Zenith
+
+
