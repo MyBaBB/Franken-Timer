@@ -83,7 +83,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: 0.35s;
-  top: 4.5rem;
+  top: -4.5rem;
   left: 9.28rem;
   bottom: 0.8rem;
   border: 15px solid transparent;
