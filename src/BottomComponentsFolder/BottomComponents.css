@@ -56,7 +56,7 @@
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: 4.59rem;
+  top: -4.43rem;
 
   left: 17.3rem;
   transform: translateX(-50%) scale(var(--scale));
