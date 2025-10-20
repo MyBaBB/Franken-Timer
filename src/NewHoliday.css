@@ -1,5 +1,5 @@
 .holidayIcon {
-  animation: colorChangePulseScale 12s infinite;
+  animation: colorChangePulseScale 12.1s infinite;
 }
 @keyframes colorChangePulseScale {
   0% {
