@@ -36,7 +36,6 @@ const NewHoliday = () => {
                 Halloween
               </span>
             </p>
-           
           </a>
         </div>
 
@@ -57,7 +56,6 @@ const NewHoliday = () => {
                 <IoHourglassOutline color="lightgray" />
               </span>
             </div>
-             
           </a>
         </div>
       </div>
