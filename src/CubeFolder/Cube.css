@@ -165,7 +165,7 @@
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-
+/* BigContailer */
 .container {
   width: 100%;
   max-width: 100%;
@@ -174,9 +174,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: transparent;
   margin: 0 auto;
   padding: 10px;
+  
 }
 
 .topParagraphWrapper {
@@ -242,7 +242,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  border:2px solid transparent;
+ 
 }
 
 .cube div {
@@ -252,6 +252,7 @@
   min-width: 100%;
   min-height: 100%;
   transform-style: preserve-3d;
+
 }
 
 .cube div span {
@@ -279,7 +280,7 @@
 .top::before {
   content: "";
   position: absolute;
-  z-index: 500;
+  z-index: 5;
   top: 0;
   left: 0;
   width: 150px;
@@ -423,8 +424,8 @@
   .top::before {
     content: "";
     position: absolute;
-    z-index: 500;
-    top: 0;
+    z-index: 5;
+    top: 1rem;
     left: 0;
     width: 300px;
     height: 300px;
@@ -456,9 +457,9 @@
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    background: #222;
+  
     transform: rotateX(90deg) translateZ(150px);
-    z-index: 502;
+    z-index: 2;
   }
 
   .cube div span {

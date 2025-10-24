@@ -18,7 +18,7 @@ function WolfWhistleFunction() {
 const Cube = () => {
   return (
     <div>
-      <div className="container   ">
+      <div className="container border-2 border-red-500  ">
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
@@ -62,12 +62,12 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      className="Top"
+                      className="side 2"
                       src={Two}
-                      alt="Top"
+                      alt="side 2"
                       height={300}
                       width={300}
-                      aria-label="Top of Cube is a Turkey Leg image"
+                      aria-label="Side 2 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
 
@@ -85,15 +85,15 @@ const Cube = () => {
                   </span>
 
                   <span
-                    className="side3 border-b-2 border-[#2dd760]"
+                    className="side4 border-b-2 border-[#2dd760]"
                     style={{ "--i": 4 }}
                   >
                     <img
                       src={Four}
-                      alt="Side"
+                      alt="Side 4"
                       height={300}
                       width={300}
-                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"
+                      aria-label="Side 4 of the Cube is a Frankensteins Monster image"
                     />
                   </span>
 
