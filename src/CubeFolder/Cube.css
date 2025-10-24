@@ -432,10 +432,10 @@
      
     transform: translateZ(-400px);
     filter: blur(40px);
-    overflow: hidden;
+  
     background-color: rgba(45, 215, 96, 0.8);
     box-shadow:
-      0 0 240px rgba(45, 215, 96, .7),
+      0 0 240px rgba(45, 215, 96, .4),
       0 0 400px rgba(45, 215, 96, .7),
       0 0 600px rgba(45, 215, 96, .7),
       0 0 800px rgba(45, 215, 96, .7),
