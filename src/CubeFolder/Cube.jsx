@@ -18,12 +18,12 @@ function WolfWhistleFunction() {
 const Cube = () => {
   return (
     <div>
-      <div className="container ">
+      <div className="container   ">
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
           <a
-            className="cubeLink"
+            className="cubeLink "
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const Cube = () => {
             title="Click to go to Mybabb.com"
             aria-label="Click to go to Mybabb.com"
           >
-            <div className="outerCubeDiv">
+            <div className="outerCubeDiv ">
               <div className="cube">
                 <div className="top">
                   <img
