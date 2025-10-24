@@ -86,7 +86,7 @@
 }
 
 .border-2 {
-  border-width: 2px;
+  border-width: 0px;
 }
 
 .border-b-2 {
@@ -287,10 +287,10 @@
   transform: translateZ(-220px);
   filter: blur(20px);
   box-shadow:
-    0 0 120px rgba(25, 111, 61, 4),
-    0 0 200px rgba(25, 111, 61, 7),
-    0 0 300px rgba(25, 111, 61, 7),
-    0 0 400px rgba(25, 111, 61, 7),
+    0 0 120px rgba(25, 111, 61, .4),
+    0 0 200px rgba(25, 111, 61, .7),
+    0 0 300px rgba(25, 111, 61, .7),
+    0 0 400px rgba(25, 111, 61, .7),
     0 0 500px rgb(25, 111, 61);
 }
 
@@ -433,10 +433,10 @@
     overflow: hidden;
     background-color: rgba(45, 215, 96, 0.8);
     box-shadow:
-      0 0 240px rgba(45, 215, 96, 4),
-      0 0 400px rgba(45, 215, 96, 7),
-      0 0 600px rgba(45, 215, 96, 7),
-      0 0 800px rgba(45, 215, 96, 7),
+      0 0 240px rgba(45, 215, 96, .4),
+      0 0 400px rgba(45, 215, 96, .7),
+      0 0 600px rgba(45, 215, 96, .7),
+      0 0 800px rgba(45, 215, 96, .7),
       0 0 900px rgb(45, 215, 96);
   }
 
@@ -466,7 +466,7 @@
     left: 0%;
     min-width: 100%;
     min-height: 100%;
-    background: linear-gradient(#151515, #2dd760);
+    background: linear-gradient(#000000, #2dd760);
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   }
 
