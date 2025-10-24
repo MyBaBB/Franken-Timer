@@ -183,7 +183,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
     position: fixed;
@@ -202,16 +202,15 @@
     text-decoration: none;
     color: blue;
   }
-}
+} */
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 .topParagraph {
-  position: relative;
-
+  margin: 0;
   color: #2dd760;
   text-shadow: #151515 0.75px 0.75px;
-  margin: auto;
+ 
 }
 
 .cube {

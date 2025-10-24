@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import { IoHourglassOutline } from "react-icons/io5";
+
 import WolfWhistle from "./assets/PutCandleBack.mp3";
 import WolfWhistle2 from "./assets/LookDoctor.mp3";
 import "./NewHoliday.css";
@@ -17,8 +17,11 @@ function PlayWolfWhistle2() {
 const NewHoliday = () => {
   return (
     <div className="fixed left-0 top-0 w-screen ">
-      <div className="relative flex xxxs:justify-center sm:justify-between   ">
-        <div className=" w-fit sm:ml-4   ">
+
+
+      <div className="relative flex-row justify-center   ">
+
+        <div className=" w-fit m-auto   mt-4 ">
           <a
             href="https://Mybabb.com"
             target="_blank"
@@ -27,37 +30,37 @@ const NewHoliday = () => {
             className="  topParagraphWrapper   
               font-Kingthings_Petrock"
           >
-            <p
-              className="topParagraph   whitespace-nowrap 
-               text-3xl sm:text-4xl md:text-5xl lg:text-6xl   "
+            <div
+              className="topParagraph relative flex w-fit m-auto  whitespace-nowrap  
+                         text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+                           "
             >
-              &nbsp;
-              <span className="relative mb-5 mt-2  inline-block text-[#fcb54d]  ">
+             
+              <span className="relative  block text-[#fcb54d]  ">
                 Halloween
               </span>
-            </p>
+            </div>
           </a>
         </div>
 
-        <div className="demoWrapper  ">
+        <div className="demoWrapper  w-fit m-auto  ">
           <a
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle2}
           >
-            <div className="relative mt-4 flex min-w-[225px] lg:min-w-[335px]  ">
-              <p
-                id="demo"
-                className="relative m-auto ml-8 flex w-full justify-start text-lg sm:text-lg md:ml-0 md:text-2xl lg:text-4xl
+              <div className="relative mt-4 flex min-w-[225px] lg:min-w-[335px]  ">
+                 <p
+                   id="demo"
+                   className="relative   flex w-fit m-auto text-lg sm:text-lg  md:text-2xl lg:text-4xl
                    "
-              ></p>
-              <span className="clockIcon    ">
-                <IoHourglassOutline color="lightgray" />
-              </span>
-            </div>
+              > </p>
+                 
+              </div>
           </a>
         </div>
+
       </div>
     </div>
   );

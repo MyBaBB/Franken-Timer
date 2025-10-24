@@ -115,7 +115,7 @@
   margin-right: 0.25rem;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .demoWrapper {
     letter-spacing: 3px;
     position: relative;
@@ -131,4 +131,4 @@
     text-decoration: none;
     margin-bottom: 15px;
   }
-}
+} */

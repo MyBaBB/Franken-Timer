@@ -33,7 +33,7 @@
   .rightColumn-overlay {
   position: absolute;
   z-index: -1;
-  bottom: 0.5rem;
+  bottom: 0rem;
   right: 0rem;
   width: auto;
   height: cover;

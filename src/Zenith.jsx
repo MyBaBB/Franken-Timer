@@ -31,7 +31,7 @@ const Zenith = () => {
 
 
 
- <div className="rightColumnLight absolute top-[4rem] right-[2.34rem] hidden md:block  ">
+ <div className="rightColumnLight absolute top-[4.8rem] right-[2.34rem] hidden md:block  ">
       < RightWallSconce />
  </div>
  <div className="rightColumnWrapper">
