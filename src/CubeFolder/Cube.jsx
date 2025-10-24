@@ -40,7 +40,7 @@ const Cube = () => {
                     alt="Top"
                     height={300}
                     width={300}
-                    aria-label="Top of Cube is a Turkey Leg image"
+                    aria-label="Top of Cube "
                   />
                 </div>
                 <div className="boxSides">
@@ -50,7 +50,7 @@ const Cube = () => {
                   >
                     <img
                       src={One}
-                      alt="Side1"
+                      alt="side1"
                       height={300}
                       width={300}
                       aria-label="Side 1 of the Cube is a Frankensteins Monster image"
@@ -62,7 +62,7 @@ const Cube = () => {
                     style={{ "--i": 2 }}
                   >
                     <img
-                      className="side 2"
+                      className="Side 2"
                       src={Two}
                       alt="side 2"
                       height={300}
@@ -72,12 +72,12 @@ const Cube = () => {
                   </span>
 
                   <span
-                    className="side3 border-b-2 border-[#2dd760]"
+                    className="Side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
                     <img
                       src={Three}
-                      alt="Side3"
+                      alt="side3"
                       height={300}
                       width={300}
                       aria-label="Side 3 of the Cube is a Frankensteins Monster image"
@@ -85,12 +85,12 @@ const Cube = () => {
                   </span>
 
                   <span
-                    className="side4 border-b-2 border-[#2dd760]"
+                    className="Side4 border-b-2 border-[#2dd760]"
                     style={{ "--i": 4 }}
                   >
                     <img
                       src={Four}
-                      alt="Side 4"
+                      alt="side4"
                       height={300}
                       width={300}
                       aria-label="Side 4 of the Cube is a Frankensteins Monster image"
