@@ -9,15 +9,13 @@
 }
 { */
   :root {
-    background-image: url("/Besty_Wall_1248x1118.webp");
+    background-image: url("/Besty_Wall_1248x1118_lgScreen.webp");
     position: absolute;
-    
-  z-index: -1;
-  bottom: 0rem;
-  left: 0;
-   
-  width: auto;
-  height: cover;
+    z-index: -1;
+    bottom: 0rem;
+    left: 0;
+    width: auto;
+    height: cover;
     overflow: hidden;
   }
 
