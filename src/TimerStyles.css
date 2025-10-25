@@ -24,6 +24,7 @@
   letter-spacing: 0.15px;
   margin-right: 1.5rem;
   margin-bottom: 15px;
+
 }
 
 .timerStylesFinished1 {
@@ -34,6 +35,7 @@
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular";
   letter-spacing: 3px;
+  
 }
 
 .timerStylesFinished2 {
@@ -92,6 +94,7 @@
 @media screen and (min-width: 785px) and (orientation: landscape) and (min-height: 375px) {
   .timerStyles {
     font-size: 1.9rem;
+    
   }
   .timerStylesSmall {
     font-size: 2rem;
@@ -105,8 +108,16 @@
   .timerStylesFinished3 {
     font-size: 2rem;
   }
+  
 }
-
+@media screen and (max-width: 1024px) and (orientation: landscape) and (max-height: 460px) {
+  .leftColumnLight, .rightColumnLight {
+    top: 2rem;
+  }
+  .topParagraph {
+    display: none; 
+  }
+}
 .clockIcon {
   font-size: 1.5rem;
   color: #e6c587;

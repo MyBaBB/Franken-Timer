@@ -5,7 +5,7 @@ import React from "react";
 
 import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
-
+import "./TimerStyles.css";
 function PlayLookDoctor() {
   const DrumSolo2 = new Audio(LookDoctor);
   DrumSolo2.play();
@@ -30,11 +30,11 @@ const NewHoliday = () => {
             <div
               className="topParagraph relative flex w-fit m-auto  whitespace-nowrap  
                          text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
-                         border-2 border-red-500
+                        
                            "
             >
              
-              <div className="relative pl-8 md:pl-0 lg:pl-12 m-auto text-center  block text-[#fcb54d]  ">
+              <div className="relative pl-4 xs:pl-0 md:pl-0 lg:pl-8 m-auto text-center  block text-[#fcb54d]  ">
                 Halloween
               </div>
             </div>
@@ -48,7 +48,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle2}
           > */}
-              <div className="relative mt-4 flex min-w-[225px] lg:min-w-[335px]  ">
+              <div className="relative mt-4 pr-4 xs:pr-3 md:pr-0 md:pl-4 flex min-w-[225px] lg:min-w-[335px]  ">
                  <p
                    id="demo"
                    className="relative   flex w-fit m-auto text-lg sm:text-lg  md:text-2xl lg:text-4xl

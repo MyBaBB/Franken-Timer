@@ -470,7 +470,7 @@
     background: linear-gradient(#000000, #2dd760);
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   }
-
+   
   /* media query for smaller cube */
 }
 

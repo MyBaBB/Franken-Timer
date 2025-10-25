@@ -7,6 +7,7 @@ import Timer from "./Timer.jsx";
 import LeftWallSconce from "./assets/Components/LeftWallSconce.jsx"
 import RightWallSconce from "./assets/Components/RightWallSconce.jsx"
 import NewHoliday from "./NewHoliday.jsx";
+import "./TimerStyles.css"
 import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
 const Zenith = () => {
