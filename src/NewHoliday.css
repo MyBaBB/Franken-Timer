@@ -24,7 +24,7 @@
   .wallSconceWrapper {
     display: none;
   }
-}
+} 
 @media screen and (min-width: 500px) {
   .wallSconceWrapper {
     margin-top: 1rem;

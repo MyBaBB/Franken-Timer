@@ -14,7 +14,7 @@ import Flame4 from "./WallSconceImages/WallSconce4.png";
 
 const flameFrames = [Flame1, Flame2, Flame3, Flame4];
 
-const RightWallSconce = () => {
+const MiddleWallSconce = () => {
   const [currentFrame, setCurrentFrame] = useState(0);
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const RightWallSconce = () => {
   );
 };
 
-export default RightWallSconce;
+export default MiddleWallSconce;
