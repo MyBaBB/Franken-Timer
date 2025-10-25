@@ -5,9 +5,9 @@ import "./index.css";
 import Cube from "./CubeFolder/Cube.jsx";
 import Timer from "./Timer.jsx";
 import LeftWallSconce from "./assets/Components/LeftWallSconce.jsx"
-import RightWallSconce from "./assets/Components/LeftWallSconce.jsx"
+import RightWallSconce from "./assets/Components/RightWallSconce.jsx"
 import NewHoliday from "./NewHoliday.jsx";
-import MiddleMobileSconce from "./assets/Components/MiddleMoblileSconce.jsx"
+import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
 const Zenith = () => {
   return (
@@ -20,23 +20,24 @@ const Zenith = () => {
     <Timer />
 
     <Cube />
-     <div className="leftColumnLight absolute top-[4.8rem] left-[2.34rem] hidden md:block">
+     <div className="leftColumnLight absolute top-[8rem] xxl:top-[13rem] left-[4rem] hidden md:block
+                  ">
       < LeftWallSconce />
     </div>
  <div className="leftColumnWrapper ">
-      <img src="/Goody_Column-Left-2.jpg" alt="left Overlay" 
-   className="leftColumn-overlay " />
+      <img src="/Goody_Column-Right.jpg" alt="left Overlay" 
+   className="leftColumn-overlay rotate-180 " />
  </div>
 
 
 
 
- <div className="rightColumnLight absolute top-[4.8rem] right-[2.34rem] hidden md:block  ">
+ <div className="rightColumnLight  absolute top-[8rem] xxl:top-[13rem] right-[4rem] hidden md:block  ">
       < RightWallSconce />
  </div>
  <div className="rightColumnWrapper">
-   <img src="/Goody_Column-Right-2.jpg " alt="right Overlay"
-    className="rightColumn-overlay" />
+   <img src="/Goody_Column-Left.jpg " alt="right Overlay"
+    className="rightColumn-overlay rotate-180 w-fit h-auto" />
  </div>
 
 

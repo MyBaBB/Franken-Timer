@@ -46,7 +46,8 @@ const LeftWallSconce = () => {
         src={flameFrames[currentFrame]}
         alt={`Flame frame ${currentFrame + 1}`}
         loading="lazy"
-        className="flame "
+        className="flame scale-[200%] "
+        
       />
 </a>
     </div>

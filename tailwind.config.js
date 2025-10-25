@@ -62,6 +62,7 @@ export const theme = {
       md: "685px",
       lg: "1024px",
       xl: "1280px",
+      xxl: "1600px",
     },
   },
 };
