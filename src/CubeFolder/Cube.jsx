@@ -18,7 +18,7 @@ function WolfWhistleFunction() {
 const Cube = () => {
   return (
     <div>
-      <div className="container border-2 border-red-500  ">
+      <div className="container   ">
         <br />
 
         <div className="m-0  px-4 py-3  sm:px-8  ">
@@ -32,8 +32,12 @@ const Cube = () => {
             aria-label="Click to go to Mybabb.com"
           >
             <div className="outerCubeDiv ">
+
+
               <div className="cube">
+
                 <div className="top">
+
                   <img
                     className="Top rotate-180"
                     src={Top}
@@ -76,13 +80,27 @@ const Cube = () => {
                     style={{ "--i": 3 }}
                   >
                     <img
+                      className="Side 3"
+                      src={Three}
+                      alt="side 3"
+                      height={300}
+                      width={300}
+                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"
+                    />
+                  </span>
+
+                  {/* <span
+                    className="Side3 border-b-2 border-[#2dd760]"
+                    style={{ "--i": 3 }}
+                  >
+                    <img
                       src={Three}
                       alt="side3"
                       height={300}
                       width={300}
                       aria-label="Side 3 of the Cube is a Frankensteins Monster image"
                     />
-                  </span>
+                  </span> */}
 
                   <span
                     className="Side4 border-b-2 border-[#2dd760]"
@@ -97,22 +115,7 @@ const Cube = () => {
                     />
                   </span>
 
-                  {/* <span
-                    className="Side4 border-b-2 border-[#2dd760] "
-                    style={{ "--i": 4 }}
-                     >
-                    <video
-                      src={Four}
-                      alt="Side4"
-                      height={300}
-                      width={300}
-                      autoPlay={true}
-                      loop={true}
-                      muted={true}
-                      aria-label="Side 4 of the Cube is a Frankensteins Monster video"
-                    />
-                    
-                  </span> */}
+                 
                 </div>
               </div>
             </div>

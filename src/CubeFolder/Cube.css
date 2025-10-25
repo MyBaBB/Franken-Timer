@@ -426,7 +426,7 @@
     position: absolute;
     z-index: 5;
     top: 1rem;
-    left: 0;
+    left: 1rem;
     width: 300px;
     height: 300px;
      
@@ -435,10 +435,10 @@
   
     background-color: rgba(45, 215, 96, 0.8);
     box-shadow:
-      0 0 240px rgba(45, 215, 96, .4),
-      0 0 400px rgba(45, 215, 96, .7),
-      0 0 600px rgba(45, 215, 96, .7),
-      0 0 800px rgba(45, 215, 96, .7),
+      0 0 240px rgba(45, 215, 96, .3),
+      0 0 400px rgba(45, 215, 96, .61),
+      0 0 600px rgba(45, 215, 96, .5),
+      0 0 800px rgba(45, 215, 96, .61),
       0 0 900px rgb(45, 215, 96);
   }
 
@@ -457,7 +457,6 @@
     left: 0;
     min-width: 100%;
     min-height: 100%;
-  
     transform: rotateX(90deg) translateZ(150px);
     z-index: 2;
   }
