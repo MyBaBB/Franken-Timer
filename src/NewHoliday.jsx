@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-import WolfWhistle2 from "./assets/wolf-whistle.wav";
+import WolfWhistle2 from "/LookDoctor2.mp3";
 import "./NewHoliday.css";
 
 function PlayWolfWhistle2() {
