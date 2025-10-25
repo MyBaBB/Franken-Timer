@@ -20,7 +20,7 @@ const Zenith = () => {
     <Timer />
 
     <Cube />
-     <div className="leftColumnLight absolute top-[4.8rem] left-[2.34rem] hidden md:block">
+     <div className="leftColumnLight absolute top-[8rem] left-[4rem] hidden md:block">
       < LeftWallSconce />
     </div>
  <div className="leftColumnWrapper ">
@@ -31,12 +31,12 @@ const Zenith = () => {
 
 
 
- <div className="rightColumnLight absolute top-[4.8rem] right-[2.34rem] hidden md:block  ">
+ <div className="rightColumnLight  absolute top-[8rem] right-[4rem] hidden md:block  ">
       < RightWallSconce />
  </div>
  <div className="rightColumnWrapper">
    <img src="/Goody_Column-Left-2.jpg " alt="right Overlay"
-    className="rightColumn-overlay rotate-180" />
+    className="rightColumn-overlay rotate-180 w-fit h-auto" />
  </div>
 
 
