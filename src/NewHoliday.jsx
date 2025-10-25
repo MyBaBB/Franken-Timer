@@ -3,11 +3,11 @@ import React from "react";
 
 
 
-import WolfWhistle2 from "/LookDoctor2.mp3";
+import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
 
-function PlayWolfWhistle2() {
-  const DrumSolo2 = new Audio(WolfWhistle2);
+function PlayLookDoctor() {
+  const DrumSolo2 = new Audio(LookDoctor);
   DrumSolo2.play();
 }
 
@@ -21,7 +21,7 @@ const NewHoliday = () => {
             href="https://Mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={PlayWolfWhistle2}
+            onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
               font-Kingthings_Petrock"
           >

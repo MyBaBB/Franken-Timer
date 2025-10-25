@@ -4,13 +4,20 @@ import Flame1 from "./WallSconceImages/WallSconce1.png";
 import Flame2 from "./WallSconceImages/WallSconce2.png";
 import Flame3 from "./WallSconceImages/WallSconce3.png";
 import Flame4 from "./WallSconceImages/WallSconce4.png";
-
+import MiddleLookDoctor from "/LookDoctor.mp3";
 // import FlameStone2 from "./WallSconceImages/Flame-Stone-4.jpg";
 // import FlameStone3 from "./WallSconceImages/Flame-Stone-3.jpg";
 // import FlameStone4 from "./WallSconceImages/Flame-Stone-2.jpg";
 // import FlameStone5 from "./WallSconceImages/Flame-Stone-1.jpg";
 // import FlameStone6 from "./WallSconceImages/Flame-Stone-3.jpg";
 //
+
+function PlayMiddleLookDoctor() {
+  const middleLookDoctor = new Audio(MiddleLookDoctor);
+  middleLookDoctor.play();
+}
+
+
 
 const flameFrames = [Flame1, Flame2, Flame3, Flame4];
 
@@ -28,13 +35,15 @@ const MiddleWallSconce = () => {
   return (
     <div
       className="wall-sconce  m-auto   
-          h-auto w-fit   "
+          h-auto w-fit  hover:cursor-pointer "
     >
       <img
+        onClick={PlayMiddleLookDoctor}
         src={flameFrames[currentFrame]}
         alt={`Flame frame ${currentFrame + 1}`}
         loading="lazy"
         className="flame "
+       
       />
     </div>
   );
