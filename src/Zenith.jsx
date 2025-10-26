@@ -26,7 +26,7 @@ const Zenith = () => {
       < LeftWallSconce />
     </div>
  <div className="leftColumnWrapper ">
-      <img src="/Goody_Column-Right.jpg" alt="left Overlay" 
+      <img src="/Goody_Column-Right-2.jpg" alt="left Overlay" 
    className="leftColumn-overlay rotate-180 " />
  </div>
 
@@ -37,7 +37,7 @@ const Zenith = () => {
       < RightWallSconce />
  </div>
  <div className="rightColumnWrapper">
-   <img src="/Goody_Column-Left.jpg " alt="right Overlay"
+   <img src="/Goody_Column-Left-2.jpg " alt="right Overlay"
     className="rightColumn-overlay rotate-180 w-fit h-auto" />
  </div>
 
