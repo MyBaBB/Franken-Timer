@@ -30,15 +30,15 @@ const Timer = () => {
      <span class="timerStyles">${minutesStr}</span>
       <span class="timerStylesSmall">&nbsp;hrs</span> 
      `;
-
+             
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
         "<span>" +
-        " <span class='timerStylesFinished1'>Ghost</span>" +
-        "<span class='timerStylesFinished2'> and</span>" +
-        "<span class='timerStylesFinished3'> Goonies</span>" +
+        "<span class='timerStylesFinished1'>Ghostly</span>" +
+        "<span class='timerStylesFinished2'> Truth</span>" +
+        "<span class='timerStylesFinished3'> Tribe</span>" +
         "</span>";
     }
   }, 1000);
