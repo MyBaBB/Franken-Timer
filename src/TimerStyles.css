@@ -1,5 +1,5 @@
 .timerStyles {
-  color: orange;
+  color: whitesmoke;
   font-style: italic;
   font-size: 1.3rem;
   letter-spacing: 2px;
@@ -9,13 +9,13 @@
 }
 .timerStylesSmall {
   font-family: "LibreBaskerville-Regular", Times, serif;
-  color: aliceblue;
+  color: skyblue;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
   margin-bottom: 15px;
 }
 .timerStylesSmall:hover {
-  color: green;
+  color: rgb(205, 52, 78);
 }
 #demo {
   padding: 2px;
@@ -24,11 +24,12 @@
   letter-spacing: 0.15px;
   margin-right: 1.5rem;
   margin-bottom: 15px;
+  color: skyblue;
 
 }
 
 .timerStylesFinished1 {
-  color: orange;
+  color: red;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -39,7 +40,7 @@
 }
 
 .timerStylesFinished2 {
-  color: orange;
+  color: whitesmoke;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -48,7 +49,7 @@
   margin-bottom: 15px;
 }
 .timerStylesFinished3 {
-  color: orange;
+  color: blue;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -120,7 +121,7 @@
 }
 .clockIcon {
   font-size: 1.5rem;
-  color: #e6c587;
+  color: whitesmoke;
   text-shadow: 1px 1px 0 black;
   padding: 2px;
   margin-right: 0.25rem;
