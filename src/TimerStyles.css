@@ -9,7 +9,7 @@
 }
 .timerStylesSmall {
   font-family: "LibreBaskerville-Regular", Times, serif;
-  color: skyblue;
+  color: #ef9e24;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
   margin-bottom: 15px;
@@ -24,18 +24,19 @@
   letter-spacing: 0.15px;
   margin-right: 1.5rem;
   margin-bottom: 15px;
-  color: skyblue;
+  color: #ef9e24;
 
 }
 
 .timerStylesFinished1 {
-  color: red;
+  color: #ef9e24;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular";
   letter-spacing: 3px;
+  z-index: 50;
   
 }
 
@@ -47,15 +48,17 @@
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular", Times, serif;
   margin-bottom: 15px;
+  z-index: 50;
 }
 .timerStylesFinished3 {
-  color: blue;
+  color: #ef9e24;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "LibreBaskerville-Regular", Times, serif;
   margin-bottom: 15px;
+  z-index: 50;
 }
 
 @media screen and (min-width: 320px) {
