@@ -20,6 +20,7 @@ I have the thumbs turned off since this repo is public, Database is not connecte
 
 * LibreBaskerville-Regular
 * Nosifer-Regular
+* Kingthings_Petrock.ttf 
 <footer style="font-size:12px; position: absolute;  bottom: -10rem;">  I found this 3d art here and implemented it.
  This work is based on "blue_eyeball_free" (https://sketchfab.com/3d-models/blue-eyeball-free-f3c0a0638e784fa0b018e1ad8856eb7a) by memartel (https://sketchfab.com/memartel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
