@@ -3,7 +3,7 @@ import React from "react";
 import "./TimerStyles.css";
 
 const Timer = () => {
-  var countDownDate = new Date("Nov 27, 2025 00:00:00 PST").getTime();
+  var countDownDate = new Date("Dec 25, 2025 00:00:00 PST").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -36,9 +36,9 @@ const Timer = () => {
       clearInterval(x);
       document.getElementById("demo").innerHTML =
         "<span>" +
-        " <span class='timerStylesFinished1'> Fresh</span>" +
-        "<span class='timerStylesFinished2'> Turkey </span>" +
-        "<span class='timerStylesFinished3'> Legs</span>" +
+        " <span class='timerStylesFinished1'> Happy</span>" +
+        "<span class='timerStylesFinished2'> BirthDay </span>" +
+        "<span class='timerStylesFinished3'> Jesus</span>" +
         "</span>";
     }
   }, 1000);
