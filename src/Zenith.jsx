@@ -10,12 +10,13 @@ import NewHoliday from "./NewHoliday.jsx";
 import "./TimerStyles.css"
 import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
+import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
 const Zenith = () => {
   return (
   ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
 
- 
+ <div className="absolute top-16 left-8 z-10"> < GoBackToMine /></div>
     <NewHoliday />
 
     <Timer />
