@@ -23,7 +23,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-              font-Kingthings_Petrock"
+              font-Sixtyfour-Regular-VariableFont"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
@@ -34,8 +34,9 @@ const NewHoliday = () => {
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-[whitesmoke]  ">
-                <u className="decoration-[#ef2424]">Valentine`s</u>
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center
+                         block text-[lightskyblue]  ">
+                <u className="decoration-[lightskyblue]">E-Day</u>
               </div>
             </div>
           
