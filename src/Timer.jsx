@@ -28,7 +28,7 @@ const Timer = () => {
       <span class="timerStyles">${hours}</span>
       <span class="timerStyles">:</span> 
      <span class="timerStyles">${minutesStr}</span>
-      <span class="timerStylesSmall">&nbsp;hrs</span> 
+      <span class="timerStylesSmall">&nbsp;hrs </span> 
      `;
 
     // If the count down is finished, write some text
