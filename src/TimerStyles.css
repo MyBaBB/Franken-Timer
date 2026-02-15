@@ -9,13 +9,13 @@
 }
 .timerStylesSmall {
   font-family: "LibreBaskerville-Regular", Times, serif;
-  color: #ef2424;
+  color:  #9bec9b;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
   margin-bottom: 15px;
 }
 .timerStylesSmall:hover {
-  color: rgb(205, 52, 78);
+  color:  #9bec9b;
 }
 #demo {
   padding: 2px;
@@ -29,7 +29,7 @@
 }
 
 .timerStylesFinished1 {
-  color: #ef2424;
+  color: #9bec9b;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -51,7 +51,7 @@
   z-index: 50;
 }
 .timerStylesFinished3 {
-  color: #ef2424;
+  color:  #9bec9b;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;

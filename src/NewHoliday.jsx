@@ -34,8 +34,8 @@ const NewHoliday = () => {
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-[whitesmoke]  ">
-                <u className="decoration-[#ef2424]">Valentine`s</u>
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-green-400  ">
+                <u className="decoration-[whitesmoke]">St. Patrick`s Day</u>
               </div>
             </div>
           
