@@ -3,11 +3,11 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-import One from "../assets/Frank1.webp";
-import Two from "../assets/Frank2.webp";
-import Three from "../assets/Frank3.webp";
-import Four from "../assets/Frank4.webp";
-import Top from "../assets/FrankenTop.webp";
+import One from "../assets/Frank11.webp";
+import Two from "../assets/Frank22.webp";
+import Three from "../assets/Frank33.mp4";
+import Four from "../assets/Frank44.webp";
+import Top from "../assets/FrankenTopA.webp";
 
 import "./Cube.css";
 function WolfWhistleFunction() {
@@ -79,14 +79,17 @@ const Cube = () => {
                     className="Side3 border-b-2 border-[#2dd760]"
                     style={{ "--i": 3 }}
                   >
-                    <img
-                      className="Side 3"
-                      src={Three}
-                      alt="side 3"
-                      height={300}
-                      width={300}
-                      aria-label="Side 3 of the Cube is a Frankensteins Monster image"
-                    />
+                   <video
+                        className="Side3"
+                        src={Three}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        height={300}
+                        width={300}
+                      />
+
                   </span>
 
                   {/* <span
