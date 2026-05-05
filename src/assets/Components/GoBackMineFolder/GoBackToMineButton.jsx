@@ -1,24 +1,27 @@
-import { GiReturnArrow } from "react-icons/gi";
-import "./GoBackToMineButton.css"
-
+// import { GiReturnArrow } from "react-icons/gi";
+import { PiArrowBendDoubleUpRightDuotone } from "react-icons/pi";
+import "./GoBackToMineButton.css";
 
 const GoBackToMineButton = () => {
   return (
     <>
-      <div className="GoBackToMineButtonWrapper  w-fit     z-50
-                      ">
+      <div
+        className="GoBackToMineButtonWrapper  z-50     w-fit
+                      "
+      >
         <button
-          className="GoBackToMineButton z-50 text-red-500 hover:text-red-700 transform scale-y-[-1]"
+          className="GoBackToMineButton z-50 scale-x-[-1] transform    "
           onClick={() => window.history.back()}
+          title="Reverse"
         >
-          <span className="text-4xl">
-            <GiReturnArrow />
+          <span className="">
+            {/* <GiReturnArrow size={50} /> */}
+             <PiArrowBendDoubleUpRightDuotone  size={50} />
           </span>
         </button>
       </div>
-       
     </>
-  )
-}
+  );
+};
 
-export default GoBackToMineButton
+export default GoBackToMineButton;
