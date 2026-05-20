@@ -33,6 +33,8 @@ const MiddleWallSconce = () => {
   }, []);
 
   return (
+    <>
+<a href="https://mybabb.com">
     <div
       className="wall-sconce  m-auto   
           h-auto w-fit  hover:cursor-pointer "
@@ -46,6 +48,8 @@ const MiddleWallSconce = () => {
        
       />
     </div>
+</a>
+</>
   );
 };
 
