@@ -3,11 +3,11 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-import One from "../assets/Frank11.jpg";
-import Two from "../assets/Frank02.webp";
-import Three from "../assets/Frank33.jpg";
-import Four from "../assets/Frank44.jpg";
-import Top from "../assets/FrankenTopA.jpg";
+import One from "../assets/Frank1.jpg";
+import Two from "../assets/Frank2.webp";
+import Three from "../assets/Frank3.jpg";
+import Four from "../assets/Frank4.jpg";
+import Top from "../assets/FrankenTop.jpg";
 
 import "./Cube.css";
 function WolfWhistleFunction() {
