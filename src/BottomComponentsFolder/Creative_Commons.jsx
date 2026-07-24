@@ -27,21 +27,7 @@ const Credits = () => {
               &quot;EYE FREE MODEL 3D BY Oscar creativo" (https://skfb.ly/6XOnU) by OSCAR CREATIVO is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
             </span>
 
-            {/* Tooltip */}
-            <div className="pointer-events-none absolute -left-24 -top-20 w-48 rounded bg-gray-800/90 p-2 text-[10px] text-white opacity-0 shadow-lg transition-opacity duration-300 hover:opacity-100">
-              <p className="leading-tight">
-                “Holy Cross (game ready asset)” by Aparicio Silva 3D licensed
-                under Creative Commons Attribution.
-              </p>
-              <a
-                href="https://skfb.ly/oNnAu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-300 underline"
-              >
-                View Asset
-              </a>
-            </div>
+          
           </div>
         </div>
       )}
