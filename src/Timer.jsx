@@ -3,7 +3,7 @@ import React from "react";
 import "./TimerStyles.css";
 
 const Timer = () => {
-  var countDownDate = new Date("Sep 17, 2026 00:00:00 PST").getTime();
+  var countDownDate = new Date("Sep 7, 2026 00:00:00 PST").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
