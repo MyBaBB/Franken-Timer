@@ -5,7 +5,7 @@ import BottomComponentRight from "./BottomRight";
 import MusicPlayer from "../MusicPlayerFolder/AddMusic";
 import "./BottomComponents.css";
 import Ghost from "../assets/ghost-woo.mp3";
-import Credits from "./Creative_Commons3";
+import Credits from "./Creative_Commons";
 function GhostWooFunction() {
   const whipSmackAudio = new Audio(Ghost);
   whipSmackAudio.play();

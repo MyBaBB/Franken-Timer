@@ -23,19 +23,20 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-              font-Kingthings_Petrock"
+              font-Creepster-Regular"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
             <div
               className="topParagraph relative flex w-fit m-auto  whitespace-nowrap  
-                         text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+                         text-xl sm:text-2xl md:text-3xl lg:text-6xl  
                         
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-amber-100  ">
-                <u className="decoration-[whitesmoke]">Moon Day</u>
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-red-600  ">
+                <u className="decoration-slate-500">Double
+                  CheeseBurger Day</u>
               </div>
             </div>
           
