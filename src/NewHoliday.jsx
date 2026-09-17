@@ -2,7 +2,7 @@
 import React from "react";
 
 
-
+import { GiBullyMinion } from "react-icons/gi";
 import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
@@ -23,7 +23,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-              font-Creepster-Regular"
+              font-PTSerif-Regular"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
@@ -35,20 +35,19 @@ const NewHoliday = () => {
             >
              
               <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-red-600  ">
-                <u className="decoration-slate-500">Double
-                  CheeseBurger Day</u>
+                <u className="decoration-slate-500">
+                    <span className="inline-block">
+                      < GiBullyMinion />
+                    </span>
+                    &nbsp;Indigenous Day
+                </u>
               </div>
             </div>
           
         </div>
 
         <div className="demoWrapper  w-fit m-auto  ">
-          {/* <a
-            href="https://Mybabb.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={PlayWolfWhistle2}
-          > */}
+        
               <div className="relative mt-4 pr-4 xs:pr-3 md:pr-0 md:pl-4 flex min-w-[225px] lg:min-w-[335px]  ">
                  <p
                    id="demo"

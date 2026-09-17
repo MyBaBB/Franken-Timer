@@ -30,7 +30,7 @@ const LeftWallSconce = () => {
 
   return (
                   //  adj the wall sconce bg lights here
-    <div        
+  <div        
       className=" wall-sconce  m-auto   
                   h-auto w-fit z-1  "
     >
@@ -40,18 +40,15 @@ const LeftWallSconce = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={PlayWolfWhistle}
-            className="  topParagraphWrapper   
-              font-Kingthings_Petrock z-1"
-          >
+            className="  topParagraphWrapper z-1" >
       <img
         src={flameFrames[currentFrame]}
         alt={`Flame frame ${currentFrame + 1}`}
         loading="lazy"
         className="flame scale-[200%] z-1 "
-         
       />
-</a>
-    </div>
+    </a>
+  </div>
   );
 };
 

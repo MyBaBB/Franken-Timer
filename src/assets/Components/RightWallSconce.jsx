@@ -40,9 +40,7 @@ const RightWallSconce = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
-            className="  topParagraphWrapper   
-              font-Kingthings_Petrock"
-          >
+            className="  topParagraphWrapper  ">
       <img
         src={flameFrames[currentFrame]}
         alt={`Flame frame ${currentFrame + 1}`}
