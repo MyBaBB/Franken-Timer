@@ -34,7 +34,7 @@ const NewHoliday = () => {
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-slate-300  ">
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block ">
                 <u className="decoration-slate-500">
                     <span className="inline-block">
                       < GiBullyMinion />
