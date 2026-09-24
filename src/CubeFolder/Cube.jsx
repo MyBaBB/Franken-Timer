@@ -127,11 +127,11 @@ const Cube = () => {
             </div>
           </a>
 
-          <p className="fixed bottom-0 right-5 z-50 whitespace-nowrap text-[#abdbee]">
-            <span className="text-[8px] text-[#abdbee]  sm:text-[10px] lg:text-sm">
-              &lt;&lt;&lt;&copy;
-              <span className="text-orange-400">Brett&apos;s</span>{" "}
-              <em>8-2023</em>&gt;&gt;&gt;
+          <p className="fixed bottom-0 right-5 z-50 whitespace-nowrap ">
+            <span className="text-[8px] text-[#FCE899]  sm:text-[10px] lg:text-sm">
+              &lt;&lt;&lt;&nbsp;&copy;
+              <span className="text-amber-200">&nbsp;Franken-Timer</span>{" "}
+              <em>8-2023&nbsp;</em>&gt;&gt;&gt;
             </span>
           </p>
         </div>
