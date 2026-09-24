@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frankentimer.brainbuddys.com/sitemap.xml
+Sitemap: https://mybabb.com/sitemap.xml
