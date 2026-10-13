@@ -22,8 +22,7 @@ const NewHoliday = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
-            className="  topParagraphWrapper   
-              font-Kingthings_Petrock"
+            className="  topParagraphWrapper font-Creepster-Regular"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
