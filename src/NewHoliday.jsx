@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import { SiGhostery } from "react-icons/si";
-import { GiPumpkinMask } from "react-icons/gi";
+import { GiEvilMinion } from "react-icons/gi";
+import { GiEvilBat } from "react-icons/gi";
 import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
@@ -35,17 +35,19 @@ const NewHoliday = () => {
             >
              
               <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-orange-300 ">
+                  
                 
+
                 <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
-                  <GiPumpkinMask  />
+                 <GiEvilBat />
                 </span> 
-                      <u className="decoration-green-200">
+                     
                          &nbsp;Halloween&nbsp;
-                      </u>
+                     
                 <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
-                  <SiGhostery   />
+                  <GiEvilMinion />
                 </span> 
-            
+                 
               </div>
             </div>
           
@@ -61,10 +63,11 @@ const NewHoliday = () => {
               > </p>
                  
               </div>
-          {/* </a> */}
+         
         </div>
 </a>
       </div>
+
     </div>
   );
 };
