@@ -10,7 +10,7 @@ const GoBackToMineButton = () => {
                       "
       >
         <button
-          className="GoBackToMineButton z-50 scale-x-[-1] transform    "
+          className="GoBackToMineButton z-50 scale-x-[-1] transform hidden md:block  "
           onClick={() => window.history.back()}
           title="Reverse"
         >

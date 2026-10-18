@@ -36,14 +36,14 @@ const NewHoliday = () => {
              
               <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-orange-300 ">
                 
-                <span className="inline-block text-green-200">
-                  <GiPumpkinMask size={50} />
-                </span>
+                <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
+                  <GiPumpkinMask  />
+                </span> 
                       <u className="decoration-green-200">
                          &nbsp;Halloween&nbsp;
                       </u>
-                <span className="inline-block text-green-200">
-                  <SiGhostery size={50} />
+                <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
+                  <SiGhostery   />
                 </span> 
             
               </div>

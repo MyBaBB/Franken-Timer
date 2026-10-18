@@ -1,13 +1,14 @@
 .timerStyles {
   color: #BBF7D0;
-  
-  font-size: 1.3rem;
+  font-size: clamp(1.1rem, 1.5vw + 0.8rem, 1.3rem);
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "Orbitron-VariableFont_wght", Times, serif;
   margin-bottom: 15px;
- 
-}
+ }
+
+
+
 .timerStylesSmall {
   font-family: "Orbitron-VariableFont_wght", Times, serif;
   color:  #fae0b9;
@@ -20,14 +21,23 @@
   color:  #fae0b9;
 }
 #demo {
+  position: relative;
+  display: flex;
   padding: 2px;
   text-shadow: #151515 0.5px 0.5px;
   white-space: nowrap;
   letter-spacing: 0.15px;
+  margin: auto;
   margin-bottom: 15px;
   color: #efc27f;
-
+ 
 }
+ @media screen and (max-width: 415px) {
+  #demo {
+    margin-left: 1.45rem;
+  }
+}
+
 
 .timerStylesFinished1 {
 
@@ -130,6 +140,7 @@
   text-shadow: 1px 1px 0 black;
   padding: 2px;
   margin-right: 0.25rem;
+  
 }
 
 /* @media screen and (max-width: 500px) {
