@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-
-import { GiBullyMinion } from "react-icons/gi";
+import { SiGhostery } from "react-icons/si";
+import { GiPumpkinMask } from "react-icons/gi";
 import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
@@ -23,7 +23,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-              font-PTSerif-Regular"
+             font-Creepster-Regular"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
@@ -34,13 +34,18 @@ const NewHoliday = () => {
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-green-200 ">
-                <u className="decoration-slate-500">
-                    <span className="inline-block">
-                      < GiBullyMinion />
-                    </span>
-                    &nbsp;Indigenous Day
-                </u>
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-orange-300 ">
+                
+                <span className="inline-block text-green-200">
+                  <GiPumpkinMask size={50} />
+                </span>
+                      <u className="decoration-green-200">
+                         &nbsp;Halloween&nbsp;
+                      </u>
+                <span className="inline-block text-green-200">
+                  <SiGhostery size={50} />
+                </span> 
+            
               </div>
             </div>
           
