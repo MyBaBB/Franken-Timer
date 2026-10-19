@@ -6,7 +6,7 @@ import WolfWhistle from "../assets/wolf-whistle.wav";
 import One from "../assets/Images/1Franken.webp";
 import Two from "../assets/Images/2Franken.webp";
 import Three from "../assets/Images/3Franken.webp";
-import Four from "../assets/Images/44Franken.webp";
+import Four from "../assets/Images/4Franken.webp";
 import Top from "../assets/Images/Top11.webp";
 
 import "./Cube.css";
