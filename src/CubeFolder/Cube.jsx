@@ -3,9 +3,9 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-import One from "../assets/Images/11Franken.webp";
+import One from "../assets/Images/111Franken.webp";
 import Two from "../assets/Images/2Franken.webp";
-import Three from "../assets/Images/3Franken.webp";
+import Three from "../assets/Images/33Franken.webp";
 import Four from "../assets/Images/4Franken.webp";
 import Top from "../assets/Images/Top11.webp";
 
