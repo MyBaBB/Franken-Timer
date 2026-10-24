@@ -3,7 +3,7 @@ import React from "react";
 
 import WolfWhistle from "../assets/wolf-whistle.wav";
 
-import One from "../assets/Images/111Franken.webp";
+import One from "../assets/Images/Franken01.webp";
 import Two from "../assets/Images/2Franken.webp";
 import Three from "../assets/Images/33Franken.webp";
 import Four from "../assets/Images/4Franken.webp";
