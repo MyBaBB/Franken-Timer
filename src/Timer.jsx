@@ -62,7 +62,7 @@ const Timer = () => {
 
           root.render(
               <GiWrappedSweet  
-              size={60}
+           
               color="#c2c0bf"
               className="reactIcon"
             />
