@@ -41,34 +41,34 @@
 
 .timerStylesFinished1 {
 
-  color: #efc27f;
+  color: #bbf7d0;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Creepster-Regular";
+  font-family: "Orbitron-VariableFont_wght";
   letter-spacing: 3px;
   z-index: 50;
   
 }
 
 .timerStylesFinished2 {
-  color: #efc27f;
+  color: #bbf7d0;
   font-style: bold;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Creepster-Regular", Times, serif;
+  font-family: "Orbitron-VariableFont_wght ";
   margin-bottom: 15px;
   z-index: 50;
 }
 .timerStylesFinished3 {
-  color: #efc27f;
+  color: #bbf7d0;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Creepster-Regular", Times, serif;
+  font-family: "Orbitron-VariableFont_wght";
   margin-bottom: 15px;
   z-index: 50;
 }
@@ -160,3 +160,8 @@
     margin-bottom: 15px;
   }
 } */
+.reactIcon {
+  vertical-align: middle;
+  display: inline-block;
+}
+ 
