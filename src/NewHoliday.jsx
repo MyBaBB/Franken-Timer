@@ -1,11 +1,11 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-
-import { GiEvilMinion } from "react-icons/gi";
-import { GiEvilBat } from "react-icons/gi";
+// import { GiEvilMinion } from "react-icons/gi";
+import { GiChicken } from "react-icons/gi";
 import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
+
+
+
 function PlayLookDoctor() {
   const DrumSolo2 = new Audio(LookDoctor);
   DrumSolo2.play();
@@ -23,7 +23,7 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-             font-Creepster-Regular"
+             font-MetalMania-Regular"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
@@ -38,15 +38,15 @@ const NewHoliday = () => {
                   
                 
 
-                <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
-                 <GiEvilBat />
-                </span> 
+                
                      
-                         &nbsp;Halloween&nbsp;
+                         Thanks&nbsp;
+                         <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
+                          <GiChicken />
+                       </span>
+                          &nbsp;Giving
                      
-                <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
-                  <GiEvilMinion />
-                </span> 
+                 
                  
               </div>
             </div>

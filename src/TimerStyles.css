@@ -3,14 +3,14 @@
   font-size: clamp(1.1rem, 1.5vw + 0.8rem, 1.3rem);
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Orbitron-VariableFont_wght", Times, serif;
+  font-family: "MetalMania-Regular", Times, serif;
   margin-bottom: 15px;
  }
 
 
 
 .timerStylesSmall {
-  font-family: "Orbitron-VariableFont_wght", Times, serif;
+  font-family: "MetalMania-Regular", Times, serif;
   color:  #fae0b9;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
@@ -34,38 +34,45 @@
 }
 
 .reactIcon {
-     font-size: 3rem !important;
+  vertical-align: middle;
+  display: inline-block;
+  color:  #fdba74;    
+
+}
+
+.reactIcon {
+     font-size: 2rem !important;
   }
  @media screen and (max-width: 415px) {
   #demo {
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
   .reactIcon {
-     font-size: 2rem !important;
+     font-size: 1.25rem !important;
   }
 }
 
 
 .timerStylesFinished1 {
 
-  color: #bbf7d0;
+  color: #dcf9e6;
   font-style: italic;
   font-size: .55rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Orbitron-VariableFont_wght";
+  font-family: "MetalMania-Regular";
   letter-spacing: 3px;
   z-index: 50;
   
 }
 
 .timerStylesFinished2 {
-  color: #bbf7d0;
+  color: #dcf9e6;
   font-style: bold;
   font-size: .55rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Orbitron-VariableFont_wght ";
+  font-family: " MetalMania-Regular ";
   margin-bottom: 15px;
   z-index: 50;
 }
@@ -75,7 +82,7 @@
   font-size: .55rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "Orbitron-VariableFont_wght";
+  font-family: "MetalMania-Regular";
   margin-bottom: 15px;
   z-index: 50;
 }
@@ -144,34 +151,13 @@
 }
 .clockIcon {
   font-size: 1.5rem;
-  color: whitesmoke;
+  color: rgb(245, 157, 33);
   text-shadow: 1px 1px 0 black;
   padding: 2px;
   margin-right: 0.25rem;
   
 }
- .reactIcon {
-    font-size: 2.5rem;
-  }
-/* @media screen and (max-width: 500px) {
-  .demoWrapper {
-    letter-spacing: 3px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    text-shadow: #151515 0.5px 0.5px;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 15px;
-  }
-} */
-.reactIcon {
-  vertical-align: middle;
-  display: inline-block;
-}
+ 
+
+
  

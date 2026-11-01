@@ -1,13 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
-import { GiWrappedSweet } from "react-icons/gi";
+import { GiCampCookingPot } from "react-icons/gi";
 import { createRoot } from "react-dom/client";
 import "./TimerStyles.css";
 
 const Timer = () => {
   useEffect(() => {
     const countDownDate = new Date(
-      "Oct 31, 2026 00:00:00 PST"
+      "November 26, 2026 00:00:00 PST"
     ).getTime();
 
     const x = setInterval(() => {
@@ -47,9 +47,9 @@ const Timer = () => {
 
         demo.innerHTML = `
           <span>
-            <span class="timerStylesFinished1">Tasty  </span>
+            <span class="timerStylesFinished1">Feast </span>
             <span class="timerStylesFinished2"></span>
-            <span class="timerStylesFinished3">  Treats</span>
+            <span class="timerStylesFinished3">Up </span>
           </span>
         `;
 
@@ -61,9 +61,7 @@ const Timer = () => {
           const root = createRoot(iconContainer);
 
           root.render(
-              <GiWrappedSweet  
-           
-              color="#c2c0bf"
+             <GiCampCookingPot    
               className="reactIcon"
             />
           );
