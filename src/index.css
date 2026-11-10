@@ -98,14 +98,11 @@ body {
   src: url(../GoogleFonts/Iceberg-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "Itim-Regular";
   src: url(../GoogleFonts/Itim-Regular.ttf);
 }
-
  
-
 @font-face {
   font-family: "LibreBaskerville-Regular";
   src: url(../GoogleFonts/LibreBaskerville-Regular.ttf);
@@ -120,48 +117,12 @@ body {
   font-family: "Nosifer-Regular";
   src: url(../GoogleFonts/Nosifer-Regular.ttf);
 }
- 
- 
- 
+
+  
 @font-face {
   font-family: "Orbitron-VariableFont_wght";
   src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf);
 }
  
+  
  
- 
- 
-@font-face {
-  font-family: "PTSerif-Italic";
-  src: url(../GoogleFonts/PTSerif-Italic.ttf);
-}
-@font-face {
-  font-family: "PTSerif-Regular";
-  src: url(../GoogleFonts/PTSerif-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Rye-Regular";
-  src: url(../GoogleFonts/Rye-Regular.ttf);
-}
-@font-face {
-  font-family: "Sansita-Italic";
-  src: url(../GoogleFonts/Sansita-Italic.ttf);
-}
-@font-face {
-  font-family: "Sansita-Regular";
-  src: url(../GoogleFonts/Sansita-Regular.ttf);
-}
-@font-face {
-  font-family: "Sixtyfour-Regular-VariableFont";
-  src: url(../GoogleFonts/Sixtyfour-Regular-VariableFont.ttf);
-}
-
-@font-face {
-  font-family: "Sixtyfour-Regular";
-  src: url(../GoogleFonts/Sixtyfour-Regular.ttf);
-}
-@font-face {
-  font-family: "Yellowtail-Regular";
-  src: url(../GoogleFonts/Yellowtail-Regular.ttf);
-}
