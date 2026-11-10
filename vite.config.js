@@ -15,8 +15,13 @@ plugins: [
   })
 ],
 build: {
-    minify: 'esbuild', // Or remove this line entirely
+    minify: 'terser',
     chunkSizeWarningLimit: 1200,
-}
+    terserOptions: {
+      compress: {
+        passes: 1, // Default can be higher, causing slowdowns
+      },
+    },
+  }
 });
    
