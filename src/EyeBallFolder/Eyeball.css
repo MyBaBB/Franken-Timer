@@ -1,6 +1,6 @@
 .canvasWrapper {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: -2rem auto -2rem;
   z-index: -1;
 }
@@ -12,8 +12,9 @@ canvas {
 }
 @media screen and (max-width: 685px) {
   .canvasWrapper {
-    width: 150px;
-    height: 150px;
-    margin: -2rem auto -2rem;
+    width: 125px;
+    height: 125px;
+    margin-top: 1.65rem;
+    
   }
 }

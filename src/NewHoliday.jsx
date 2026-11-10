@@ -29,7 +29,7 @@ const NewHoliday = () => {
           
             <div
               className="topParagraph relative flex w-fit m-auto  whitespace-nowrap  
-                         text-xl sm:text-2xl md:text-3xl lg:text-6xl  
+                         text-xl sm:text-2xl md:text-3xl lg:text-5xl  
                         
                            "
             >

@@ -359,6 +359,7 @@
 @media screen and (min-width: 350px) {
   .container {
     max-width: 350px;
+   
   }
 }
 
@@ -375,6 +376,7 @@
 @media screen and (min-width: 500px) {
   .container {
     max-width: 500px;
+     
   }
 }
 
@@ -391,6 +393,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+   
   }
 }
 
