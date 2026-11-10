@@ -11,6 +11,11 @@ import "./TimerStyles.css"
 import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
 import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
+
+import LeftColumn from "./assets/Images/Goody_Column-left-3.webp";
+import RightColumn from "./assets/Images/Goody_Column-right-3.webp";
+import BackgroundBricks from "./assets/Images/BackgroundBricks.webp";
+
 const Zenith = () => {
   return (
   ReactDOM.createRoot(document.getElementById("root")).render(
@@ -27,8 +32,8 @@ const Zenith = () => {
       < LeftWallSconce />
     </div>
  <div className="leftColumnWrapper ">
-      <img src="/Goody_Column-Right-2.jpg" alt="left Overlay" 
-   className="leftColumn-overlay rotate-180 " />
+      <img src={LeftColumn} alt="left Overlay" 
+   className="leftColumn-overlay  " />
  </div>
 
 
@@ -38,8 +43,8 @@ const Zenith = () => {
       < RightWallSconce />
  </div>
  <div className="rightColumnWrapper">
-   <img src="/Goody_Column-Left-2.jpg " alt="right Overlay"
-    className="rightColumn-overlay rotate-180 w-fit h-auto" />
+   <img src={RightColumn} alt="right Overlay"
+    className="rightColumn-overlay  w-fit h-auto" />
  </div>
 
 
@@ -48,7 +53,7 @@ const Zenith = () => {
       < MiddleMobileSconce />
  </div>
  <div className="middleColumnWrapper">
-   <img src="/Goody_Column-Middle.jpg " alt="middle Overlay" 
+   <img src={BackgroundBricks} alt="middle Overlay" 
    className="middleColumn-overlay" />
  </div>
 
