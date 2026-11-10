@@ -30,7 +30,7 @@ export default function DynamicFavicon() {
     const faviconInterval = setInterval(updateFavicon,8000);
 
     // 2. Title Animation Logic
-    const titles = ["BrainBuddy's", "Here's Your Sign",  "Going out in Style"];
+    const titles = [" Dead Website? ", " Here's Your Sign "];
     let currentTitleIndex = 0;
 
     // Title interval set to 5 seconds (5000ms)
