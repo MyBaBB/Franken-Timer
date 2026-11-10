@@ -52,7 +52,7 @@ const Zenith = () => {
  <div className="middleColumnLight absolute top-[5.8rem] left-[50%] translate-x-[-50%] block md:hidden  ">
       < MiddleMobileSconce />
  </div>
-
+  
 
 
 
