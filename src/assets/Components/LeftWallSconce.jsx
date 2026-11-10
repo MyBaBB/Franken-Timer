@@ -4,7 +4,7 @@ import Flame1 from "./WallSconceImages/WallSconce1.png";
 import Flame2 from "./WallSconceImages/WallSconce2.png";
 import Flame3 from "./WallSconceImages/WallSconce3.png";
 import Flame4 from "./WallSconceImages/WallSconce4.png";
-import WolfWhistle from "/PutCandleBack.mp3";
+import WolfWhistle from "../Mp3folder/PutCandleBack.mp3";
 // import FlameStone2 from "./WallSconceImages/Flame-Stone-4.jpg";
 // import FlameStone3 from "./WallSconceImages/Flame-Stone-3.jpg";
 // import FlameStone4 from "./WallSconceImages/Flame-Stone-2.jpg";

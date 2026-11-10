@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useRef } from "react";
-import Sound from "../assets/MonsterMash.mp3";
-import SpookySound from "../assets/SpookySound.mp3";
+import Sound from "../assets/Mp3folder/MonsterMash.mp3";
+import SpookySound from "../assets/Mp3folder/ghost-woo.mp3";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { BiSolidVolumeMute } from "react-icons/bi";
 import { HiPauseCircle } from "react-icons/hi2";

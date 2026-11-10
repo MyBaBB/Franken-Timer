@@ -1,6 +1,6 @@
 // import { GiEvilMinion } from "react-icons/gi";
 import { GiChicken } from "react-icons/gi";
-import LookDoctor from "/LookDoctor.mp3";
+import LookDoctor from "./assets/Mp3folder/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
 

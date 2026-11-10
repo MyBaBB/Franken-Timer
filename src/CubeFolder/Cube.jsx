@@ -1,5 +1,5 @@
 
-import WolfWhistle from "../assets/wolf-whistle.wav";
+import WolfWhistle from "../assets/Mp3folder/wolf-whistle.wav";
 import One from "../assets/Images/01Franken.webp";
 import Two from "../assets/Images/02Franken.webp";
 import Three from "../assets/Images/03Franken.webp";

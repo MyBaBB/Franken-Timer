@@ -14,7 +14,6 @@ import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButto
 
 import LeftColumn from "./assets/Images/Goody_Column-left-4.webp";
 import RightColumn from "./assets/Images/Goody_Column-right-4.webp";
-import BackgroundBricks from "./assets/Images/BackgroundBricks-4.webp";
 
 const Zenith = () => {
   return (
