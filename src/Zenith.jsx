@@ -12,9 +12,9 @@ import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
 import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
 
-import LeftColumn from "./assets/Images/Goody_Column-left-3.webp";
-import RightColumn from "./assets/Images/Goody_Column-right-3.webp";
-import BackgroundBricks from "./assets/Images/BackgroundBricks.webp";
+import LeftColumn from "./assets/Images/Goody_Column-left-4.webp";
+import RightColumn from "./assets/Images/Goody_Column-right-4.webp";
+import BackgroundBricks from "./assets/Images/BackgroundBricks-4.webp";
 
 const Zenith = () => {
   return (

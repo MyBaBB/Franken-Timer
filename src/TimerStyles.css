@@ -1,6 +1,6 @@
 .timerStyles {
   color: #BBF7D0;
-  font-size: clamp(1.1rem, 1.5vw + 0.8rem, 1.3rem);
+  font-size: clamp(.5rem, 1.5vw + 0.8rem, 1.3rem);
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
   font-family: "MetalMania-Regular", Times, serif;
@@ -45,7 +45,8 @@
   }
  @media screen and (max-width: 415px) {
   #demo {
-    margin-left: 5rem;
+    left: 41.45%;
+    transform: translateX(-50%)
   }
   .reactIcon {
      font-size: 1.25rem !important;
