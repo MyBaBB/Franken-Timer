@@ -30,7 +30,7 @@ export default function DynamicFavicon() {
     const faviconInterval = setInterval(updateFavicon,8000);
 
     // 2. Title Animation Logic
-    const titles = [" 🪧 Here's Your Sign 🪧 ", " 🪦 Dead Website 💀"];
+    const titles = [" 🪧 Here's Your Sign 🪧 ", " 🪦 Dead Website? 💀"];
     let currentTitleIndex = 0;
 
     // Title interval set to 5 seconds (5000ms)
