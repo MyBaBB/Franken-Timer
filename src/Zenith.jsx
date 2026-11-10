@@ -27,7 +27,7 @@ const Zenith = () => {
     <Timer />
 
     <Cube />
-     <div className="leftColumnLight absolute top-[8rem] xxl:top-[13rem] left-[4rem] hidden md:block
+     <div className="leftColumnLight absolute top-[8.1rem] xxl:top-[13rem] left-[4rem] hidden md:block
                   ">
       < LeftWallSconce />
     </div>

@@ -15,8 +15,8 @@ plugins: [
   })
 ],
 build: {
-  minify: 'terser',
-  chunkSizeWarningLimit: 1200,
+    minify: 'esbuild', // Or remove this line entirely
+    chunkSizeWarningLimit: 1200,
 }
 });
    
