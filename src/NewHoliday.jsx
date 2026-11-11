@@ -1,11 +1,11 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-
-
-
-import LookDoctor from "/LookDoctor.mp3";
+// import { GiEvilMinion } from "react-icons/gi";
+import { GiChicken } from "react-icons/gi";
+import LookDoctor from "./assets/Mp3folder/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
+
+
+
 function PlayLookDoctor() {
   const DrumSolo2 = new Audio(LookDoctor);
   DrumSolo2.play();
@@ -23,31 +23,38 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-              font-Kingthings_Petrock"
+             font-MetalMania-Regular"
           >
         <div className=" w-fit m-auto   mt-4 ">
           
             <div
               className="topParagraph relative flex w-fit m-auto  whitespace-nowrap  
-                         text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+                         text-xl sm:text-2xl md:text-3xl lg:text-5xl  
                         
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-[whitesmoke]  ">
-                <u className="decoration-[#ef9e24]">Thanksgiving</u>
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-orange-300 ">
+                  
+                
+
+                
+                     
+                         Thanks&nbsp;
+                         <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
+                          <GiChicken />
+                       </span>
+                          &nbsp;Giving
+                     
+                 
+                 
               </div>
             </div>
           
         </div>
 
         <div className="demoWrapper  w-fit m-auto  ">
-          {/* <a
-            href="https://Mybabb.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={PlayWolfWhistle2}
-          > */}
+        
               <div className="relative mt-4 pr-4 xs:pr-3 md:pr-0 md:pl-4 flex min-w-[225px] lg:min-w-[335px]  ">
                  <p
                    id="demo"
@@ -56,10 +63,11 @@ const NewHoliday = () => {
               > </p>
                  
               </div>
-          {/* </a> */}
+         
         </div>
 </a>
       </div>
+
     </div>
   );
 };
