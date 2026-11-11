@@ -20,6 +20,12 @@
 .timerStylesSmall:hover {
   color:  #fae0b9;
 }
+@media screen and (max-width: 685px) {
+  .timerStylesSmall, .timerStyles {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
 #demo {
   position: relative;
   display: flex;

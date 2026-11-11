@@ -30,3 +30,11 @@
     margin-top: 1rem;
   }
 }
+ .topParagraph4 {
+  font-family: "MetalMania-Regular", Times, serif;
+ }
+@media screen and (max-width: 685px) {
+  .topParagraph4 {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
