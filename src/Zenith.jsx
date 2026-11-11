@@ -10,24 +10,30 @@ import NewHoliday from "./NewHoliday.jsx";
 import "./TimerStyles.css"
 import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
+import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
+import CustomFavicon from "./assets/Components/ReactFavicon.jsx";
+import LeftColumn from "./assets/Images/Goody_Column-Left-4.webp";
+import RightColumn from "./assets/Images/Goody_Column-right-4.webp";
+
 const Zenith = () => {
   return (
   ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-
- 
+     < CustomFavicon />
+ <div className="absolute top-16 left-8 z-10"> < GoBackToMine /></div>
+      < CustomFavicon />
     <NewHoliday />
 
     <Timer />
 
     <Cube />
-     <div className="leftColumnLight absolute top-[8rem] xxl:top-[13rem] left-[4rem] hidden md:block
+     <div className="leftColumnLight absolute top-[8.1rem] xxl:top-[13rem] left-[4rem] hidden md:block
                   ">
       < LeftWallSconce />
     </div>
  <div className="leftColumnWrapper ">
-      <img src="/Goody_Column-Right-2.jpg" alt="left Overlay" 
-   className="leftColumn-overlay rotate-180 " />
+      <img src={LeftColumn} alt="left Overlay" 
+   className="leftColumn-overlay  " />
  </div>
 
 
@@ -37,8 +43,8 @@ const Zenith = () => {
       < RightWallSconce />
  </div>
  <div className="rightColumnWrapper">
-   <img src="/Goody_Column-Left-2.jpg " alt="right Overlay"
-    className="rightColumn-overlay rotate-180 w-fit h-auto" />
+   <img src={RightColumn} alt="right Overlay"
+    className="rightColumn-overlay  w-fit h-auto" />
  </div>
 
 
@@ -46,10 +52,7 @@ const Zenith = () => {
  <div className="middleColumnLight absolute top-[5.8rem] left-[50%] translate-x-[-50%] block md:hidden  ">
       < MiddleMobileSconce />
  </div>
- <div className="middleColumnWrapper">
-   <img src="/Goody_Column-Middle.jpg " alt="middle Overlay" 
-   className="middleColumn-overlay" />
- </div>
+  
 
 
 
