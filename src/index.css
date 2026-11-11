@@ -1,13 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-/* :root {
-  background-image: url("/StoneWallBest900x529.webp");
-  background-repeat: repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-{ */
+
  :root {
   background-image: url("./assets/Images/BackgroundBricks-4.webp");
   background-position: center;
