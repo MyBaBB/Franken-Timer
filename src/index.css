@@ -8,16 +8,19 @@
   overflow: hidden;
 }
 { */
-  :root {
-    background-image: url("./assets/Images/BackgroundBricks-4.webp");
-    position: absolute;
-    z-index: -1;
-    bottom: 0rem;
-    left: 0;
-    width: auto;
-    height: cover;
-    overflow: hidden;
-  }
+ :root {
+  background-image: url("./assets/Images/BackgroundBricks-4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  bottom: 0rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
 
   .leftColumn-overlay {
