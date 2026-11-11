@@ -13,7 +13,7 @@ import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx
 // import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
 import CustomFavicon from "./assets/Components/ReactFavicon.jsx";
 import LeftColumn from "./assets/Images/Goody_Column-Left-4.webp";
-import RightColumn from "./assets/Images/Goody_Column-right-4.webp";
+import RightColumn from "./assets/Images/Goody_Column-Right-4.webp";
 
 const Zenith = () => {
   return (
