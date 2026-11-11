@@ -9,7 +9,7 @@
 }
 { */
   :root {
-    background-image: url("/10-25-Goody_big_Wall_hungus.jpg");
+    background-image: url("./assets/Images/BackgroundBricks-4.webp");
     position: absolute;
     z-index: -1;
     bottom: 0rem;
