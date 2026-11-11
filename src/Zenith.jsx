@@ -10,7 +10,7 @@ import NewHoliday from "./NewHoliday.jsx";
 import "./TimerStyles.css"
 import MiddleMobileSconce from "./assets/Components/MiddleMobileSconce.jsx"
 import BottomComponents from "../src/BottomComponentsFolder/BottomComponents.jsx";
-import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
+// import GoBackToMine from "./assets/Components/GoBackMineFolder/GoBackToMineButton.jsx";
 import CustomFavicon from "./assets/Components/ReactFavicon.jsx";
 import LeftColumn from "./assets/Images/Goody_Column-Left-4.webp";
 import RightColumn from "./assets/Images/Goody_Column-right-4.webp";
@@ -20,7 +20,7 @@ const Zenith = () => {
   ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
      < CustomFavicon />
- <div className="absolute top-16 left-8 z-10"> < GoBackToMine /></div>
+ {/* <div className="absolute top-16 left-8 z-10"> < GoBackToMine /></div> */}
       < CustomFavicon />
     <NewHoliday />
 
@@ -31,10 +31,10 @@ const Zenith = () => {
                   ">
       < LeftWallSconce />
     </div>
- <div className="leftColumnWrapper ">
+ {/* <div className="leftColumnWrapper ">
       <img src={LeftColumn} alt="left Overlay" 
    className="leftColumn-overlay  " />
- </div>
+ </div> */}
 
 
 
@@ -42,10 +42,10 @@ const Zenith = () => {
  <div className="rightColumnLight  absolute top-[8rem] xxl:top-[13rem] right-[4rem] hidden md:block  ">
       < RightWallSconce />
  </div>
- <div className="rightColumnWrapper">
+ {/* <div className="rightColumnWrapper">
    <img src={RightColumn} alt="right Overlay"
     className="rightColumn-overlay  w-fit h-auto" />
- </div>
+ </div> */}
 
 
 
