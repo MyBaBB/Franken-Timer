@@ -1,62 +1,89 @@
 .timerStyles {
-  color: whitesmoke;
-  font-style: italic;
-  font-size: 1.3rem;
+  color: #BBF7D0;
+  font-size: clamp(.5rem, 1.5vw + 0.8rem, 1.3rem);
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-family: "MetalMania-Regular", Times, serif;
   margin-bottom: 15px;
-}
+ }
+
+
+
 .timerStylesSmall {
-  font-family: "LibreBaskerville-Regular", Times, serif;
-  color: #ef9e24;
+  font-family: "MetalMania-Regular", Times, serif;
+  color:  #fae0b9;
   text-shadow: 1px 1px 0 #000;
   font-size: 55%;
   margin-bottom: 15px;
 }
+
 .timerStylesSmall:hover {
-  color: rgb(205, 52, 78);
+  color:  #fae0b9;
 }
 #demo {
+  position: relative;
+  display: flex;
   padding: 2px;
   text-shadow: #151515 0.5px 0.5px;
   white-space: nowrap;
   letter-spacing: 0.15px;
-  margin-right: 1.5rem;
+  margin: auto;
   margin-bottom: 15px;
-  color: #ef9e24;
+  color: #efc27f;
+ 
+}
+
+.reactIcon {
+  vertical-align: middle;
+  display: inline-block;
+  color:  #fdba74;    
 
 }
 
+.reactIcon {
+     font-size: 2rem !important;
+  }
+ @media screen and (max-width: 415px) {
+  #demo {
+    left: 41.45%;
+    transform: translateX(-50%)
+  }
+  .reactIcon {
+     font-size: 1.25rem !important;
+  }
+}
+
+
 .timerStylesFinished1 {
-  color: #ef9e24;
+
+  color: #dcf9e6;
   font-style: italic;
-  font-size: 1rem;
+  font-size: .55rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "LibreBaskerville-Regular";
+  font-family: "MetalMania-Regular";
   letter-spacing: 3px;
   z-index: 50;
   
 }
 
 .timerStylesFinished2 {
-  color: whitesmoke;
-  font-style: italic;
-  font-size: 1rem;
+  color: #dcf9e6;
+  font-style: bold;
+  font-size: .55rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-family: " MetalMania-Regular ";
   margin-bottom: 15px;
   z-index: 50;
 }
 .timerStylesFinished3 {
-  color: #ef9e24;
+  color: #bbf7d0;
   font-style: italic;
-  font-size: 1rem;
+  font-size: .55rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 black;
-  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-family: "MetalMania-Regular";
   margin-bottom: 15px;
   z-index: 50;
 }
@@ -69,13 +96,13 @@
     font-size: 1rem;
   }
   .timerStylesFinished1 {
-    font-size: 1rem;
+    font-size: .55rem;
   }
   .timerStylesFinished2 {
-    font-size: 1rem;
+    font-size: .55rem;
   }
   .timerStylesFinished3 {
-    font-size: 1rem;
+    font-size: .55rem;
   }
 }
 @media screen and (min-width: 420px) {
@@ -94,6 +121,7 @@
   .timerStylesFinished3 {
     font-size: 1.2rem;
   }
+ 
 }
 @media screen and (min-width: 785px) and (orientation: landscape) and (min-height: 375px) {
   .timerStyles {
@@ -124,26 +152,13 @@
 }
 .clockIcon {
   font-size: 1.5rem;
-  color: whitesmoke;
+  color: rgb(245, 157, 33);
   text-shadow: 1px 1px 0 black;
   padding: 2px;
   margin-right: 0.25rem;
+  
 }
+ 
 
-/* @media screen and (max-width: 500px) {
-  .demoWrapper {
-    letter-spacing: 3px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    text-shadow: #151515 0.5px 0.5px;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 15px;
-  }
-} */
+
+ 
