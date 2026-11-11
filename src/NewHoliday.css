@@ -3,15 +3,15 @@
 }
 @keyframes colorChangePulseScale {
   0% {
-    color: #ffa500;
+    color: #ffa505;
     transform: scale(1);
   }
   33% {
     color: #f5e6ca;
     transform: scale(1.12);
   }
-  66% {
-    color: #ffa500;
+  66% { 
+    color: #ffa507;
     transform: scale(1.2);
   }
   100% {
