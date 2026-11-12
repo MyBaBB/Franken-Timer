@@ -23,12 +23,12 @@ const NewHoliday = () => {
             rel="noopener noreferrer"
             onClick={PlayLookDoctor}
             className="  topParagraphWrapper   
-             font-MetalMania-Regular"
+                              "
           >
         <div className=" w-fit m-auto   mt-4 ">
           
             <div
-              className="topParagraph relative flex w-fit m-auto  whitespace-nowrap  
+              className="topParagraph4 relative flex w-fit m-auto  whitespace-nowrap  
                          text-xl sm:text-2xl md:text-3xl lg:text-5xl  
                         
                            "
