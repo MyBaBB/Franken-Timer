@@ -24,7 +24,7 @@ const Cube = () => {
         <div className="m-0  px-4 py-3  sm:px-8  ">
           <a
             className="cubeLink "
-            href="https://Mybabb.com"
+            href="https://fastcat.mybabb.com"
             target="_blank"
             rel="noopener noreferrer"
             onClick={WolfWhistleFunction}
