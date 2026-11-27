@@ -3,15 +3,15 @@
 }
 @keyframes colorChangePulseScale {
   0% {
-    color: #ffa500;
+    color: #ffa505;
     transform: scale(1);
   }
   33% {
     color: #f5e6ca;
     transform: scale(1.12);
   }
-  66% {
-    color: #ffa500;
+  66% { 
+    color: #ffa507;
     transform: scale(1.2);
   }
   100% {
@@ -28,5 +28,13 @@
 @media screen and (min-width: 500px) {
   .wallSconceWrapper {
     margin-top: 1rem;
+  }
+}
+ .topParagraph4 {
+  font-family: "MetalMania-Regular", Times, serif;
+ }
+@media screen and (max-width: 685px) {
+  .topParagraph4 {
+    font-family: 'Times New Roman', Times, serif;
   }
 }

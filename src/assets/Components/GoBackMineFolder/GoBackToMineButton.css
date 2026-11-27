@@ -15,7 +15,17 @@
   }
 }
 
+<<<<<<< HEAD
 
+=======
+.GoBackToMineButton {
+  color:  #6ab7fa ;
+}
+.GoBackToMineButton:hover {
+  color:  #6ab7fa ;
+  color: #48a8fb;
+}
+>>>>>>> 4d3500e70352d4efcb4e5671222cde3fc934fee0
 .opacity-0 {
   opacity: 0;
   pointer-events: none;
@@ -24,3 +34,9 @@
 .opacity-100 {
   opacity: 1;
 }
+<<<<<<< HEAD
+=======
+
+  
+ 
+>>>>>>> 4d3500e70352d4efcb4e5671222cde3fc934fee0
