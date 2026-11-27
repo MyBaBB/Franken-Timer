@@ -1,5 +1,5 @@
 // import { GiEvilMinion } from "react-icons/gi";
-import { GiChicken } from "react-icons/gi";
+import { PiHandPeaceThin } from "react-icons/pi";
 import LookDoctor from "/LookDoctor.mp3";
 import "./NewHoliday.css";
 import "./TimerStyles.css";
@@ -34,17 +34,18 @@ const NewHoliday = () => {
                            "
             >
              
-              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-orange-300 ">
+              <div className="relative pl-[1rem]  xs:pr-4 md:pr-2 lg:pl-5 m-auto text-center  block text-[#f93509]   ">
                   
                 
 
                 
                      
-                         Thanks&nbsp;
-                         <span className="inline-block text-green-200 text-lg sm:text-xl md:text-2xl lg:text-4xl">
-                          <GiChicken />
+                        <u className="decoration-[#fae0b9]">Merry</u>&nbsp;
+                         <span className="inline-block text-[#fae0b9] text-lg sm:text-xl md:text-2xl lg:text-4xl ">
+                          <PiHandPeaceThin />
                        </span>
-                          &nbsp;Giving
+                          &nbsp;
+                          <u className="decoration-[#fae0b9]">Christmas</u>
                      
                  
                  
