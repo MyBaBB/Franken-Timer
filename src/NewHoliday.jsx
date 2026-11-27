@@ -40,7 +40,7 @@ const NewHoliday = () => {
 
                 
                      
-                        <u className="decoration-[#fae0b9]">Merry</u>&nbsp;
+                        <u className="decoration-[#fae0b9cd]">Merry</u>&nbsp;
                          <span className="inline-block text-[#fae0b9] text-lg sm:text-xl md:text-2xl lg:text-4xl ">
                           <PiHandPeaceThin />
                        </span>
